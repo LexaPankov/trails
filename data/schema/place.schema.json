@@ -1,0 +1,164 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://trails.example/schema/place.schema.json",
+  "title": "TRAILS historical place",
+  "type": "object",
+  "required": [
+    "id",
+    "name",
+    "lat",
+    "lon",
+    "periods",
+    "themes",
+    "significance",
+    "kind",
+    "category",
+    "summary",
+    "visit_minutes",
+    "related",
+    "sources"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$",
+      "description": "Stable identifier shared by routing, vision and the knowledge base. Never renamed."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 2
+    },
+    "lat": {
+      "type": "number",
+      "minimum": -90,
+      "maximum": 90
+    },
+    "lon": {
+      "type": "number",
+      "minimum": -180,
+      "maximum": 180
+    },
+    "coord_source": {
+      "enum": [
+        "wikipedia",
+        "wikidata",
+        "curated"
+      ]
+    },
+    "wikidata": {
+      "type": "string",
+      "pattern": "^Q[0-9]+$"
+    },
+    "periods": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "ancient",
+          "medieval",
+          "renaissance",
+          "baroque",
+          "modern"
+        ]
+      }
+    },
+    "themes": {
+      "type": "array",
+      "minItems": 1,
+      "uniqueItems": true,
+      "items": {
+        "enum": [
+          "archaeology",
+          "architecture",
+          "art",
+          "religion",
+          "civic"
+        ]
+      }
+    },
+    "significance": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 5,
+      "description": "Curatorial judgement, 5 = world-famous."
+    },
+    "kind": {
+      "enum": [
+        "major",
+        "notable",
+        "hidden_gem"
+      ]
+    },
+    "category": {
+      "type": "string"
+    },
+    "built": {
+      "type": "string"
+    },
+    "summary": {
+      "type": "string",
+      "minLength": 20,
+      "maxLength": 400
+    },
+    "then_now": {
+      "type": "string"
+    },
+    "history": {
+      "type": "string"
+    },
+    "visit_minutes": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 180
+    },
+    "related": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "title",
+          "url"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "title": {
+            "type": "string"
+          },
+          "url": {
+            "type": "string",
+            "pattern": "^https://"
+          },
+          "verified": {
+            "type": "boolean"
+          }
+        }
+      }
+    },
+    "vision": {
+      "type": "object",
+      "properties": {
+        "supported": {
+          "type": "boolean"
+        }
+      },
+      "additionalProperties": false
+    },
+    "origin": {
+      "enum": [
+        "curated",
+        "wikidata"
+      ],
+      "description": "wikidata = imported automatically by scripts/merge_more_places.py, not reviewed by hand"
+    }
+  }
+}

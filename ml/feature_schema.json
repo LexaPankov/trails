@@ -1,0 +1,29 @@
+{
+  "schema_version": "trails-pref-v1",
+  "description": "Input layout of the TRAILS preference MLP. Shared by ml/ (Python) and src/lib/model (TypeScript). Changing anything here requires retraining and bumping schema_version.",
+  "interests": ["ancient", "medieval", "renaissance", "baroque", "modern", "archaeology", "art_architecture", "hidden_gems"],
+  "periods": ["ancient", "medieval", "renaissance", "baroque", "modern"],
+  "themes": ["archaeology", "architecture", "art", "religion", "civic"],
+  "user_features": [
+    "interest_<8>: 1 if the user selected the interest, else 0",
+    "affinity_<8>: learned interaction affinity per interest axis, in [-1, 1] (0 for a new user)"
+  ],
+  "place_features": [
+    "period_<5>: multi-hot historical periods",
+    "theme_<5>: multi-hot cultural themes",
+    "hidden_gem: 1 if kind == hidden_gem",
+    "significance: (significance - 1) / 4, in [0, 1]",
+    "visit_time: min(visit_minutes, 60) / 60"
+  ],
+  "interest_axis_of_place": {
+    "ancient": "period ancient",
+    "medieval": "period medieval",
+    "renaissance": "period renaissance",
+    "baroque": "period baroque",
+    "modern": "period modern",
+    "archaeology": "theme archaeology",
+    "art_architecture": "theme art OR theme architecture",
+    "hidden_gems": "kind hidden_gem"
+  },
+  "input_size": 29
+}

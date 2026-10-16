@@ -1,0 +1,5 @@
+# CPU / generic install. For AMD GPUs install the ROCm build of PyTorch instead (see docs/AMD_ROCM.md).
+torch>=2.3
+numpy>=1.26
+onnx>=1.16
+onnxruntime>=1.18
