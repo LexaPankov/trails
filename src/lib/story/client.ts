@@ -8,6 +8,17 @@ const API = (import.meta.env.VITE_STORY_API as string | undefined) ?? '/api'
 
 export interface StoryResult { story: Story; fallbackReason?: string }
 
+const UNREACHABLE = 'The AI storyteller is not reachable from this site, so this story comes from TRAILS\' own notes.'
+
+/** Plain-language reason shown under an offline story when the story server did not answer with a story. */
+export function storyFailureReason(status: number, serverError?: string): string {
+  if (status === 503) return 'The AI storyteller is not set up on this server, so this story comes from TRAILS\' own notes.'
+  if (status === 429) return 'Too many story requests just now, so this story comes from TRAILS\' own notes. Try again in a minute.'
+  // A static host (Netlify, GitHub Pages) has no /api, and a proxy with no server behind it answers 5xx.
+  if ([404, 405, 501, 502, 504].includes(status) || !serverError) return UNREACHABLE
+  return serverError
+}
+
 /** Ask the story server (model on AMD hardware when configured); fall back to the offline assembler. */
 export async function requestStory(plan: Plan, profile: Profile, opts: { offline?: boolean } = {}): Promise<StoryResult> {
   const legMinutes = plan.route.legs.map((l) => l.duration_s / 60)
@@ -24,11 +35,11 @@ export async function requestStory(plan: Plan, profile: Profile, opts: { offline
       signal: AbortSignal.timeout(50_000),
     })
     const j = await r.json().catch(() => ({}))
-    if (r.status === 503) throw new Error('The AI storyteller is not set up on this server, so this story comes from TRAILS\' own notes.')
-    if (!r.ok) throw new Error((j as { error?: string }).error ?? `story server answered ${r.status}`)
+    if (!r.ok) return { story: local(), fallbackReason: storyFailureReason(r.status, (j as { error?: string }).error) }
+    if (!Array.isArray((j as Partial<Story>).segments)) return { story: local(), fallbackReason: UNREACHABLE }
     return { story: j as Story }
-  } catch (e) {
-    const msg = e instanceof Error ? e.message : String(e)
-    return { story: local(), fallbackReason: /fetch|network|Failed|JSON|404|abort|timed out/i.test(msg) ? 'The story server is not reachable.' : msg }
+  } catch {
+    // Network error, timeout, or a host that answered with something other than JSON.
+    return { story: local(), fallbackReason: UNREACHABLE }
   }
 }

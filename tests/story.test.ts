@@ -61,3 +61,23 @@ describe('story server', () => {
     await expect(tellStory({ stopIds: ['nope'] }, (() => { throw new Error('should not call') }) as never)).rejects.toThrow(/unknown/)
   })
 })
+
+describe('storyteller on a static host', () => {
+  it('explains a missing or unreachable story server in plain words', async () => {
+    const { storyFailureReason } = await import('../src/lib/story/client')
+    for (const status of [404, 405, 501, 502, 504]) expect(storyFailureReason(status)).toMatch(/not reachable from this site/)
+    expect(storyFailureReason(500)).toMatch(/not reachable/)
+    expect(storyFailureReason(503)).toMatch(/not set up/)
+    expect(storyFailureReason(429)).toMatch(/Too many/)
+    expect(storyFailureReason(400, 'unknown or too many stops')).toBe('unknown or too many stops')
+    expect(storyFailureReason(502)).not.toMatch(/answered/)
+  })
+  it('allows cross-origin calls only from configured sites', async () => {
+    const { corsHeaders } = await import('../server/story-server')
+    expect(corsHeaders('https://trails-rome.netlify.app', [])).toEqual({})
+    expect(corsHeaders('https://evil.example', ['https://trails-rome.netlify.app'])).toEqual({})
+    expect(corsHeaders('https://trails-rome.netlify.app', ['https://trails-rome.netlify.app/'])['access-control-allow-origin']).toBe('https://trails-rome.netlify.app')
+    expect(corsHeaders('https://any.example', ['*'])['access-control-allow-origin']).toBe('*')
+    expect(corsHeaders(undefined, ['*'])).toEqual({})
+  })
+})

@@ -81,7 +81,8 @@ need internet.
 
 ## 11. Actual test results (run on 2026-10-16 in the build container)
 
-* Vitest: **34 passed / 34** (added: trade-off, walk-mode cues, story-in-cue, taste shift). Added since the first report: storyteller grounding and server tests (6),
+* Vitest: **36 passed / 36** (17 Oct: added storyteller fallback messages on static hosts and CORS allow-list; before that: trade-off, walk-mode cues, story-in-cue, taste shift).
+* 17 Oct: on a static host the story card now explains in plain words that the AI storyteller is not reachable, instead of "story server answered 501". The story server accepts cross-origin calls from sites listed in `STORY_ALLOW_ORIGIN`; browser-tested with a separate site calling a stand-in model. Added since the first report: storyteller grounding and server tests (6),
   address search parsing, arbitrary-endpoint planning in all modes, pass-by behaviour, places-along-path (5).
   Original 19: (model parity with PyTorch, schema check, fallback scorer, preference
   learning, dataset integrity, optimiser budget/determinism/modes, offline planner, polyline decoding,
