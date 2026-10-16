@@ -102,6 +102,8 @@ python scripts/validate_dataset.py                  # schema, ids, duplicates, l
 | `VITE_EMBED_MODEL` | `mobilenet_v3_small` | Vision embedder (must match the reference index) |
 | `VITE_PHOTON_URL`, `VITE_NOMINATIM_URL` | public OSM geocoders | Address search (type-ahead / explicit search) |
 | `STORY_API_BASE`, `STORY_MODEL`, `STORY_API_KEY`, `STORY_PROVIDER_LABEL` | unset | Storyteller server only, never sent to the browser |
+| `STORY_ALLOW_ORIGIN` | unset | Storyteller server: sites allowed to call it from another origin (see docs/STORYTELLER.md) |
+| `VITE_STORY_API` | `/api` | Where the app sends story requests, e.g. a story server behind an HTTPS tunnel |
 
 The app itself needs no API keys. The storyteller's key, if any, lives only in the server's environment.
 Put local settings in `.env.local` (ignored by git).

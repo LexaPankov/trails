@@ -19,12 +19,29 @@ const PROVIDER = env.STORY_PROVIDER_LABEL ?? (API_BASE ? new URL(API_BASE).host 
 const PORT = Number(env.PORT ?? 8787)
 const TIMEOUT_MS = Number(env.STORY_TIMEOUT_MS ?? 45000)
 const configured = Boolean(API_BASE && MODEL)
+// Sites allowed to call /api from another origin, e.g. the Netlify demo built with VITE_STORY_API=https://<this server>/api.
+// Comma-separated list of origins, or * for any. Unset = same-origin only (the default).
+const ALLOW_ORIGINS = (env.STORY_ALLOW_ORIGIN ?? '').split(',').map((s) => s.trim().replace(/\/$/, '')).filter(Boolean)
+
+/** CORS headers for a request's Origin, or none when that origin is not allowed. */
+export function corsHeaders(origin: string | undefined, allowed: string[] = ALLOW_ORIGINS): Record<string, string> {
+  const list = allowed.map((a) => a.replace(/\/$/, ''))
+  if (!origin || !list.length) return {}
+  if (!list.includes('*') && !list.includes(origin.replace(/\/$/, ''))) return {}
+  return {
+    'access-control-allow-origin': allowed.includes('*') ? '*' : origin,
+    'access-control-allow-methods': 'GET, POST, OPTIONS',
+    'access-control-allow-headers': 'content-type',
+    'access-control-max-age': '600',
+    vary: 'Origin',
+  }
+}
 
 const cache = new Map<string, Story>()
 const hits = new Map<string, number[]>()
 
 function send(res: ServerResponse, code: number, body: unknown) {
-  res.writeHead(code, { 'content-type': 'application/json', 'cache-control': 'no-store' })
+  res.writeHead(code, { 'content-type': 'application/json', 'cache-control': 'no-store', ...corsHeaders(res.req?.headers.origin) })
   res.end(JSON.stringify(body))
 }
 
@@ -97,6 +114,11 @@ function serveStatic(req: IncomingMessage, res: ServerResponse) {
 export function startServer(port = PORT) {
   const server = createServer(async (req, res) => {
     try {
+      if (req.method === 'OPTIONS' && req.url?.startsWith('/api/')) {
+        const h = corsHeaders(req.headers.origin)
+        res.writeHead(Object.keys(h).length ? 204 : 403, h)
+        return res.end()
+      }
       if (req.url === '/api/health') return send(res, 200, { configured, model: configured ? MODEL : null, provider: configured ? PROVIDER : null })
       if (req.url === '/api/story' && req.method === 'POST') {
         if (!configured) return send(res, 503, { error: 'storyteller not configured (set STORY_API_BASE and STORY_MODEL)' })
@@ -110,7 +132,7 @@ export function startServer(port = PORT) {
       send(res, err.status ?? 500, { error: err.message })
     }
   })
-  server.listen(port, () => console.log(`[TRAILS] story server on :${port} | model: ${configured ? `${MODEL} @ ${PROVIDER}` : 'not configured (app will use offline stories)'}`))
+  server.listen(port, () => console.log(`[TRAILS] story server on :${port} | model: ${configured ? `${MODEL} @ ${PROVIDER}` : 'not configured (app will use offline stories)'}${ALLOW_ORIGINS.length ? ` | cross-origin calls allowed from: ${ALLOW_ORIGINS.join(', ')}` : ''}`))
   return server
 }
 
