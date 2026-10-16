@@ -1,0 +1,69 @@
+{
+ "WARNING": "All metrics are on SYNTHETIC simulated users. They show the network recovers the simulator's preference structure; they are NOT evidence of real-world recommendation quality.",
+ "schema_version": "trails-pref-v1",
+ "data": {
+  "synthetic": true,
+  "seed": 7,
+  "users": 6000,
+  "pairs_per_user": 40,
+  "synthetic_places": 400
+ },
+ "device": {
+  "torch": "2.14.1+cu130",
+  "hip": null,
+  "cuda": "13.0",
+  "python": "3.13.16",
+  "machine": "x86_64",
+  "device": "cpu",
+  "device_name": "x86_64",
+  "backend": "CPU"
+ },
+ "training_seconds": 11.19,
+ "epochs_run": 26,
+ "best_val_logloss": 0.59891277551651,
+ "architecture": "Linear(29,32)-ReLU-Linear(32,16)-ReLU-Linear(16,1)-Sigmoid",
+ "parameters": 1505,
+ "test": {
+  "mlp": {
+   "set": "held-out users, all places",
+   "rows": 36000,
+   "auc": 0.7403876281973708,
+   "logloss": 0.5970666408538818,
+   "accuracy@0.5": 0.6785555555555556,
+   "ndcg@5_vs_simulator_truth": 0.8741916059580821
+  },
+  "mlp_real_rome_places_only": {
+   "set": "held-out users, real Rome places",
+   "rows": 5668,
+   "auc": 0.7398494989991454,
+   "logloss": 0.5902594923973083,
+   "accuracy@0.5": 0.6801340860973889,
+   "ndcg@5_vs_simulator_truth": 0.9325106236000438
+  },
+  "baseline_popularity": {
+   "set": "significance only",
+   "rows": 36000,
+   "auc": 0.503794770502763,
+   "logloss": null,
+   "accuracy@0.5": null,
+   "ndcg@5_vs_simulator_truth": 0.5944164647618475
+  },
+  "baseline_interest_overlap_rule": {
+   "set": "hand-written rule",
+   "rows": 36000,
+   "auc": 0.7091558389873204,
+   "logloss": null,
+   "accuracy@0.5": null,
+   "ndcg@5_vs_simulator_truth": 0.8570275981329375
+  },
+  "simulator_ceiling": {
+   "set": "true simulator probability (upper bound)",
+   "rows": 36000,
+   "auc": 0.8686965905944335,
+   "logloss": 0.4490448534488678,
+   "accuracy@0.5": 0.7860833333333334,
+   "ndcg@5_vs_simulator_truth": 1.0
+  }
+ },
+ "onnx": "ml/artifacts/preference_mlp.onnx"
+}

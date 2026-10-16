@@ -1,0 +1,144 @@
+{
+ "model": "mobilenet_v3_small",
+ "created": "2026-10-16T20:29:41.914Z",
+ "landmarks": 22,
+ "reference_images": 203,
+ "index_vectors": 406,
+ "calibration": {
+  "method": "grid search on leave-one-image-out reference photos + 50% of unrelated GLDv2 photos; objective = correct - 3*wrong - 3*false_accept",
+  "threshold": 0.54,
+  "margin": 0.04,
+  "loo_known": 203,
+  "cal_negatives": 30,
+  "loo_accept_correct": 0.448,
+  "cal_negative_false_accept": 0
+ },
+ "test": {
+  "known_images": 90,
+  "top1_accuracy": 0.833,
+  "recognized_correct": 0.633,
+  "recognized_wrong": 0,
+  "abstained": 0.367,
+  "negatives": 30,
+  "negative_false_accept": 0.1,
+  "with_geo_filter_2km": {
+   "top1_accuracy": 0.844,
+   "recognized_correct": 0.644,
+   "recognized_wrong": 0
+  },
+  "mean_ms_per_image": 76
+ },
+ "per_landmark": {
+  "arch-of-septimius-severus": {
+   "test": 3,
+   "top1": 3,
+   "recognized": 2
+  },
+  "castel-sant-angelo": {
+   "test": 5,
+   "top1": 2,
+   "recognized": 1
+  },
+  "circus-maximus": {
+   "test": 3,
+   "top1": 3,
+   "recognized": 1
+  },
+  "column-of-marcus-aurelius": {
+   "test": 3,
+   "top1": 2,
+   "recognized": 2
+  },
+  "fontana-del-moro": {
+   "test": 3,
+   "top1": 3,
+   "recognized": 1
+  },
+  "neptune-fountain-navona": {
+   "test": 5,
+   "top1": 5,
+   "recognized": 3
+  },
+  "ponte-sant-angelo": {
+   "test": 6,
+   "top1": 5,
+   "recognized": 3
+  },
+  "pulcino-della-minerva": {
+   "test": 3,
+   "top1": 2,
+   "recognized": 2
+  },
+  "pyramid-of-cestius": {
+   "test": 4,
+   "top1": 4,
+   "recognized": 2
+  },
+  "santagnese-in-agone": {
+   "test": 4,
+   "top1": 1,
+   "recognized": 1
+  },
+  "santivo-alla-sapienza": {
+   "test": 3,
+   "top1": 3,
+   "recognized": 3
+  },
+  "spanish-steps": {
+   "test": 4,
+   "top1": 3,
+   "recognized": 3
+  },
+  "st-peters-basilica": {
+   "test": 4,
+   "top1": 2,
+   "recognized": 2
+  },
+  "tempietto-del-bramante": {
+   "test": 2,
+   "top1": 2,
+   "recognized": 2
+  },
+  "temple-of-antoninus-and-faustina": {
+   "test": 4,
+   "top1": 3,
+   "recognized": 3
+  },
+  "temple-of-hercules-victor": {
+   "test": 4,
+   "top1": 3,
+   "recognized": 3
+  },
+  "temple-of-portunus": {
+   "test": 4,
+   "top1": 4,
+   "recognized": 2
+  },
+  "temple-of-venus-and-roma": {
+   "test": 3,
+   "top1": 2,
+   "recognized": 2
+  },
+  "theatre-of-marcellus": {
+   "test": 4,
+   "top1": 4,
+   "recognized": 4
+  },
+  "trajans-market": {
+   "test": 1,
+   "top1": 1,
+   "recognized": 1
+  },
+  "trevi-fountain": {
+   "test": 5,
+   "top1": 5,
+   "recognized": 4
+  },
+  "vittoriano": {
+   "test": 13,
+   "top1": 13,
+   "recognized": 10
+  }
+ },
+ "confusions": []
+}

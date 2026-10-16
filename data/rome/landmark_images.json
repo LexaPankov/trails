@@ -1,0 +1,3583 @@
+{
+ "source": "Google Landmarks Dataset v2 (images from Wikimedia Commons)",
+ "source_url": "https://github.com/cvdfoundation/google-landmark",
+ "note": "Each image keeps its original Wikimedia Commons licence; see per-image author/license.",
+ "landmarks": {
+  "arch-of-septimius-severus": [
+   {
+    "file": "landmarks/arch-of-septimius-severus/8416550cb11e222e.jpg",
+    "gld_id": "8416550cb11e222e",
+    "split": "test",
+    "author": "Cesar I. Martins from Jundiai, Brazil",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pombas_italianas!_(8560166837).jpg",
+    "title": "File:Pombas italianas! (8560166837).jpg"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/1a69c3da934b808f.jpg",
+    "gld_id": "1a69c3da934b808f",
+    "split": "test",
+    "author": "spadaf.m",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Wk29.JPG",
+    "title": "File:Wk29.JPG"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/16fd28ae9e88c85d.jpg",
+    "gld_id": "16fd28ae9e88c85d",
+    "split": "test",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2016_Arch_of_Septimius_Severus_(Rome)_04.jpg",
+    "title": "File:2016 Arch of Septimius Severus (Rome) 04.jpg"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/52a93c43c6e8ece1.jpg",
+    "gld_id": "52a93c43c6e8ece1",
+    "split": "reference",
+    "author": "Carlo Pelagalli",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Arco_di_Settimio_Severo_(202-203_d.C.)_e_chiesa_dei_Santi_Luca_e_Martino_-_panoramio.jpg",
+    "title": "File:Arco di Settimio Severo (202-203 d.C.) e chiesa dei Santi Luca e Martino - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/8278e07078c064bd.jpg",
+    "gld_id": "8278e07078c064bd",
+    "split": "reference",
+    "author": "Angela Stefanoni",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Foro_Romano_-_panoramio_(19).jpg",
+    "title": "File:Foro Romano - panoramio (19).jpg"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/592a5b9abea4c46a.jpg",
+    "gld_id": "592a5b9abea4c46a",
+    "split": "reference",
+    "author": "Rita1234",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_Forum_Romanum_Arch_Septimius_Severus.JPG",
+    "title": "File:Rome Forum Romanum Arch Septimius Severus.JPG"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/658880f865a53ba8.jpg",
+    "gld_id": "658880f865a53ba8",
+    "split": "reference",
+    "author": "Rabax63 (Diskussion)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/CC BY-SA 3.0 de(http://creativecommons.org/licenses/by-sa/3.0/de/deed.en)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:SeptimiusSeverusBogen.JPG",
+    "title": "File:SeptimiusSeverusBogen.JPG"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/31483b37d2a96900.jpg",
+    "gld_id": "31483b37d2a96900",
+    "split": "reference",
+    "author": "Tepold",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_Arco_Septimius_Severus03.jpg",
+    "title": "File:Roma Arco Septimius Severus03.jpg"
+   },
+   {
+    "file": "landmarks/arch-of-septimius-severus/3567ad346ddf873e.jpg",
+    "gld_id": "3567ad346ddf873e",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Arco_de_Septimio_Severo_Roma_01.JPG",
+    "title": "File:Arco de Septimio Severo Roma 01.JPG"
+   }
+  ],
+  "castel-sant-angelo": [
+   {
+    "file": "landmarks/castel-sant-angelo/024ede6374de3290.jpg",
+    "gld_id": "024ede6374de3290",
+    "split": "test",
+    "author": "Андрей Шайдюк",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pines_-_%D0%9F%D0%B8%D0%BD%D0%B8%D0%B8_-_panoramio.jpg",
+    "title": "File:Pines - Пинии - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/0262990574b32cd7.jpg",
+    "gld_id": "0262990574b32cd7",
+    "split": "test",
+    "author": "Alessandro Paglialunga",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Castelsantangelo.scorcio.jpg",
+    "title": "File:Castelsantangelo.scorcio.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/cdbcd05a7c91e2c9.jpg",
+    "gld_id": "cdbcd05a7c91e2c9",
+    "split": "test",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Mausoleum_of_Hadrian,_Rome_(14600860281).jpg",
+    "title": "File:Mausoleum of Hadrian, Rome (14600860281).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/1775e567117e32f9.jpg",
+    "gld_id": "1775e567117e32f9",
+    "split": "test",
+    "author": "tiger rus",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%9C%D0%BE%D1%81%D1%82_%D0%B8_%D0%B7%D0%B0%D0%BC%D0%BE%D0%BA_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D0%B3%D0%BE_%D0%90%D0%BD%D0%B3%D0%B5%D0%BB%D0%B0_(Castel_Sant'Angelo)_-_panoramio.jpg",
+    "title": "File:Мост и замок Святого Ангела (Castel Sant'Angelo) - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/4e1c5050c50754b8.jpg",
+    "gld_id": "4e1c5050c50754b8",
+    "split": "test",
+    "author": "giggel",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rom_-_Ponte_Vittorio_Emanuele_II_-_Castel_Sant'Angelo_%E2%80%93_Ponte_Sant'Angelo_-_panoramio_(1).jpg",
+    "title": "File:Rom - Ponte Vittorio Emanuele II - Castel Sant'Angelo – Ponte Sant'Angelo - panoramio (1).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/07b4243fc72a74f1.jpg",
+    "gld_id": "07b4243fc72a74f1",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vatican_City_from_Castel_Sant'Angelo_(39654053193).jpg",
+    "title": "File:Vatican City from Castel Sant'Angelo (39654053193).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/52ea1dff8839d879.jpg",
+    "gld_id": "52ea1dff8839d879",
+    "split": "reference",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Castelul_Sant'Angelo_din_Roma4.jpg",
+    "title": "File:Castelul Sant'Angelo din Roma4.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/ac81f24c0f68e7b0.jpg",
+    "gld_id": "ac81f24c0f68e7b0",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Skyline_of_Rome_from_Castel_Sant'Angelo_(31677857207).jpg",
+    "title": "File:Skyline of Rome from Castel Sant'Angelo (31677857207).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/3c738216fa3c723e.jpg",
+    "gld_id": "3c738216fa3c723e",
+    "split": "reference",
+    "author": "Burkhard Mücke",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_02.jpg",
+    "title": "File:Castel Sant'Angelo 02.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/8d1646a9f6a37615.jpg",
+    "gld_id": "8d1646a9f6a37615",
+    "split": "reference",
+    "author": "Augusto De Luca",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_a1_-_Augusto_De_Luca_fotografo.jpg",
+    "title": "File:Roma a1 - Augusto De Luca fotografo.jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/8248403c02b7f1f9.jpg",
+    "gld_id": "8248403c02b7f1f9",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Cortile_dell%E2%80%99Angelo,_Castel_Sant'Angelo_(46618985921).jpg",
+    "title": "File:Cortile dell’Angelo, Castel Sant'Angelo (46618985921).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/3582560b3ded4a4d.jpg",
+    "gld_id": "3582560b3ded4a4d",
+    "split": "reference",
+    "author": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Castel_Sant'Angelo_3_(15465531522).jpg",
+    "title": "File:Castel Sant'Angelo 3 (15465531522).jpg"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/4cf52dd8a9126bde.jpg",
+    "gld_id": "4cf52dd8a9126bde",
+    "split": "reference",
+    "author": "Self made",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma-castellogianicolo01.JPG",
+    "title": "File:Roma-castellogianicolo01.JPG"
+   },
+   {
+    "file": "landmarks/castel-sant-angelo/4df1391bafa8f586.jpg",
+    "gld_id": "4df1391bafa8f586",
+    "split": "reference",
+    "author": "Agenziaroma2010",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:CASTEL_SANT_ANGELO_DI_SERA.jpg",
+    "title": "File:CASTEL SANT ANGELO DI SERA.jpg"
+   }
+  ],
+  "circus-maximus": [
+   {
+    "file": "landmarks/circus-maximus/52c18cabe362a635.jpg",
+    "gld_id": "52c18cabe362a635",
+    "split": "test",
+    "author": "Petar Milošević",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circus_Maximus_in_Rome.jpg",
+    "title": "File:Circus Maximus in Rome.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/aab913bfdb705696.jpg",
+    "gld_id": "aab913bfdb705696",
+    "split": "test",
+    "author": "mararie",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circo_massimo_-_panoramio.jpg",
+    "title": "File:Circo massimo - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/ad4c484e997fb560.jpg",
+    "gld_id": "ad4c484e997fb560",
+    "split": "test",
+    "author": "Витольд Муратов",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%9F%D0%B0%D0%BB%D0%B0%D1%82%D0%B8%D0%BD._%D0%91%D0%BE%D0%BB%D1%8C%D1%88%D0%BE%D0%B9_%D0%A6%D0%B8%D1%80%D0%BA_%D0%B8_%D1%82%D0%B5%D1%80%D0%BC%D1%8B_%D0%A1%D0%B5%D0%BF%D1%82%D0%B8%D0%BC%D0%B8%D1%8F_%D0%A1%D0%B5%D0%B2%D0%B5%D1%80%D0%B0.jpg",
+    "title": "File:Палатин. Большой Цирк и термы Септимия Севера.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/52899191a6bc70ac.jpg",
+    "gld_id": "52899191a6bc70ac",
+    "split": "reference",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Circo_Massimo_(3).jpg",
+    "title": "File:Roma, Circo Massimo (3).jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/23bc28068043ef29.jpg",
+    "gld_id": "23bc28068043ef29",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circus_Maximus_(Rome)_02.jpg",
+    "title": "File:Circus Maximus (Rome) 02.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/3843d3d721af3fbd.jpg",
+    "gld_id": "3843d3d721af3fbd",
+    "split": "reference",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Circo_Massimo_(2).jpg",
+    "title": "File:Roma, Circo Massimo (2).jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/6817ecf758e4e463.jpg",
+    "gld_id": "6817ecf758e4e463",
+    "split": "reference",
+    "author": "Soham Banerjee from Bangalore, india",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circus_Maximus_(4554444765).jpg",
+    "title": "File:Circus Maximus (4554444765).jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/a559bada52501862.jpg",
+    "gld_id": "a559bada52501862",
+    "split": "reference",
+    "author": "Michael aus Halle",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Zirkus_Maximuss_-_panoramio.jpg",
+    "title": "File:Zirkus Maximuss - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/233658a3bb54738e.jpg",
+    "gld_id": "233658a3bb54738e",
+    "split": "reference",
+    "author": "PsyCat",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circus_Maximus_north_view_from_Aventine_hills.jpg",
+    "title": "File:Circus Maximus north view from Aventine hills.jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/6018501a7d3a44b7.jpg",
+    "gld_id": "6018501a7d3a44b7",
+    "split": "reference",
+    "author": "Laci30",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_XII_Ripa,_Roma,_Italy_-_panoramio_-_Laci30_(13).jpg",
+    "title": "File:Rione XII Ripa, Roma, Italy - panoramio - Laci30 (13).jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/4df4587d2c645cc7.jpg",
+    "gld_id": "4df4587d2c645cc7",
+    "split": "reference",
+    "author": "Allie_Caulfield from Germany",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2006-12-17_12-22_Rom_383_Circo_Massimo_(2698437325).jpg",
+    "title": "File:2006-12-17 12-22 Rom 383 Circo Massimo (2698437325).jpg"
+   },
+   {
+    "file": "landmarks/circus-maximus/187c0a38d2f0c349.jpg",
+    "gld_id": "187c0a38d2f0c349",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Circus_Maximus_in_2018.12.jpg",
+    "title": "File:Circus Maximus in 2018.12.jpg"
+   }
+  ],
+  "column-of-marcus-aurelius": [
+   {
+    "file": "landmarks/column-of-marcus-aurelius/b3e12b89f3437d18.jpg",
+    "gld_id": "b3e12b89f3437d18",
+    "split": "test",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Column_of_Marcus_Aurelius,_Rome_(16843037182).jpg",
+    "title": "File:Column of Marcus Aurelius, Rome (16843037182).jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/5fd98f4e39b1d61c.jpg",
+    "gld_id": "5fd98f4e39b1d61c",
+    "split": "test",
+    "author": "Michael Paraskevas",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Colona_-_panoramio.jpg",
+    "title": "File:Roma - Colona - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/eb60bb003d69e6d1.jpg",
+    "gld_id": "eb60bb003d69e6d1",
+    "split": "test",
+    "author": "Pierfelice Licitra",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Colonna_-_panoramio_(3).jpg",
+    "title": "File:Piazza Colonna - panoramio (3).jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/8d48c2cbc6d7ade8.jpg",
+    "gld_id": "8d48c2cbc6d7ade8",
+    "split": "reference",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2016_Colonna_di_Marco_Aurelio_02.jpg",
+    "title": "File:2016 Colonna di Marco Aurelio 02.jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/eb38e02f48622f88.jpg",
+    "gld_id": "eb38e02f48622f88",
+    "split": "reference",
+    "author": "Jean-François Capdet",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Colonne_de_Marc_Aurele_-_panoramio.jpg",
+    "title": "File:Colonne de Marc Aurele - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/1e4386faafa7c80d.jpg",
+    "gld_id": "1e4386faafa7c80d",
+    "split": "reference",
+    "author": "Roman SUZUKI",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Column_of_Marcus_Aurelius_-_panoramio_-_Roman_SUZUKI_(3).jpg",
+    "title": "File:Column of Marcus Aurelius - panoramio - Roman SUZUKI (3).jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/49590e8ac3b9db67.jpg",
+    "gld_id": "49590e8ac3b9db67",
+    "split": "reference",
+    "author": "EliziR",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Columna_de_Marcus_Aurelius,_Roma_(febrer_2009)_-_panoramio.jpg",
+    "title": "File:Columna de Marcus Aurelius, Roma (febrer 2009) - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/65863e036d341b14.jpg",
+    "gld_id": "65863e036d341b14",
+    "split": "reference",
+    "author": "venosa",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Colonna_di_Marcus_Aurelius_-_venosa.jpg",
+    "title": "File:Colonna di Marcus Aurelius - venosa.jpg"
+   },
+   {
+    "file": "landmarks/column-of-marcus-aurelius/1751264f3ffb723c.jpg",
+    "gld_id": "1751264f3ffb723c",
+    "split": "reference",
+    "author": "Roman SUZUKI",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Column_of_Marcus_Aurelius_-_panoramio_-_Roman_SUZUKI_(1).jpg",
+    "title": "File:Column of Marcus Aurelius - panoramio - Roman SUZUKI (1).jpg"
+   }
+  ],
+  "fontana-del-moro": [
+   {
+    "file": "landmarks/fontana-del-moro/4976a6122b708a2a.jpg",
+    "gld_id": "4976a6122b708a2a",
+    "split": "test",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Moro_Navona_01.TIF",
+    "title": "File:Moro Navona 01.TIF"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/7fa595303b49e678.jpg",
+    "gld_id": "7fa595303b49e678",
+    "split": "test",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Luigi_amici,_tritoni_e_mascheroni_della_fontana_del_moro,_copia_da_giacomo_della_porta,_1874,_02.jpg",
+    "title": "File:Luigi amici, tritoni e mascheroni della fontana del moro, copia da giacomo della porta, 1874, 02.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/c9f31da3a00ed345.jpg",
+    "gld_id": "c9f31da3a00ed345",
+    "split": "test",
+    "author": "Leomudde",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_del_Moro_Piazza_Navona.jpg",
+    "title": "File:Fontana del Moro Piazza Navona.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/5fe3d1767e264b22.jpg",
+    "gld_id": "5fe3d1767e264b22",
+    "split": "reference",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Fontana_del_Moro_(1).jpg",
+    "title": "File:Roma, Fontana del Moro (1).jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/356d3c9ac56d06e8.jpg",
+    "gld_id": "356d3c9ac56d06e8",
+    "split": "reference",
+    "author": "rene boulay",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Italie_Rome_Piazza_Navona_Fontaine_Maure_072000_-_panoramio.jpg",
+    "title": "File:Italie Rome Piazza Navona Fontaine Maure 072000 - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/357ee534b75f0daf.jpg",
+    "gld_id": "357ee534b75f0daf",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Luigi_amici,_tritoni_e_mascheroni_della_fontana_del_moro,_copia_da_giacomo_della_porta,_1874,_10.jpg",
+    "title": "File:Luigi amici, tritoni e mascheroni della fontana del moro, copia da giacomo della porta, 1874, 10.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/eb66196f38d4f18c.jpg",
+    "gld_id": "eb66196f38d4f18c",
+    "split": "reference",
+    "author": "Colin W",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_del_Moro,_Piazza_Navona,_Rome_-_panoramio_-_Colin_W.jpg",
+    "title": "File:Fontana del Moro, Piazza Navona, Rome - panoramio - Colin W.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/3825c377a82c2c3e.jpg",
+    "gld_id": "3825c377a82c2c3e",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_del_Moro_Piazza_Navona_Rome_04_2016_6545.jpg",
+    "title": "File:Fontana del Moro Piazza Navona Rome 04 2016 6545.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/3b36d4fe59651f34.jpg",
+    "gld_id": "3b36d4fe59651f34",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Giovanni_antonio_mari_(su_bozzetto_di_bernini),_etiope_in_lotta_con_un_delfino_della_fontana_del_moro,_1654,_01.jpg",
+    "title": "File:Giovanni antonio mari (su bozzetto di bernini), etiope in lotta con un delfino della fontana del moro, 1654, 01.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/82271b2318068f46.jpg",
+    "gld_id": "82271b2318068f46",
+    "split": "reference",
+    "author": "Paolo Monti  (1908–1982)   ",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Paolo_Monti_-_Servizio_fotografico_-_BEIC_6364038.jpg",
+    "title": "File:Paolo Monti - Servizio fotografico - BEIC 6364038.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/825b35f63cc59263.jpg",
+    "gld_id": "825b35f63cc59263",
+    "split": "reference",
+    "author": "Jean-François Capdet",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Place_Navonne_-_panoramio.jpg",
+    "title": "File:Place Navonne - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/368c26d1f02cbf5f.jpg",
+    "gld_id": "368c26d1f02cbf5f",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Moro_Navona_02.TIF",
+    "title": "File:Moro Navona 02.TIF"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/1a4cef25c60cda5a.jpg",
+    "gld_id": "1a4cef25c60cda5a",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:9_Piazza_Navona.PNG",
+    "title": "File:9 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/fontana-del-moro/7acafe0b5a1b776a.jpg",
+    "gld_id": "7acafe0b5a1b776a",
+    "split": "reference",
+    "author": "jeffwarder",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Piazza_Navona_-_Fontana_del_Moro_-_(closer_brighter)_-_panoramio.jpg",
+    "title": "File:Roma - Piazza Navona - Fontana del Moro - (closer brighter) - panoramio.jpg"
+   }
+  ],
+  "neptune-fountain-navona": [
+   {
+    "file": "landmarks/neptune-fountain-navona/3ca5141088874f84.jpg",
+    "gld_id": "3ca5141088874f84",
+    "split": "test",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Gregorio_zappal%C3%A0,_mascheroni,_putti_e_nereidi_della_fontana_del_nettuno,_1878,_06.jpg",
+    "title": "File:Gregorio zappalà, mascheroni, putti e nereidi della fontana del nettuno, 1878, 06.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/7aad44fe7c1593f1.jpg",
+    "gld_id": "7aad44fe7c1593f1",
+    "split": "test",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Gregorio_zappal%C3%A0,_mascheroni,_putti_e_nereidi_della_fontana_del_nettuno,_1878,_03.jpg",
+    "title": "File:Gregorio zappalà, mascheroni, putti e nereidi della fontana del nettuno, 1878, 03.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/ac57fba0af47ad2a.jpg",
+    "gld_id": "ac57fba0af47ad2a",
+    "split": "test",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:55_Piazza_Navona.PNG",
+    "title": "File:55 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/07bbe4a8330fe01d.jpg",
+    "gld_id": "07bbe4a8330fe01d",
+    "split": "test",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:44_Piazza_Navona.PNG",
+    "title": "File:44 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/2304b041601c563c.jpg",
+    "gld_id": "2304b041601c563c",
+    "split": "test",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Gregorio_zappal%C3%A0,_mascheroni,_putti_e_nereidi_della_fontana_del_nettuno,_1878,_04.jpg",
+    "title": "File:Gregorio zappalà, mascheroni, putti e nereidi della fontana del nettuno, 1878, 04.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/ad23a8f0f4d68a21.jpg",
+    "gld_id": "ad23a8f0f4d68a21",
+    "split": "reference",
+    "author": "Jakub Hałun",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:20140804_Fountain_of_Neptune,_Rome_0770.jpg",
+    "title": "File:20140804 Fountain of Neptune, Rome 0770.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/4a2566ffd2a2d2bf.jpg",
+    "gld_id": "4a2566ffd2a2d2bf",
+    "split": "reference",
+    "author": "Валерий Дед",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2006_-_panoramio_(108).jpg",
+    "title": "File:2006 - panoramio (108).jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/31991a280bcb4272.jpg",
+    "gld_id": "31991a280bcb4272",
+    "split": "reference",
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:0_Fontaine_de_Neptune_-_Piazza_Navona_-_Rome_(1).JPG",
+    "title": "File:0 Fontaine de Neptune - Piazza Navona - Rome (1).JPG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/023ec5f3e90327d5.jpg",
+    "gld_id": "023ec5f3e90327d5",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:64_Piazza_Navona.PNG",
+    "title": "File:64 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/05ce4a360cc47ffa.jpg",
+    "gld_id": "05ce4a360cc47ffa",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_del_Nettuno_Piazza_Navona_Rome_04_2016_6472.jpg",
+    "title": "File:Fontana del Nettuno Piazza Navona Rome 04 2016 6472.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/ad2432aa01055c27.jpg",
+    "gld_id": "ad2432aa01055c27",
+    "split": "reference",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Navona_-_panoramio_(12).jpg",
+    "title": "File:Piazza Navona - panoramio (12).jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/6034013634c07425.jpg",
+    "gld_id": "6034013634c07425",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:52_Piazza_Navona.PNG",
+    "title": "File:52 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/6015c230398d81d4.jpg",
+    "gld_id": "6015c230398d81d4",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_del_Nettuno_Piazza_Navona_Rome_04_2016_6479.jpg",
+    "title": "File:Fontana del Nettuno Piazza Navona Rome 04 2016 6479.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/07af96c93d542f69.jpg",
+    "gld_id": "07af96c93d542f69",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:63_Piazza_Navona.PNG",
+    "title": "File:63 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/7aa379ebbfa0646b.jpg",
+    "gld_id": "7aa379ebbfa0646b",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Gregorio_zappal%C3%A0,_mascheroni,_putti_e_nereidi_della_fontana_del_nettuno,_1878,_07_cavallo_marino.jpg",
+    "title": "File:Gregorio zappalà, mascheroni, putti e nereidi della fontana del nettuno, 1878, 07 cavallo marino.jpg"
+   },
+   {
+    "file": "landmarks/neptune-fountain-navona/ad526193ca7a29aa.jpg",
+    "gld_id": "ad526193ca7a29aa",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Antonio_della_bitta,_nettuno_in_lotta_con_una_piovra,_1878,_01.jpg",
+    "title": "File:Antonio della bitta, nettuno in lotta con una piovra, 1878, 01.jpg"
+   }
+  ],
+  "ponte-sant-angelo": [
+   {
+    "file": "landmarks/ponte-sant-angelo/eb6e892fb0c402b9.jpg",
+    "gld_id": "eb6e892fb0c402b9",
+    "split": "test",
+    "author": "Rabax63",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:PonteSantAngeloRom.jpg",
+    "title": "File:PonteSantAngeloRom.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/37eec6aebe50e0e0.jpg",
+    "gld_id": "37eec6aebe50e0e0",
+    "split": "test",
+    "author": "山海风",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%E5%8F%B0%E4%BC%AF%E6%B2%B3_-_panoramio.jpg",
+    "title": "File:台伯河 - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/658a36b5b78e3b0f.jpg",
+    "gld_id": "658a36b5b78e3b0f",
+    "split": "test",
+    "author": "Nafie shehu",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:View_in_Roma.jpg",
+    "title": "File:View in Roma.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/7aa8d83f8904e2f8.jpg",
+    "gld_id": "7aa8d83f8904e2f8",
+    "split": "test",
+    "author": "ekuacion",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Ponte_Sant'Angelo_-_panoramio_(9).jpg",
+    "title": "File:Ponte Sant'Angelo - panoramio (9).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/91681bec60ff7709.jpg",
+    "gld_id": "91681bec60ff7709",
+    "split": "test",
+    "author": "Tegamino",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Dicembre_2015._Ponte_Sant'Angelo.jpg",
+    "title": "File:Dicembre 2015. Ponte Sant'Angelo.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/cd77a7142c3e2df8.jpg",
+    "gld_id": "cd77a7142c3e2df8",
+    "split": "test",
+    "author": "Cedrichoyer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Angelsbridge_(Rome).jpg",
+    "title": "File:Angelsbridge (Rome).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/8d3060b0a6da9b67.jpg",
+    "gld_id": "8d3060b0a6da9b67",
+    "split": "reference",
+    "author": "Stefano Bolognini",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:12_dicembre_2008_piena_del_tevere_9.JPG",
+    "title": "File:12 dicembre 2008 piena del tevere 9.JPG"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/49a4924ee816a6c3.jpg",
+    "gld_id": "49a4924ee816a6c3",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Angel_with_the_Crown_of_Thorns,_Castel_Sant'Angelo_(31678092077).jpg",
+    "title": "File:Angel with the Crown of Thorns, Castel Sant'Angelo (31678092077).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/2987520070c704c9.jpg",
+    "gld_id": "2987520070c704c9",
+    "split": "reference",
+    "author": "Pedro Mondejar",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Bas%C3%ADlica_de_San_Pedro_del_Vaticano..JPG",
+    "title": "File:Basílica de San Pedro del Vaticano..JPG"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/4a2623887594f358.jpg",
+    "gld_id": "4a2623887594f358",
+    "split": "reference",
+    "author": "kevinmcgill from Den Bosch, Netherlands",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Ponte_sant'Angelo.jpg",
+    "title": "File:Roma - Ponte sant'Angelo.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/0622fc2edb0a3063.jpg",
+    "gld_id": "0622fc2edb0a3063",
+    "split": "reference",
+    "author": "Tegamino",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Dicembre_2016_-_Ponte_e_Castel_Sant'Angelo.jpg",
+    "title": "File:Dicembre 2016 - Ponte e Castel Sant'Angelo.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/357ec321c8dc4d74.jpg",
+    "gld_id": "357ec321c8dc4d74",
+    "split": "reference",
+    "author": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Ponte_Sant'Angelo_(15279204050).jpg",
+    "title": "File:Ponte Sant'Angelo (15279204050).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/821c8aa6f480e2f4.jpg",
+    "gld_id": "821c8aa6f480e2f4",
+    "split": "reference",
+    "author": "nikola_pu",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Ponte_Sant'Angelo_-_panoramio.jpg",
+    "title": "File:Ponte Sant'Angelo - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/8269751cad070364.jpg",
+    "gld_id": "8269751cad070364",
+    "split": "reference",
+    "author": "Dennis Jarvis from Halifax, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Italy-0092_(5124465008).jpg",
+    "title": "File:Italy-0092 (5124465008).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/3556d791ed6c4a4c.jpg",
+    "gld_id": "3556d791ed6c4a4c",
+    "split": "reference",
+    "author": "Toronto_guy",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome,_Italy_-_panoramio_(4).jpg",
+    "title": "File:Rome, Italy - panoramio (4).jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/b4096ffc1a0abc0d.jpg",
+    "gld_id": "b4096ffc1a0abc0d",
+    "split": "reference",
+    "author": "Maria Teresa Di Leo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_II.jpg",
+    "title": "File:Rome II.jpg"
+   },
+   {
+    "file": "landmarks/ponte-sant-angelo/ad7c0a4e11bb7a92.jpg",
+    "gld_id": "ad7c0a4e11bb7a92",
+    "split": "reference",
+    "author": "Juanibb",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant'angelo_y_puente.JPG",
+    "title": "File:Sant'angelo y puente.JPG"
+   }
+  ],
+  "pulcino-della-minerva": [
+   {
+    "file": "landmarks/pulcino-della-minerva/4ced08b1dc420720.jpg",
+    "gld_id": "4ced08b1dc420720",
+    "split": "test",
+    "author": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Elephant_and_Obelisk.jpg",
+    "title": "File:Elephant and Obelisk.jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/49fb83047efe9236.jpg",
+    "gld_id": "49fb83047efe9236",
+    "split": "test",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_(29066603).jpg",
+    "title": "File:Rome (29066603).jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/07c8999d1d13fbf9.jpg",
+    "gld_id": "07c8999d1d13fbf9",
+    "split": "test",
+    "author": "Mikhail Malykh",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_IX_Pigna,_00186_Roma,_Italy_-_panoramio_(58).jpg",
+    "title": "File:Rione IX Pigna, 00186 Roma, Italy - panoramio (58).jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/911b6345256ec920.jpg",
+    "gld_id": "911b6345256ec920",
+    "split": "reference",
+    "author": "V. Ivanov",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Piazza_della_Minerva_%5E_Pantheon_-_panoramio.jpg",
+    "title": "File:Roma, Piazza della Minerva ^ Pantheon - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/05f7f4b91fe1e68e.jpg",
+    "gld_id": "05f7f4b91fe1e68e",
+    "split": "reference",
+    "author": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Bernini's_elephant_in_front_of_Santa_Maria_sopra_Minerva.jpg",
+    "title": "File:Bernini's elephant in front of Santa Maria sopra Minerva.jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/35f3a686cea90c90.jpg",
+    "gld_id": "35f3a686cea90c90",
+    "split": "reference",
+    "author": "Pierfelice Licitra",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Il_Pulcino_della_Minerva_-_panoramio_(1).jpg",
+    "title": "File:Il Pulcino della Minerva - panoramio (1).jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/35549c67a69cdf61.jpg",
+    "gld_id": "35549c67a69cdf61",
+    "split": "reference",
+    "author": "Brigitte from Österreich",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:443_Elefantino_(3915141885).jpg",
+    "title": "File:443 Elefantino (3915141885).jpg"
+   },
+   {
+    "file": "landmarks/pulcino-della-minerva/83bede8f0905df23.jpg",
+    "gld_id": "83bede8f0905df23",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Bernini_obelisco_Minerva_02.jpg",
+    "title": "File:Bernini obelisco Minerva 02.jpg"
+   }
+  ],
+  "pyramid-of-cestius": [
+   {
+    "file": "landmarks/pyramid-of-cestius/aad4b806c68ae048.jpg",
+    "gld_id": "aad4b806c68ae048",
+    "split": "test",
+    "author": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piramide_Cestia.jpg",
+    "title": "File:Piramide Cestia.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/3b02d38df2ec82f9.jpg",
+    "gld_id": "3b02d38df2ec82f9",
+    "split": "test",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pyramid_of_Cestius_in_2018.01.jpg",
+    "title": "File:Pyramid of Cestius in 2018.01.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/ca3623c9322c3b58.jpg",
+    "gld_id": "ca3623c9322c3b58",
+    "split": "test",
+    "author": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tip_of_Pyramid_of_Caius_Cestius.jpg",
+    "title": "File:Tip of Pyramid of Caius Cestius.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/8245ded3563b8add.jpg",
+    "gld_id": "8245ded3563b8add",
+    "split": "test",
+    "author": "Ethan Doyle White",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pyramid_of_Cestius_top_detail.jpg",
+    "title": "File:Pyramid of Cestius top detail.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/313458c5f3e90284.jpg",
+    "gld_id": "313458c5f3e90284",
+    "split": "reference",
+    "author": "Laci30",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Quartiere_X_Ostiense,_Roma,_Italy_-_panoramio_-_Laci30_(7).jpg",
+    "title": "File:Quartiere X Ostiense, Roma, Italy - panoramio - Laci30 (7).jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/3695766cdc86dc7a.jpg",
+    "gld_id": "3695766cdc86dc7a",
+    "split": "reference",
+    "author": "Francesco Gasparetti from Senigallia, Italy",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pyramid_of_cestius.jpg",
+    "title": "File:Pyramid of cestius.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/4c3327936d02b129.jpg",
+    "gld_id": "4c3327936d02b129",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piramide_di_Caio_Cestio_01.jpg",
+    "title": "File:Piramide di Caio Cestio 01.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/52df6ff780e4b045.jpg",
+    "gld_id": "52df6ff780e4b045",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piramide_di_Caio_Cestio_03.jpg",
+    "title": "File:Piramide di Caio Cestio 03.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/030642399be5b7e1.jpg",
+    "gld_id": "030642399be5b7e1",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pyramid_of_Cestius_in_2018.04.jpg",
+    "title": "File:Pyramid of Cestius in 2018.04.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/7f8875adc3cf9a7a.jpg",
+    "gld_id": "7f8875adc3cf9a7a",
+    "split": "reference",
+    "author": "Torquatus",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Pyramid_of_Caius_Cestius_exterior_7.jpg",
+    "title": "File:Pyramid of Caius Cestius exterior 7.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/7fe2ddd4d034c66d.jpg",
+    "gld_id": "7fe2ddd4d034c66d",
+    "split": "reference",
+    "author": "Blackcat",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2012-07-04_Piazzale_Ostiense.jpg",
+    "title": "File:2012-07-04 Piazzale Ostiense.jpg"
+   },
+   {
+    "file": "landmarks/pyramid-of-cestius/c9f5664bf2a5b82e.jpg",
+    "gld_id": "c9f5664bf2a5b82e",
+    "split": "reference",
+    "author": "Lalupa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piramide_e_Porta_s_Paolo_1100866.JPG",
+    "title": "File:Piramide e Porta s Paolo 1100866.JPG"
+   }
+  ],
+  "santagnese-in-agone": [
+   {
+    "file": "landmarks/santagnese-in-agone/7adbefdd032ca587.jpg",
+    "gld_id": "7adbefdd032ca587",
+    "split": "test",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Biserica_Sant'Agnese_in_Agone_din_Roma.jpg",
+    "title": "File:Biserica Sant'Agnese in Agone din Roma.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/1e680e698742879a.jpg",
+    "gld_id": "1e680e698742879a",
+    "split": "test",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Navona_in_2018.15.jpg",
+    "title": "File:Piazza Navona in 2018.15.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/362d4a9a03403e28.jpg",
+    "gld_id": "362d4a9a03403e28",
+    "split": "test",
+    "author": "Luca Aless",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Chiesa_di_San'Agnese_in_Agone.JPG",
+    "title": "File:Roma - Chiesa di San'Agnese in Agone.JPG"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/4e309e642aee5fc5.jpg",
+    "gld_id": "4e309e642aee5fc5",
+    "split": "test",
+    "author": "Dennis Jarvis from Halifax, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:DGJ_0170_-_Sant'Agnese_in_Agone_(5135064491).jpg",
+    "title": "File:DGJ 0170 - Sant'Agnese in Agone (5135064491).jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/c9f8f09cb1ecd068.jpg",
+    "gld_id": "c9f8f09cb1ecd068",
+    "split": "reference",
+    "author": "Romāns Kolduns",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant-Agnese_in_Agone_-_panoramio.jpg",
+    "title": "File:Sant-Agnese in Agone - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/cd7679e8fad863ee.jpg",
+    "gld_id": "cd7679e8fad863ee",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant'_Agenese_in_Agone_Church_Piazza_Navona_Rome_04_2016_6536.jpg",
+    "title": "File:Sant' Agenese in Agone Church Piazza Navona Rome 04 2016 6536.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/dfcc9c34b5ca46f6.jpg",
+    "gld_id": "dfcc9c34b5ca46f6",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:41_Piazza_Navona.PNG",
+    "title": "File:41 Piazza Navona.PNG"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/cd893db62147ecd4.jpg",
+    "gld_id": "cd893db62147ecd4",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant'_Agenese_in_Agone_Church_Piazza_Navona_Rome_04_2016_6511.jpg",
+    "title": "File:Sant' Agenese in Agone Church Piazza Navona Rome 04 2016 6511.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/1a83e1897a58ed8e.jpg",
+    "gld_id": "1a83e1897a58ed8e",
+    "split": "reference",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Navona_(Rome_-_2016)_03.jpg",
+    "title": "File:Piazza Navona (Rome - 2016) 03.jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/1742eaecee594029.jpg",
+    "gld_id": "1742eaecee594029",
+    "split": "reference",
+    "author": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant'Agnese_in_Agone_1_(14816809144).jpg",
+    "title": "File:Sant'Agnese in Agone 1 (14816809144).jpg"
+   },
+   {
+    "file": "landmarks/santagnese-in-agone/cdc9c447d2348984.jpg",
+    "gld_id": "cdc9c447d2348984",
+    "split": "reference",
+    "author": "Gzen92",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Place_Navone_-_Ob%C3%A9lisque_et_%C3%A9glise_Sainte-Agn%C3%A8s_en_Agone_(Rome)_(1).jpg",
+    "title": "File:Place Navone - Obélisque et église Sainte-Agnès en Agone (Rome) (1).jpg"
+   }
+  ],
+  "santivo-alla-sapienza": [
+   {
+    "file": "landmarks/santivo-alla-sapienza/3b08bfadd2fa4dd9.jpg",
+    "gld_id": "3b08bfadd2fa4dd9",
+    "split": "test",
+    "author": "Vlad Lesnov",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Archivio_di_stato_di_Roma_-_panoramio.jpg",
+    "title": "File:Archivio di stato di Roma - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/7f84f211140c7a7f.jpg",
+    "gld_id": "7f84f211140c7a7f",
+    "split": "test",
+    "author": "Maristela Possamai",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:'_La_Chiesa'.jpg",
+    "title": "File:' La Chiesa'.jpg"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/60009c9024a877c8.jpg",
+    "gld_id": "60009c9024a877c8",
+    "split": "test",
+    "author": "ildirettore",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:La_vecchia_Sapienza_-_panoramio.jpg",
+    "title": "File:La vecchia Sapienza - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/43edb57964cef6f5.jpg",
+    "gld_id": "43edb57964cef6f5",
+    "split": "reference",
+    "author": "MM",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:RomaSIvoSapienzaFacciata10.jpg",
+    "title": "File:RomaSIvoSapienzaFacciata10.jpg"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/65ca0fcaa4c8574f.jpg",
+    "gld_id": "65ca0fcaa4c8574f",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Cortile_Sapienza_04.JPG",
+    "title": "File:Cortile Sapienza 04.JPG"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/028299389f0cfcaa.jpg",
+    "gld_id": "028299389f0cfcaa",
+    "split": "reference",
+    "author": "LPLT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%C3%89glise_Sant'Ivo_alla_Sapienza.JPG",
+    "title": "File:Église Sant'Ivo alla Sapienza.JPG"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/594a2f7e7c5da231.jpg",
+    "gld_id": "594a2f7e7c5da231",
+    "split": "reference",
+    "author": "Fb78",
+    "license": "CC BY-SA 2.0-de",
+    "license_url": "http://creativecommons.org/licenses/by-sa/2.0/de/deed.en)/CC-BY-SA-3.0(http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Borromini_SantIvo.jpg",
+    "title": "File:Borromini SantIvo.jpg"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/b3d85ae2ed508f69.jpg",
+    "gld_id": "b3d85ae2ed508f69",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Cortile_Sapienza_03.JPG",
+    "title": "File:Cortile Sapienza 03.JPG"
+   },
+   {
+    "file": "landmarks/santivo-alla-sapienza/1a6d6b8bc3cdb3b0.jpg",
+    "gld_id": "1a6d6b8bc3cdb3b0",
+    "split": "reference",
+    "author": "Greg Willis from Denver, CO, usa",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Sant_Ivo_alla_Sapienza_(4225493171).jpg",
+    "title": "File:Sant Ivo alla Sapienza (4225493171).jpg"
+   }
+  ],
+  "spanish-steps": [
+   {
+    "file": "landmarks/spanish-steps/16c4889aa5e77da6.jpg",
+    "gld_id": "16c4889aa5e77da6",
+    "split": "test",
+    "author": "Hoa binh",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Schody_Hiszpa%C5%84skie.JPG",
+    "title": "File:Schody Hiszpańskie.JPG"
+   },
+   {
+    "file": "landmarks/spanish-steps/ca0cfe71db1f51f4.jpg",
+    "gld_id": "ca0cfe71db1f51f4",
+    "split": "test",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Spanish_Steps_(5986629097).jpg",
+    "title": "File:Spanish Steps (5986629097).jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/4dd94611f16d9902.jpg",
+    "gld_id": "4dd94611f16d9902",
+    "split": "test",
+    "author": "rmceoin",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma-scalinat%C3%A0_trinit%C3%A0_dei_monti.jpg",
+    "title": "File:Roma-scalinatà trinità dei monti.jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/168cb054d2e04770.jpg",
+    "gld_id": "168cb054d2e04770",
+    "split": "test",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_(29083975).jpg",
+    "title": "File:Rome (29083975).jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/4d1d4467370aae7a.jpg",
+    "gld_id": "4d1d4467370aae7a",
+    "split": "reference",
+    "author": "Eugenio Hansen, OFS",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_servitiu_68.jpg",
+    "title": "File:Rome servitiu 68.jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/91007abe1ee106a6.jpg",
+    "gld_id": "91007abe1ee106a6",
+    "split": "reference",
+    "author": "Mstyslav Chernov",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:The_Spanish_Steps,_the_Piazza_di_Spagna,_Sallustiano_obelisk_agains_background_of_the_Church_of_the_Santissima_Trinit%C3%A0_dei_Monti._Rome,_Italy.jpg",
+    "title": "File:The Spanish Steps, the Piazza di Spagna, Sallustiano obelisk agains background of the Church of the Santissima Trinità dei Monti. Rome, Italy.jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/3c9143e962a7d813.jpg",
+    "gld_id": "3c9143e962a7d813",
+    "split": "reference",
+    "author": "Mister No",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_di_Spagna_-_panoramio_(6).jpg",
+    "title": "File:Piazza di Spagna - panoramio (6).jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/1e54b9dad5109be3.jpg",
+    "gld_id": "1e54b9dad5109be3",
+    "split": "reference",
+    "author": "tamara semina",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome,_Italy_-_panoramio_(30).jpg",
+    "title": "File:Rome, Italy - panoramio (30).jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/3af4198135eee0b7.jpg",
+    "gld_id": "3af4198135eee0b7",
+    "split": "reference",
+    "author": "Phillip Capper from Wellington, New Zealand",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Spanish_Steps_at_7_am,_Rome,_Sept._2011_-_Flickr_-_PhillipC.jpg",
+    "title": "File:Spanish Steps at 7 am, Rome, Sept. 2011 - Flickr - PhillipC.jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/7f9f24c5d06847bb.jpg",
+    "gld_id": "7f9f24c5d06847bb",
+    "split": "reference",
+    "author": "Andy Hay from UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Babington's_Tea_Rooms,_Rome_(9931235416).jpg",
+    "title": "File:Babington's Tea Rooms, Rome (9931235416).jpg"
+   },
+   {
+    "file": "landmarks/spanish-steps/aacfa3a835bf4981.jpg",
+    "gld_id": "aacfa3a835bf4981",
+    "split": "reference",
+    "author": "Nicola.gelmi",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Scalinata_di_piazza_Spagna.jpg",
+    "title": "File:Scalinata di piazza Spagna.jpg"
+   }
+  ],
+  "st-peters-basilica": [
+   {
+    "file": "landmarks/st-peters-basilica/3837e573174e5469.jpg",
+    "gld_id": "3837e573174e5469",
+    "split": "test",
+    "author": "trukdotcom",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Front_of_St._Peter's_Basilica_-_panoramio.jpg",
+    "title": "File:Front of St. Peter's Basilica - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/17662be62cae5faf.jpg",
+    "gld_id": "17662be62cae5faf",
+    "split": "test",
+    "author": "Guillaume Baviere from Uppsala, Sweden",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Italy_2018-04-21_(27726876097).jpg",
+    "title": "File:Italy 2018-04-21 (27726876097).jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/07b3233018869477.jpg",
+    "gld_id": "07b3233018869477",
+    "split": "test",
+    "author": "Андрей Бобровский",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%98%D1%82%D0%B0%D0%BB%D0%B8%D1%8F_-_panoramio_(41).jpg",
+    "title": "File:Италия - panoramio (41).jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/ac47fc7f158a5e73.jpg",
+    "gld_id": "ac47fc7f158a5e73",
+    "split": "test",
+    "author": "Halina Frederiksen",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_panoramio_-_Halina_Frederiksen_(5).jpg",
+    "title": "File:Roma - panoramio - Halina Frederiksen (5).jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/4404677d7d719653.jpg",
+    "gld_id": "4404677d7d719653",
+    "split": "reference",
+    "author": "Nikolai Karaneschev",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_Basilica_di_San_Pietro_in_Vaticano_-_panoramio.jpg",
+    "title": "File:Roma Basilica di San Pietro in Vaticano - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/29e5b53f1464c3ab.jpg",
+    "gld_id": "29e5b53f1464c3ab",
+    "split": "reference",
+    "author": "Kaan Yurdakul",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Insight_Vaticano_(232952413).jpeg",
+    "title": "File:Insight Vaticano (232952413).jpeg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/37eea49a61e17f3e.jpg",
+    "gld_id": "37eea49a61e17f3e",
+    "split": "reference",
+    "author": "Vadim Zhivotovsky",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Basilica_di_San_Pietro_-_panoramio_(21).jpg",
+    "title": "File:Basilica di San Pietro - panoramio (21).jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/49c716b941c4b0f8.jpg",
+    "gld_id": "49c716b941c4b0f8",
+    "split": "reference",
+    "author": "Lech_Darski",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Watykan._Bazylika_%C5%9Bw._Piotra._-_panoramio.jpg",
+    "title": "File:Watykan. Bazylika św. Piotra. - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/6832311ff1bd1fdc.jpg",
+    "gld_id": "6832311ff1bd1fdc",
+    "split": "reference",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Saint_Peter_Basilica_05_2018_0001.jpg",
+    "title": "File:Saint Peter Basilica 05 2018 0001.jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/234b5c16bba9dad1.jpg",
+    "gld_id": "234b5c16bba9dad1",
+    "split": "reference",
+    "author": "Nikolai Karaneschev",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:ROMA_Basilica_di_San_Pietro_in_Vaticano_-_panoramio_(1).jpg",
+    "title": "File:ROMA Basilica di San Pietro in Vaticano - panoramio (1).jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/aaa318186c9b38a7.jpg",
+    "gld_id": "aaa318186c9b38a7",
+    "split": "reference",
+    "author": "林高志",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%E6%A2%B5%E8%92%82%E5%B2%A1%E8%81%96%E5%BD%BC%E5%BE%97%E5%A4%A7%E6%95%99%E5%A0%822.jpg",
+    "title": "File:梵蒂岡聖彼得大教堂2.jpg"
+   },
+   {
+    "file": "landmarks/st-peters-basilica/43fefbd0770608cd.jpg",
+    "gld_id": "43fefbd0770608cd",
+    "split": "reference",
+    "author": "Nono vlf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Basilique_Saint-Pierre,_Vatican.jpg",
+    "title": "File:Basilique Saint-Pierre, Vatican.jpg"
+   }
+  ],
+  "tempietto-del-bramante": [
+   {
+    "file": "landmarks/tempietto-del-bramante/dfe78cea32b31921.jpg",
+    "gld_id": "dfe78cea32b31921",
+    "split": "test",
+    "author": "Quinok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:004Tempietto-San-Pietro-in-Montorio-Rome.jpg",
+    "title": "File:004Tempietto-San-Pietro-in-Montorio-Rome.jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/ac2c648af1284c22.jpg",
+    "gld_id": "ac2c648af1284c22",
+    "split": "test",
+    "author": "JTSH26",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempietto_und_Glockenturm_von_San_Pietro_in_Montorio.jpg",
+    "title": "File:Tempietto und Glockenturm von San Pietro in Montorio.jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/cdbac361f756ec3a.jpg",
+    "gld_id": "cdbac361f756ec3a",
+    "split": "reference",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Tempietto_del_Bramante_(2).jpg",
+    "title": "File:Roma, Tempietto del Bramante (2).jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/a53733ff26c6a074.jpg",
+    "gld_id": "a53733ff26c6a074",
+    "split": "reference",
+    "author": "JTSH26",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempietto,_Kuppel_und_Laterne.jpg",
+    "title": "File:Tempietto, Kuppel und Laterne.jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/16bf83de4ae0512b.jpg",
+    "gld_id": "16bf83de4ae0512b",
+    "split": "reference",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Tempietto_del_Bramante_(3).jpg",
+    "title": "File:Roma, Tempietto del Bramante (3).jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/2987731648ec2211.jpg",
+    "gld_id": "2987731648ec2211",
+    "split": "reference",
+    "author": "JTSH26",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempietto,_Haupteingang.jpg",
+    "title": "File:Tempietto, Haupteingang.jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/83ca3d82b15cc312.jpg",
+    "gld_id": "83ca3d82b15cc312",
+    "split": "reference",
+    "author": "Oreikiko",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Iglesia_de_San_Pietro_in_Montorio.JPG",
+    "title": "File:Iglesia de San Pietro in Montorio.JPG"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/7a8da620cd38c2a7.jpg",
+    "gld_id": "7a8da620cd38c2a7",
+    "split": "reference",
+    "author": "Herbert Weber, Hildesheim",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempietto_di_Bramante02783.jpg",
+    "title": "File:Tempietto di Bramante02783.jpg"
+   },
+   {
+    "file": "landmarks/tempietto-del-bramante/4e42e0ed46dde158.jpg",
+    "gld_id": "4e42e0ed46dde158",
+    "split": "reference",
+    "author": "Quinok",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:007Tempietto-San-Pietro-in-Montorio-Rome.jpg",
+    "title": "File:007Tempietto-San-Pietro-in-Montorio-Rome.jpg"
+   }
+  ],
+  "temple-of-antoninus-and-faustina": [
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/68118611a6a57a0e.jpg",
+    "gld_id": "68118611a6a57a0e",
+    "split": "test",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_(29104777).jpg",
+    "title": "File:Rome (29104777).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/eb68993653df3f8f.jpg",
+    "gld_id": "eb68993653df3f8f",
+    "split": "test",
+    "author": "Palickap",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma,_Tempio_di_Antonio_e_Faustina_(2).jpg",
+    "title": "File:Roma, Tempio di Antonio e Faustina (2).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/824168cbabbb4f2c.jpg",
+    "gld_id": "824168cbabbb4f2c",
+    "split": "test",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_(29105014).jpg",
+    "title": "File:Rome (29105014).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/cda7efc273c65a4f.jpg",
+    "gld_id": "cda7efc273c65a4f",
+    "split": "test",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Antoninus_and_Faustina,_Roman_Forum_(32525573448).jpg",
+    "title": "File:Temple of Antoninus and Faustina, Roman Forum (32525573448).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/297a3ddfde1fd74e.jpg",
+    "gld_id": "297a3ddfde1fd74e",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Antoninus_and_Faustina,_Roman_Forum_(46397756141).jpg",
+    "title": "File:Temple of Antoninus and Faustina, Roman Forum (46397756141).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/17485bc3b458d3a4.jpg",
+    "gld_id": "17485bc3b458d3a4",
+    "split": "reference",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_(29105296).jpg",
+    "title": "File:Rome (29105296).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/684759669112e75a.jpg",
+    "gld_id": "684759669112e75a",
+    "split": "reference",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Divus_Antoninus_Pius_and_Diva_Faustina,_Upper_Via_Sacra,_Rome_(32278135013).jpg",
+    "title": "File:Temple of Divus Antoninus Pius and Diva Faustina, Upper Via Sacra, Rome (32278135013).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/a53d4080037313b7.jpg",
+    "gld_id": "a53d4080037313b7",
+    "split": "reference",
+    "author": "Rita1234",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome_Forum_Romanum_Temple_Antoninus_Faustina3.JPG",
+    "title": "File:Rome Forum Romanum Temple Antoninus Faustina3.JPG"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/cd67ffbc25377920.jpg",
+    "gld_id": "cd67ffbc25377920",
+    "split": "reference",
+    "author": "Mikhail Malykh",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D0%BB%D0%BE%D0%BD%D0%B0%D0%B4%D0%B0_%D1%85%D1%80%D0%B0%D0%BC%D0%B0_%D0%90%D0%BD%D1%82%D0%BE%D0%BD%D0%B8%D0%BD%D0%B0_%D0%B8_%D0%A4%D0%B0%D1%83%D1%81%D1%82%D0%B8%D0%BD%D1%8B_-_panoramio.jpg",
+    "title": "File:Колонада храма Антонина и Фаустины - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/ac7d656419cf1159.jpg",
+    "gld_id": "ac7d656419cf1159",
+    "split": "reference",
+    "author": "José Luiz Alternative namesJbribeiro1",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Side_view_of_the_Temple_of_Antoninus_and_Faustina_-_Rome_2016.jpg",
+    "title": "File:Side view of the Temple of Antoninus and Faustina - Rome 2016.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/a55139db41cce86f.jpg",
+    "gld_id": "a55139db41cce86f",
+    "split": "reference",
+    "author": "Xosema",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Foro_Romano_-_002_-_Templo_de_Antonino_y_Faustina.jpg",
+    "title": "File:Roma - Foro Romano - 002 - Templo de Antonino y Faustina.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/367df8c566b55591.jpg",
+    "gld_id": "367df8c566b55591",
+    "split": "reference",
+    "author": "edwin.11",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Foro_Romano_(492456194).jpg",
+    "title": "File:Foro Romano (492456194).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/601bf32684e28626.jpg",
+    "gld_id": "601bf32684e28626",
+    "split": "reference",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Divus_Antoninus_Pius_and_Diva_Faustina,_Upper_Via_Sacra,_Rome_(32966301501).jpg",
+    "title": "File:Temple of Divus Antoninus Pius and Diva Faustina, Upper Via Sacra, Rome (32966301501).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-antoninus-and-faustina/231730505097d33b.jpg",
+    "gld_id": "231730505097d33b",
+    "split": "reference",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Divus_Antoninus_Pius_and_Diva_Faustina,_Upper_Via_Sacra,_Rome_(32248348154).jpg",
+    "title": "File:Temple of Divus Antoninus Pius and Diva Faustina, Upper Via Sacra, Rome (32248348154).jpg"
+   }
+  ],
+  "temple-of-hercules-victor": [
+   {
+    "file": "landmarks/temple-of-hercules-victor/aa989cfe93921788.jpg",
+    "gld_id": "aa989cfe93921788",
+    "split": "test",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:H%C3%A9rcules_Victor_Roma_01.jpg",
+    "title": "File:Hércules Victor Roma 01.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/6573c4a77f65d32d.jpg",
+    "gld_id": "6573c4a77f65d32d",
+    "split": "test",
+    "author": "Yair Haklai",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Hercules-Forum_Boarium-Rome.jpg",
+    "title": "File:Temple of Hercules-Forum Boarium-Rome.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/2986670d855ccec6.jpg",
+    "gld_id": "2986670d855ccec6",
+    "split": "test",
+    "author": "Pierfelice Licitra",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Ercole_-_panoramio_(2).jpg",
+    "title": "File:Tempio di Ercole - panoramio (2).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/3c9c1c831d345bae.jpg",
+    "gld_id": "3c9c1c831d345bae",
+    "split": "test",
+    "author": "PsyCat",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Hercules_2_-_Rome,_Italy.jpg",
+    "title": "File:Temple of Hercules 2 - Rome, Italy.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/3cbaef7920cd50a5.jpg",
+    "gld_id": "3cbaef7920cd50a5",
+    "split": "reference",
+    "author": "-JvL- from Netherlands",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Hercules_Victor_(13976241573).jpg",
+    "title": "File:Temple of Hercules Victor (13976241573).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/172ecd9866ec6b86.jpg",
+    "gld_id": "172ecd9866ec6b86",
+    "split": "reference",
+    "author": "",
+    "license": "CC BY-SA 2.5",
+    "license_url": "http://creativecommons.org/licenses/by-sa/2.5",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_tempio_di_ercole.JPG",
+    "title": "File:Roma - tempio di ercole.JPG"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/4c3aa6ef0c71e5c1.jpg",
+    "gld_id": "4c3aa6ef0c71e5c1",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:H%C3%A9rcules_Victor_Roma_03.jpg",
+    "title": "File:Hércules Victor Roma 03.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/023f926fe9613b71.jpg",
+    "gld_id": "023f926fe9613b71",
+    "split": "reference",
+    "author": "Pierfelice Licitra",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Vesta_-_panoramio.jpg",
+    "title": "File:Tempio di Vesta - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/a51e3ed167b9f8ff.jpg",
+    "gld_id": "a51e3ed167b9f8ff",
+    "split": "reference",
+    "author": "Rabax63",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempel_Hercules_Victor_(Rom).jpg",
+    "title": "File:Tempel Hercules Victor (Rom).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/2382978028a0abb2.jpg",
+    "gld_id": "2382978028a0abb2",
+    "split": "reference",
+    "author": "Gianluca.andronaco",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Ercole_vincitore.jpg",
+    "title": "File:Tempio di Ercole vincitore.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/aaac18740e21307e.jpg",
+    "gld_id": "aaac18740e21307e",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Mausoleo_romano.jpg",
+    "title": "File:Mausoleo romano.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-hercules-victor/1a9192d5cb32fc7a.jpg",
+    "gld_id": "1a9192d5cb32fc7a",
+    "split": "reference",
+    "author": "gnuckx",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Hercules_(Rome)_(3492384864).jpg",
+    "title": "File:Temple of Hercules (Rome) (3492384864).jpg"
+   }
+  ],
+  "temple-of-portunus": [
+   {
+    "file": "landmarks/temple-of-portunus/358037f82ac5897d.jpg",
+    "gld_id": "358037f82ac5897d",
+    "split": "test",
+    "author": "Joël Thibault",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Forum_Boarium_montage.png",
+    "title": "File:Forum Boarium montage.png"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/0293c19465f470b1.jpg",
+    "gld_id": "0293c19465f470b1",
+    "split": "test",
+    "author": "David Sánchez Núñez",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_panoramio_-_David_S%C3%A1nchez_N%C3%BA%C3%B1ez.jpg",
+    "title": "File:Roma - panoramio - David Sánchez Núñez.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/83b521646e69cab9.jpg",
+    "gld_id": "83b521646e69cab9",
+    "split": "test",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:10565_-_Rome_-_Temples_of_the_Forum_Boarium_(3507032090).jpg",
+    "title": "File:10565 - Rome - Temples of the Forum Boarium (3507032090).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/e013ff83126f22e7.jpg",
+    "gld_id": "e013ff83126f22e7",
+    "split": "test",
+    "author": "",
+    "license": "CC BY-SA 2.5",
+    "license_url": "http://creativecommons.org/licenses/by-sa/2.5",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Tempio_di_portunus03.jpg",
+    "title": "File:Roma - Tempio di portunus03.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/aaafbe40629013a8.jpg",
+    "gld_id": "aaafbe40629013a8",
+    "split": "reference",
+    "author": "Benjamín Núñez González",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Templo_de_Portuno,_Roma,_2017_04.jpg",
+    "title": "File:Templo de Portuno, Roma, 2017 04.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/9118d2fca5bf10ba.jpg",
+    "gld_id": "9118d2fca5bf10ba",
+    "split": "reference",
+    "author": "Benjamín Núñez González",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Templo_de_Portuno,_Roma,_2017_02.jpg",
+    "title": "File:Templo de Portuno, Roma, 2017 02.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/aaf3b492052d984a.jpg",
+    "gld_id": "aaf3b492052d984a",
+    "split": "reference",
+    "author": "Anthony M. from Rome, Italy",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_portunus_front.jpg",
+    "title": "File:Temple of portunus front.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/a4ef17ece7a1f727.jpg",
+    "gld_id": "a4ef17ece7a1f727",
+    "split": "reference",
+    "author": "Institute for the Study of the Ancient World from New York, United States of America",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:The_Temple_of_Portunus_(I)_(4924152593).jpg",
+    "title": "File:The Temple of Portunus (I) (4924152593).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/3b324a6a7d496358.jpg",
+    "gld_id": "3b324a6a7d496358",
+    "split": "reference",
+    "author": "Miguel Hermoso Cuesta",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Foro_Boario_Portuno_02.jpg",
+    "title": "File:Foro Boario Portuno 02.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/4cd929fa420c8dbd.jpg",
+    "gld_id": "4cd929fa420c8dbd",
+    "split": "reference",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2016_Tempio_di_Portuno.jpg",
+    "title": "File:2016 Tempio di Portuno.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/3814b982b0421514.jpg",
+    "gld_id": "3814b982b0421514",
+    "split": "reference",
+    "author": "Laci30",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_XII_Ripa,_Roma,_Italy_-_panoramio_-_Laci30_(3).jpg",
+    "title": "File:Rione XII Ripa, Roma, Italy - panoramio - Laci30 (3).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-portunus/22d825bcab884d7b.jpg",
+    "gld_id": "22d825bcab884d7b",
+    "split": "reference",
+    "author": "Benjamín Núñez González",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Templo_de_Portuno,_Roma,_2017_03.jpg",
+    "title": "File:Templo de Portuno, Roma, 2017 03.jpg"
+   }
+  ],
+  "temple-of-venus-and-roma": [
+   {
+    "file": "landmarks/temple-of-venus-and-roma/65d901c265a871ab.jpg",
+    "gld_id": "65d901c265a871ab",
+    "split": "test",
+    "author": "Florian Decker, Messdiener Winterbach",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Kolosseum_Rom_07.jpg",
+    "title": "File:Kolosseum Rom 07.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/43b61720bddbabcc.jpg",
+    "gld_id": "43b61720bddbabcc",
+    "split": "test",
+    "author": "Carlo Pelagalli",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Venere_-_panoramio_(1).jpg",
+    "title": "File:Tempio di Venere - panoramio (1).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/060ecff59c50af37.jpg",
+    "gld_id": "060ecff59c50af37",
+    "split": "test",
+    "author": "Carlo Pelagalli",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Venere,_dal_Colosseo._-_panoramio.jpg",
+    "title": "File:Tempio di Venere, dal Colosseo. - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/4bcd0d2319f2e8e8.jpg",
+    "gld_id": "4bcd0d2319f2e8e8",
+    "split": "reference",
+    "author": "Carole Raddato from FRANKFURT, Germany",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temple_of_Venus_and_Roma,_Upper_Via_Sacra,_Rome_(32726723925).jpg",
+    "title": "File:Temple of Venus and Roma, Upper Via Sacra, Rome (32726723925).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/237f24edf1323b61.jpg",
+    "gld_id": "237f24edf1323b61",
+    "split": "reference",
+    "author": "lienyuan lee",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_di_Santa_Francesca_Romana_%E8%81%96%E6%96%B9%E6%BF%9F%E5%8A%A0%E5%BB%A3%E5%A0%B4_-_panoramio.jpg",
+    "title": "File:Piazza di Santa Francesca Romana 聖方濟加廣場 - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/4e333ac249153258.jpg",
+    "gld_id": "4e333ac249153258",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Colosseum_(09).jpg",
+    "title": "File:Colosseum (09).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/4bfcfa36b7dc44f5.jpg",
+    "gld_id": "4bfcfa36b7dc44f5",
+    "split": "reference",
+    "author": "Lalupa",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Venere_e_Roma_-_cella_Roma_170047.JPG",
+    "title": "File:Venere e Roma - cella Roma 170047.JPG"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/aae1bc7d489e5820.jpg",
+    "gld_id": "aae1bc7d489e5820",
+    "split": "reference",
+    "author": "Colin W",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Temples_of_Venere_and_Roma,_Via_Sacra,_Rome_-_panoramio_-_Colin_W.jpg",
+    "title": "File:Temples of Venere and Roma, Via Sacra, Rome - panoramio - Colin W.jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/020eb2e74ebd0322.jpg",
+    "gld_id": "020eb2e74ebd0322",
+    "split": "reference",
+    "author": "Mister No",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Tempio_di_Venere_e_Roma_-_panoramio_(6).jpg",
+    "title": "File:Tempio di Venere e Roma - panoramio (6).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/659d09cd5b83d171.jpg",
+    "gld_id": "659d09cd5b83d171",
+    "split": "reference",
+    "author": "Ra Boe",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rom_41_(RaBoe).jpg",
+    "title": "File:Rom 41 (RaBoe).jpg"
+   },
+   {
+    "file": "landmarks/temple-of-venus-and-roma/4be896097bb86c6b.jpg",
+    "gld_id": "4be896097bb86c6b",
+    "split": "reference",
+    "author": "Michele Campeotto from Italia",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma-MC1.jpg",
+    "title": "File:Roma-MC1.jpg"
+   }
+  ],
+  "theatre-of-marcellus": [
+   {
+    "file": "landmarks/theatre-of-marcellus/3136506ce931b7ed.jpg",
+    "gld_id": "3136506ce931b7ed",
+    "split": "test",
+    "author": "jeffwarder",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Teatro_di_Marcellus_-_Tempio_di_Apollo_Sosiano_-_view_-_panoramio.jpg",
+    "title": "File:Roma - Teatro di Marcellus - Tempio di Apollo Sosiano - view - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/3822a69d4d67e2b4.jpg",
+    "gld_id": "3822a69d4d67e2b4",
+    "split": "test",
+    "author": "MarkusMark",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:049TeatroMarcello.jpg",
+    "title": "File:049TeatroMarcello.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/0308aca4bd4b7c14.jpg",
+    "gld_id": "0308aca4bd4b7c14",
+    "split": "test",
+    "author": "Mr.Ajedrez",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Teatro_di_Marcello.JPG",
+    "title": "File:Teatro di Marcello.JPG"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/35c2c1f33aeae497.jpg",
+    "gld_id": "35c2c1f33aeae497",
+    "split": "test",
+    "author": "Veronidae",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Coliseo_2013_009.jpg",
+    "title": "File:Coliseo 2013 009.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/681f2a33bc47d879.jpg",
+    "gld_id": "681f2a33bc47d879",
+    "split": "reference",
+    "author": "Jorge Manriquez P.",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Teatro_Marcello_-_Roma_-_panoramio.jpg",
+    "title": "File:Teatro Marcello - Roma - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/29b714c63ff5b0eb.jpg",
+    "gld_id": "29b714c63ff5b0eb",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Theatre_of_Marcellus_in_2018.06.jpg",
+    "title": "File:Theatre of Marcellus in 2018.06.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/ca26dcf6f7d19c56.jpg",
+    "gld_id": "ca26dcf6f7d19c56",
+    "split": "reference",
+    "author": "trukdotcom",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Teatro_Marcello_-_panoramio_(1).jpg",
+    "title": "File:Teatro Marcello - panoramio (1).jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/2345b798ddcaeb8d.jpg",
+    "gld_id": "2345b798ddcaeb8d",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Theatre_of_Marcellus_in_2018.04.jpg",
+    "title": "File:Theatre of Marcellus in 2018.04.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/2358c32fde611e7a.jpg",
+    "gld_id": "2358c32fde611e7a",
+    "split": "reference",
+    "author": "Art Anderson",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Theatre_of_Marcellus_-_panoramio.jpg",
+    "title": "File:Theatre of Marcellus - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/365abfd8ea16a44f.jpg",
+    "gld_id": "365abfd8ea16a44f",
+    "split": "reference",
+    "author": "trukdotcom",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Old_and_New_Columns_in_Teatro_Marcello_-_panoramio.jpg",
+    "title": "File:Old and New Columns in Teatro Marcello - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/theatre-of-marcellus/499176fe9f59633d.jpg",
+    "gld_id": "499176fe9f59633d",
+    "split": "reference",
+    "author": "Mister No",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Portico_d'Ottavia_-_panoramio.jpg",
+    "title": "File:Portico d'Ottavia - panoramio.jpg"
+   }
+  ],
+  "trajans-market": [
+   {
+    "file": "landmarks/trajans-market/4a0eaacb0e4a82f4.jpg",
+    "gld_id": "4a0eaacb0e4a82f4",
+    "split": "test",
+    "author": "Michael Wittwer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rom_2015_-_Trajansm%C3%A4rkte.jpg",
+    "title": "File:Rom 2015 - Trajansmärkte.jpg"
+   },
+   {
+    "file": "landmarks/trajans-market/380566391eb01f4e.jpg",
+    "gld_id": "380566391eb01f4e",
+    "split": "reference",
+    "author": "FOTO:Fortepan — ID 59625: Adományozó/Donor: Urban, Roberto.",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:A_Traianus_f%C3%B3rum_%C3%A9s_a_Torre_delle_Milizie_a_II._Viktor_Em%C3%A1nuel_eml%C3%A9km%C5%B1r%C5%91l_n%C3%A9zve._Fortepan_59625.jpg",
+    "title": "File:A Traianus fórum és a Torre delle Milizie a II. Viktor Emánuel emlékműről nézve. Fortepan 59625.jpg"
+   },
+   {
+    "file": "landmarks/trajans-market/29ed80ac66bd7f77.jpg",
+    "gld_id": "29ed80ac66bd7f77",
+    "split": "reference",
+    "author": "Mr.Ajedrez",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trajan's_Forum.JPG",
+    "title": "File:Trajan's Forum.JPG"
+   },
+   {
+    "file": "landmarks/trajans-market/8d4e93e0e7e05822.jpg",
+    "gld_id": "8d4e93e0e7e05822",
+    "split": "reference",
+    "author": "Rabax63",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trajansmarkt.jpg",
+    "title": "File:Trajansmarkt.jpg"
+   },
+   {
+    "file": "landmarks/trajans-market/529b52e70af582e8.jpg",
+    "gld_id": "529b52e70af582e8",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Mercati_di_traiano,_17.JPG",
+    "title": "File:Mercati di traiano, 17.JPG"
+   },
+   {
+    "file": "landmarks/trajans-market/e0351aa94a88ee58.jpg",
+    "gld_id": "e0351aa94a88ee58",
+    "split": "reference",
+    "author": "Geobia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:905RomaMercatiTraiano.JPG",
+    "title": "File:905RomaMercatiTraiano.JPG"
+   },
+   {
+    "file": "landmarks/trajans-market/028ae3946c629672.jpg",
+    "gld_id": "028ae3946c629672",
+    "split": "reference",
+    "author": "Mikhail Malykh",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_X_Campitelli,_00186_Roma,_Italy_-_panoramio_(126).jpg",
+    "title": "File:Rione X Campitelli, 00186 Roma, Italy - panoramio (126).jpg"
+   },
+   {
+    "file": "landmarks/trajans-market/23b2cc4253f816e5.jpg",
+    "gld_id": "23b2cc4253f816e5",
+    "split": "reference",
+    "author": "Sailko",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Mercati_di_traiano,_10.JPG",
+    "title": "File:Mercati di traiano, 10.JPG"
+   },
+   {
+    "file": "landmarks/trajans-market/b3f700537006d352.jpg",
+    "gld_id": "b3f700537006d352",
+    "split": "reference",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trajan's_Market_(29117192).jpg",
+    "title": "File:Trajan's Market (29117192).jpg"
+   }
+  ],
+  "trevi-fountain": [
+   {
+    "file": "landmarks/trevi-fountain/07e0b3708c9c8b58.jpg",
+    "gld_id": "07e0b3708c9c8b58",
+    "split": "test",
+    "author": "No machine-readable author provided. Wikimediawikimedia assumed (based on copyright claims).",
+    "license": "CC BY-SA 2.5",
+    "license_url": "http://creativecommons.org/licenses/by-sa/2.5",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontanaditrevi.jpg",
+    "title": "File:Fontanaditrevi.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/36137eabb4324714.jpg",
+    "gld_id": "36137eabb4324714",
+    "split": "test",
+    "author": "edwin.11",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_(492457980).jpg",
+    "title": "File:Fontana di Trevi (492457980).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/43a3adb84e4e7976.jpg",
+    "gld_id": "43a3adb84e4e7976",
+    "split": "test",
+    "author": "Alberto-g-rovi",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_trevi-roma.JPG",
+    "title": "File:Fontana di trevi-roma.JPG"
+   },
+   {
+    "file": "landmarks/trevi-fountain/4df7a6aed621d03b.jpg",
+    "gld_id": "4df7a6aed621d03b",
+    "split": "test",
+    "author": "Alex Proimos from Sydney, Australia",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_-_Rome,_Italy_(5941818757).jpg",
+    "title": "File:Fontana di Trevi - Rome, Italy (5941818757).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/4d3c94a54bbdf09b.jpg",
+    "gld_id": "4d3c94a54bbdf09b",
+    "split": "test",
+    "author": "Jiouk Design",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rome,_Italie_(5).jpg",
+    "title": "File:Rome, Italie (5).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/910b5fa8936a25b3.jpg",
+    "gld_id": "910b5fa8936a25b3",
+    "split": "reference",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trevi_fountain_(29119070).jpg",
+    "title": "File:Trevi fountain (29119070).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/1821071b6b20cf3c.jpg",
+    "gld_id": "1821071b6b20cf3c",
+    "split": "reference",
+    "author": "Dora Dragoni",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_(front)_-_panoramio.jpg",
+    "title": "File:Fontana di Trevi (front) - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/05fd34bcd95bd666.jpg",
+    "gld_id": "05fd34bcd95bd666",
+    "split": "reference",
+    "author": "Thomas Fabian",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_Di_Trevi_(182952967).jpeg",
+    "title": "File:Fontana Di Trevi (182952967).jpeg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/17146a2dfba547e6.jpg",
+    "gld_id": "17146a2dfba547e6",
+    "split": "reference",
+    "author": "Валерий Дед",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_2006_-_panoramio.jpg",
+    "title": "File:Fontana di Trevi 2006 - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/826fedb9bfadd4c4.jpg",
+    "gld_id": "826fedb9bfadd4c4",
+    "split": "reference",
+    "author": "Yellow.Cat from Roma, Italy",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trevi_Fountain_-_central_group_statues_(5832851534).jpg",
+    "title": "File:Trevi Fountain - central group statues (5832851534).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/9130baa05643d459.jpg",
+    "gld_id": "9130baa05643d459",
+    "split": "reference",
+    "author": "Veronidae",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_de_Trevi_2013_002.jpg",
+    "title": "File:Fontana de Trevi 2013 002.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/23b47d196b3a44c9.jpg",
+    "gld_id": "23b47d196b3a44c9",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_Trevi_Fountain_(46504684591).jpg",
+    "title": "File:Fontana di Trevi Trevi Fountain (46504684591).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/02fc6b900ebeef5f.jpg",
+    "gld_id": "02fc6b900ebeef5f",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_Trevi_Fountain_(46504692801).jpg",
+    "title": "File:Fontana di Trevi Trevi Fountain (46504692801).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/ca349706d50ee26d.jpg",
+    "gld_id": "ca349706d50ee26d",
+    "split": "reference",
+    "author": "Halina Frederiksen",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_panoramio_-_Halina_Frederiksen_(204).jpg",
+    "title": "File:Roma - panoramio - Halina Frederiksen (204).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/ad8062407bab290e.jpg",
+    "gld_id": "ad8062407bab290e",
+    "split": "reference",
+    "author": "Ragusaibla",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2_Fontana_di_Trevi.PNG",
+    "title": "File:2 Fontana di Trevi.PNG"
+   },
+   {
+    "file": "landmarks/trevi-fountain/dfee995e6bd75c2a.jpg",
+    "gld_id": "dfee995e6bd75c2a",
+    "split": "reference",
+    "author": "MarkusMark",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:130FontanaDiTrevi.JPG",
+    "title": "File:130FontanaDiTrevi.JPG"
+   },
+   {
+    "file": "landmarks/trevi-fountain/683a7b63cb9dc1f9.jpg",
+    "gld_id": "683a7b63cb9dc1f9",
+    "split": "reference",
+    "author": "Veronidae",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_de_Trevi_2013_001.jpg",
+    "title": "File:Fontana de Trevi 2013 001.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/43b793f57df04d68.jpg",
+    "gld_id": "43b793f57df04d68",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_di_Trevi_Trevi_Fountain_(32631801078).jpg",
+    "title": "File:Fontana di Trevi Trevi Fountain (32631801078).jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/29c4a960497c60bf.jpg",
+    "gld_id": "29c4a960497c60bf",
+    "split": "reference",
+    "author": "Michael Haupt",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Fontana_Di_Trevi_-_panoramio.jpg",
+    "title": "File:Fontana Di Trevi - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/trevi-fountain/ad8f931e2601f75a.jpg",
+    "gld_id": "ad8f931e2601f75a",
+    "split": "reference",
+    "author": "jimmyweee",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Trevi_fountain,_Rome,_Italy_(5539902893).jpg",
+    "title": "File:Trevi fountain, Rome, Italy (5539902893).jpg"
+   }
+  ],
+  "vittoriano": [
+   {
+    "file": "landmarks/vittoriano/3617e7a6564fed5f.jpg",
+    "gld_id": "3617e7a6564fed5f",
+    "split": "test",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria_din_Roma15.jpg",
+    "title": "File:Altare della Patria din Roma15.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/35e99c50f32ec080.jpg",
+    "gld_id": "35e99c50f32ec080",
+    "split": "test",
+    "author": "Alvesgaspar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altar_della_Patria_September_2015-1.jpg",
+    "title": "File:Altar della Patria September 2015-1.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/4d073f41645afd2e.jpg",
+    "gld_id": "4d073f41645afd2e",
+    "split": "test",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria-July_2016_(21).jpg",
+    "title": "File:Altare della Patria-July 2016 (21).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/363c320d6db65f8b.jpg",
+    "gld_id": "363c320d6db65f8b",
+    "split": "test",
+    "author": "Uccio “Uccio2” D'Ago…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_X_Campitelli,_00186_Roma,_Italy_-_panoramio_(9).jpg",
+    "title": "File:Rione X Campitelli, 00186 Roma, Italy - panoramio (9).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/29e18a6b08526f2f.jpg",
+    "gld_id": "29e18a6b08526f2f",
+    "split": "test",
+    "author": "lienyuan lee",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%E7%B6%AD%E6%89%98%E9%87%8C%E4%BA%9E%E8%AB%BE_Altar_of_the_Fatherland_-_panoramio.jpg",
+    "title": "File:維托里亞諾 Altar of the Fatherland - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/188b94fc9e609204.jpg",
+    "gld_id": "188b94fc9e609204",
+    "split": "test",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria_din_Roma7.jpg",
+    "title": "File:Altare della Patria din Roma7.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/6035ed8826ca46fe.jpg",
+    "gld_id": "6035ed8826ca46fe",
+    "split": "test",
+    "author": "Michal Gorski",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_X_Campitelli,_00186_Roma,_Italy_-_panoramio_(25).jpg",
+    "title": "File:Rione X Campitelli, 00186 Roma, Italy - panoramio (25).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/062371caa37b0ca7.jpg",
+    "gld_id": "062371caa37b0ca7",
+    "split": "test",
+    "author": "Islandoftrees",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2015-10-06_Monumento_Nazionale_a_Vittorio_Emanuele_II.jpeg",
+    "title": "File:2015-10-06 Monumento Nazionale a Vittorio Emanuele II.jpeg"
+   },
+   {
+    "file": "landmarks/vittoriano/43edd8b48245ac09.jpg",
+    "gld_id": "43edd8b48245ac09",
+    "split": "test",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Festa_della_Repubblica_08.JPG",
+    "title": "File:Festa della Repubblica 08.JPG"
+   },
+   {
+    "file": "landmarks/vittoriano/440247ab79e30e5c.jpg",
+    "gld_id": "440247ab79e30e5c",
+    "split": "test",
+    "author": "BrsJvnvc",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_panoramio_(34).jpg",
+    "title": "File:Roma - panoramio (34).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/3aee4c88e12d97c2.jpg",
+    "gld_id": "3aee4c88e12d97c2",
+    "split": "test",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Festa_della_Repubblica_03.JPG",
+    "title": "File:Festa della Repubblica 03.JPG"
+   },
+   {
+    "file": "landmarks/vittoriano/eb27630bf4f5ed90.jpg",
+    "gld_id": "eb27630bf4f5ed90",
+    "split": "test",
+    "author": "nikola_pu",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano_-_panoramio.jpg",
+    "title": "File:Vittoriano - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/05da25efede11865.jpg",
+    "gld_id": "05da25efede11865",
+    "split": "test",
+    "author": "Martin Furtschegger",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altar_des_Vaterlandes_auf_der_Piazza_Venezia,_Rom_-_panoramio.jpg",
+    "title": "File:Altar des Vaterlandes auf der Piazza Venezia, Rom - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/360b42c7adba5120.jpg",
+    "gld_id": "360b42c7adba5120",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano_(Rome)_2018_08.jpg",
+    "title": "File:Vittoriano (Rome) 2018 08.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/298c21ca34565d3c.jpg",
+    "gld_id": "298c21ca34565d3c",
+    "split": "reference",
+    "author": "Russell Yarwood from Costa Mesa, United States",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano_(29117548).jpg",
+    "title": "File:Vittoriano (29117548).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/171edc196445bf1b.jpg",
+    "gld_id": "171edc196445bf1b",
+    "split": "reference",
+    "author": "山海风",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%E6%89%93%E5%AD%97%E6%9C%BA_-_panoramio.jpg",
+    "title": "File:打字机 - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/3cbbd20631a17061.jpg",
+    "gld_id": "3cbbd20631a17061",
+    "split": "reference",
+    "author": "jeffwarder",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Roma_-_Monumento_Vittorio_Emanuele_-_panoramio.jpg",
+    "title": "File:Roma - Monumento Vittorio Emanuele - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/7f8dc7ae213dbdd6.jpg",
+    "gld_id": "7f8dc7ae213dbdd6",
+    "split": "reference",
+    "author": "Barbaking",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2012-02-04_Snow_on_Vittoriano_complex_in_Rome.JPG",
+    "title": "File:2012-02-04 Snow on Vittoriano complex in Rome.JPG"
+   },
+   {
+    "file": "landmarks/vittoriano/ca2926fa21198600.jpg",
+    "gld_id": "ca2926fa21198600",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria-July_2016_(33).jpg",
+    "title": "File:Altare della Patria-July 2016 (33).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/65891b41d01bc0f0.jpg",
+    "gld_id": "65891b41d01bc0f0",
+    "split": "reference",
+    "author": "Libera latino",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_patria_roma.jpg",
+    "title": "File:Altare della patria roma.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/174fcb3a67b49417.jpg",
+    "gld_id": "174fcb3a67b49417",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Venezia_in_rome.73.jpg",
+    "title": "File:Piazza Venezia in rome.73.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/43a7dd18c7c5156b.jpg",
+    "gld_id": "43a7dd18c7c5156b",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Monumento_a_Vittorio_Emanuele_II_(44601811780).jpg",
+    "title": "File:Monumento a Vittorio Emanuele II (44601811780).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/aac45ec2734928b2.jpg",
+    "gld_id": "aac45ec2734928b2",
+    "split": "reference",
+    "author": "Edgar El",
+    "license": "CC BY 3.0",
+    "license_url": "http://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rom_-_Monumento_a_Vittorio_Emanuele_II_-_panoramio_(3).jpg",
+    "title": "File:Rom - Monumento a Vittorio Emanuele II - panoramio (3).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/4d14674c3d4b07f0.jpg",
+    "gld_id": "4d14674c3d4b07f0",
+    "split": "reference",
+    "author": "Frank Baulo",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_II_Trevi,_00187_Roma,_Italy_-_panoramio_(21).jpg",
+    "title": "File:Rione II Trevi, 00187 Roma, Italy - panoramio (21).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/07b89e2df722a39f.jpg",
+    "gld_id": "07b89e2df722a39f",
+    "split": "reference",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:2016_-_Vittoriano_(Rome)_02.jpg",
+    "title": "File:2016 - Vittoriano (Rome) 02.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/23b5eaa3d7278f20.jpg",
+    "gld_id": "23b5eaa3d7278f20",
+    "split": "reference",
+    "author": "yeowatzup",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano,_Roma,_Italia_(324467664).jpg",
+    "title": "File:Vittoriano, Roma, Italia (324467664).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/684a26f3cbda1687.jpg",
+    "gld_id": "684a26f3cbda1687",
+    "split": "reference",
+    "author": "Michela95",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano,_Roma.jpg",
+    "title": "File:Vittoriano, Roma.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/6870a4c348675929.jpg",
+    "gld_id": "6870a4c348675929",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Venezia_in_rome.79.jpg",
+    "title": "File:Piazza Venezia in rome.79.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/cda01f19d291e271.jpg",
+    "gld_id": "cda01f19d291e271",
+    "split": "reference",
+    "author": "Uccio “Uccio2” D'Ago…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_X_Campitelli,_00186_Roma,_Italy_-_panoramio_(14).jpg",
+    "title": "File:Rione X Campitelli, 00186 Roma, Italy - panoramio (14).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/3c8c76070125e9c8.jpg",
+    "gld_id": "3c8c76070125e9c8",
+    "split": "reference",
+    "author": "Erik Drost",
+    "license": "CC BY 2.0",
+    "license_url": "http://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:National_Monument_Victor_Emmanuel_II_(5986621153).jpg",
+    "title": "File:National Monument Victor Emmanuel II (5986621153).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/b3ced6f9d83be0b7.jpg",
+    "gld_id": "b3ced6f9d83be0b7",
+    "split": "reference",
+    "author": "Veronidae",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Monumento_a_V%C3%ADctor_Manuel_II_2013_001.jpg",
+    "title": "File:Monumento a Víctor Manuel II 2013 001.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/84060fecf857411c.jpg",
+    "gld_id": "84060fecf857411c",
+    "split": "reference",
+    "author": "Keanu Dölle",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D1%82%D1%82%D0%BE%D1%80%D0%B8%D0%B0%D0%BD%D0%BE.jpg",
+    "title": "File:Витториано.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/23bc017631cf1ddd.jpg",
+    "gld_id": "23bc017631cf1ddd",
+    "split": "reference",
+    "author": "LukeWiller",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0)/GFDL(http://www.gnu.org/copyleft/fdl.html",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Frontone_propileo_di_destra_-_Vittoriano,_Roma.jpg",
+    "title": "File:Frontone propileo di destra - Vittoriano, Roma.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/3ae4e5fb84d2ad98.jpg",
+    "gld_id": "3ae4e5fb84d2ad98",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria-July_2016_(89).jpg",
+    "title": "File:Altare della Patria-July 2016 (89).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/43c8b52eb73b862b.jpg",
+    "gld_id": "43c8b52eb73b862b",
+    "split": "reference",
+    "author": "Djcolella",
+    "license": "CC BY 4.0",
+    "license_url": "http://creativecommons.org/licenses/by/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Gabriele_Casella.jpg",
+    "title": "File:Gabriele Casella.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/29e0287b7c3a8dc3.jpg",
+    "gld_id": "29e0287b7c3a8dc3",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Monumento_a_Vittorio_Emanuele_II_(46418425271).jpg",
+    "title": "File:Monumento a Vittorio Emanuele II (46418425271).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/ac62d2a9352e96f8.jpg",
+    "gld_id": "ac62d2a9352e96f8",
+    "split": "reference",
+    "author": "Vadim Zhivotovsky",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Rione_X_Campitelli,_00186_Roma,_Italy_-_panoramio_(99).jpg",
+    "title": "File:Rione X Campitelli, 00186 Roma, Italy - panoramio (99).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/827cf10c6801c0bf.jpg",
+    "gld_id": "827cf10c6801c0bf",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Vittoriano_(Rome)_2018_07.jpg",
+    "title": "File:Vittoriano (Rome) 2018 07.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/600a2e7d4c7253c9.jpg",
+    "gld_id": "600a2e7d4c7253c9",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Altare_della_Patria-July_2016_(48).jpg",
+    "title": "File:Altare della Patria-July 2016 (48).jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/7fb0cfae8c1f7286.jpg",
+    "gld_id": "7fb0cfae8c1f7286",
+    "split": "reference",
+    "author": "Sorin Craciun",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:The_Vittoriano_in_Rome_-_panoramio.jpg",
+    "title": "File:The Vittoriano in Rome - panoramio.jpg"
+   },
+   {
+    "file": "landmarks/vittoriano/07b2d43ff25e6ae6.jpg",
+    "gld_id": "07b2d43ff25e6ae6",
+    "split": "reference",
+    "author": "CAPTAIN RAJU",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Venezia_in_rome.80.jpg",
+    "title": "File:Piazza Venezia in rome.80.jpg"
+   }
+  ]
+ },
+ "unknown_negatives": [
+  {
+   "file": "landmarks/_unknown/d716af1e6ebfab12.jpg",
+   "gld_id": "d716af1e6ebfab12",
+   "split": "test",
+   "gld_category": "Kinsk%C3%A9ho_zahrada",
+   "author": "This image is a work by Wikipedia and Wikimedia Commons user Aktron. When reusing, please credit me as: Aktron / Wikimedia Commons. I would appreciate being notified if you use my work outside Wikimedia. Do not copy this image illegally by ignoring the terms of the license below, as it is not in the public domain. If you would like special permission to use, license, or purchase the image please contact me to negotiate terms. More of my work can be found in my personal gallery. cs en +/− cs en mk pl sr +/−",
+   "license": "CC BY 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Praha,_Kinsk%C3%A9ho_zahrada,_schodi%C5%A1t%C4%9B.JPG",
+   "title": "File:Praha, Kinského zahrada, schodiště.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/d71713fb020b5d36.jpg",
+   "gld_id": "d71713fb020b5d36",
+   "split": "test",
+   "gld_category": "Tirolerkogel",
+   "author": "GT1976",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:2018-08-11_(143)_Nature_at_Tirolerkogel,_Annaberg,_Austria.jpg",
+   "title": "File:2018-08-11 (143) Nature at Tirolerkogel, Annaberg, Austria.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a6bdd830ca216d.jpg",
+   "gld_id": "99a6bdd830ca216d",
+   "split": "test",
+   "gld_category": "Neam%C8%9B_Citadel",
+   "author": "Sinziana",
+   "license": "CC BY-SA 3.0 ro",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Cetatea_Neamt_2.jpg",
+   "title": "File:Cetatea Neamt 2.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7173041221be861.jpg",
+   "gld_id": "d7173041221be861",
+   "split": "test",
+   "gld_category": "Jakarta_Fair",
+   "author": "",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:COLLECTIE_TROPENMUSEUM_Reclamezuil_boven_een_paviljoen_met_Italiaans_softijs_op_de_de_jaarbeurs_op_het_Merdeka-plein_TMnr_20025824.jpg",
+   "title": "File:COLLECTIE TROPENMUSEUM Reclamezuil boven een paviljoen met Italiaans softijs op de de jaarbeurs op het Merdeka-plein TMnr 20025824.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a6e5d35f734f7a.jpg",
+   "gld_id": "99a6e5d35f734f7a",
+   "split": "test",
+   "gld_category": "Ch%C3%A2teau_de_Fondat",
+   "author": "Ad Vitam",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Chateau_de_Fondat_8.jpg",
+   "title": "File:Chateau de Fondat 8.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716dce3b4ab8b52.jpg",
+   "gld_id": "d716dce3b4ab8b52",
+   "split": "test",
+   "gld_category": "Offa's_Dyke_Path",
+   "author": "Chris Heaton",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Approaching_River_Trothy_-_geograph.org.uk_-_167875.jpg",
+   "title": "File:Approaching River Trothy - geograph.org.uk - 167875.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d71636e7001fa0ca.jpg",
+   "gld_id": "d71636e7001fa0ca",
+   "split": "test",
+   "gld_category": "All_Saints_Church_(Sedli%C5%A1t%C4%9B)",
+   "author": "Tedmek",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Sedl_kostel04.jpg",
+   "title": "File:Sedl kostel04.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7ceec90daea7e.jpg",
+   "gld_id": "99a7ceec90daea7e",
+   "split": "test",
+   "gld_category": "Monument_to_the_Sun_in_Zadar",
+   "author": "Roberta F.",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Pozdrav_suncu_0408_1.jpg",
+   "title": "File:Pozdrav suncu 0408 1.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7170648f5b41499.jpg",
+   "gld_id": "d7170648f5b41499",
+   "split": "test",
+   "gld_category": "Jardim_Bot%C3%A2nico_de_Curitiba",
+   "author": "Camila Giovana Lunkes Schinemann",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Bot%C3%A2nico_8_-_CGLS.jpg",
+   "title": "File:Botânico 8 - CGLS.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7fab0c043006d.jpg",
+   "gld_id": "99a7fab0c043006d",
+   "split": "test",
+   "gld_category": "Dorton_Arena",
+   "author": "Billie Grace Ward from New York, USA",
+   "license": "CC BY 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Dorton_Arena_(35997447053).jpg",
+   "title": "File:Dorton Arena (35997447053).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7bf9c37b8637b.jpg",
+   "gld_id": "99a7bf9c37b8637b",
+   "split": "test",
+   "gld_category": "Church_of_St._Clare_in_Gorodkivka",
+   "author": "Adzhygyr",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%9A%D0%BE%D1%81%D1%82%D0%B5%D0%BB_%D0%A1%D0%B2%D1%8F%D1%82%D0%BE%D1%97_%D0%9A%D0%BB%D0%B0%D1%80%D0%B8,_%D1%81._%D0%93%D0%BE%D1%80%D0%BE%D0%B4%D0%BA%D1%96%D0%B2%D0%BA%D0%B0._11.jpg",
+   "title": "File:Костел Святої Клари, с. Городківка. 11.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d71631dda3f6cc81.jpg",
+   "gld_id": "d71631dda3f6cc81",
+   "split": "test",
+   "gld_category": "Nedamov",
+   "author": "ŠJů",
+   "license": "CC-BY-SA-3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Nedamov_18,_v_pozad%C3%AD_32.jpg",
+   "title": "File:Nedamov 18, v pozadí 32.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7e05dac9b948d.jpg",
+   "gld_id": "99a7e05dac9b948d",
+   "split": "test",
+   "gld_category": "Moderna_museet",
+   "author": "Holger.Ellgaard",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Moderna_museet,_entr%C3%A9hall,_2018.jpg",
+   "title": "File:Moderna museet, entréhall, 2018.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a81231205c216b.jpg",
+   "gld_id": "99a81231205c216b",
+   "split": "test",
+   "gld_category": "Daulatabad,_Maharashtra",
+   "author": "Udaykumar PR",
+   "license": "CC BY 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Daulatabad,_Aurangabad_-_panoramio_(412).jpg",
+   "title": "File:Daulatabad, Aurangabad - panoramio (412).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7167d9439979a4c.jpg",
+   "gld_id": "d7167d9439979a4c",
+   "split": "test",
+   "gld_category": "Hochschloss_P%C3%A4hl",
+   "author": "Gras-Ober",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Hochschloss_P%C3%A4hl-12.jpg",
+   "title": "File:Hochschloss Pähl-12.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d71616d26b4bb7a1.jpg",
+   "gld_id": "d71616d26b4bb7a1",
+   "split": "test",
+   "gld_category": "Jewish_cemetery_in_Lutowiska",
+   "author": "Kris Sliver",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Jewish_Cemetery_in_Lutowiska._Bieszczady_Poland_-_panoramio_(1).jpg",
+   "title": "File:Jewish Cemetery in Lutowiska. Bieszczady Poland - panoramio (1).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7cad2c90c3e82.jpg",
+   "gld_id": "99a7cad2c90c3e82",
+   "split": "test",
+   "gld_category": "St._Lambertus_(Erkelenz)",
+   "author": "Leander Schiefer LeSch 08:53, 28. Nov. 2010 (CET)",
+   "license": "CC BY-SA 3.0 de",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Lambertus_(Erkelenz)_06.jpg",
+   "title": "File:Lambertus (Erkelenz) 06.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7164d0f776f083f.jpg",
+   "gld_id": "d7164d0f776f083f",
+   "split": "test",
+   "gld_category": "%C3%89glise_Notre-Dame_de_Versailles",
+   "author": "Giogo",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%C3%89glise_Notre-Dame_de_Versailles_03.jpg",
+   "title": "File:Église Notre-Dame de Versailles 03.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a70a1787cf681c.jpg",
+   "gld_id": "99a70a1787cf681c",
+   "split": "test",
+   "gld_category": "Church_of_the_Theotokos_of_Kazan_(Zelenogorsk,_Saint_Petersburg)",
+   "author": "GAlexandrova",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:1786._%D0%97%D0%B5%D0%BB%D0%B5%D0%BD%D0%BE%D0%B3%D0%BE%D1%80%D1%81%D0%BA._%D0%A1%D0%BA%D0%B2%D0%B5%D1%80_%D0%9A%D0%B0%D0%B7%D0%B0%D0%BD%D1%81%D0%BA%D0%BE%D0%B9_%D1%86%D0%B5%D1%80%D0%BA%D0%B2%D0%B8.jpg",
+   "title": "File:1786. Зеленогорск. Сквер Казанской церкви.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716a46d26c7312d.jpg",
+   "gld_id": "d716a46d26c7312d",
+   "split": "test",
+   "gld_category": "Berlin_Wall",
+   "author": "Sebastian und Kari on geo.hlipp.de",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Berliner_Mauer_Mahnmal_-_geo.hlipp.de_-_7010.jpg",
+   "title": "File:Berliner Mauer Mahnmal - geo.hlipp.de - 7010.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716c35d7be3480a.jpg",
+   "gld_id": "d716c35d7be3480a",
+   "split": "test",
+   "gld_category": "Mari%C3%A4_Himmelfahrt_(Oberkammlach)",
+   "author": "Thomas Mirtsch",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Oberkammlach_-_Mari%C3%A4_Himmelfahrt_-_Au%C3%9Fen_(5).JPG",
+   "title": "File:Oberkammlach - Mariä Himmelfahrt - Außen (5).JPG"
+  },
+  {
+   "file": "landmarks/_unknown/d7170ccb51a956d1.jpg",
+   "gld_id": "d7170ccb51a956d1",
+   "split": "test",
+   "gld_category": "Boerderij_Strunk_(Raalte)",
+   "author": "Tmh2005",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Voorkant_boerderij_Strunk.jpg",
+   "title": "File:Voorkant boerderij Strunk.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a80b550db5d4c0.jpg",
+   "gld_id": "99a80b550db5d4c0",
+   "split": "test",
+   "gld_category": "Wigan_Pier",
+   "author": "Rept0n1x",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:The_Pier_Nightspot,_Wigan.jpg",
+   "title": "File:The Pier Nightspot, Wigan.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d715c9289d838e2f.jpg",
+   "gld_id": "d715c9289d838e2f",
+   "split": "test",
+   "gld_category": "Skole_Beskids_National_Nature_Park",
+   "author": "Хіраш Володимир",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Skolivski_Beskidi_12.jpg",
+   "title": "File:Skolivski Beskidi 12.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7a1f801e76375.jpg",
+   "gld_id": "99a7a1f801e76375",
+   "split": "test",
+   "gld_category": "Lillington_and_Longmoore_Gardens",
+   "author": "PAUL FARMER",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:New_secure_gate_at_an_entrance_to_the_Lillington_Gardens_Estate_-_geograph.org.uk_-_1632934.jpg",
+   "title": "File:New secure gate at an entrance to the Lillington Gardens Estate - geograph.org.uk - 1632934.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716c1dfc1cc4129.jpg",
+   "gld_id": "d716c1dfc1cc4129",
+   "split": "test",
+   "gld_category": "Florence_Court",
+   "author": "Oliver Dixon",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Entrance_to_the_Forest_car_park_at_Florence_Court_-_geograph.org.uk_-_984345.jpg",
+   "title": "File:Entrance to the Forest car park at Florence Court - geograph.org.uk - 984345.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716bfbde427359d.jpg",
+   "gld_id": "d716bfbde427359d",
+   "split": "test",
+   "gld_category": "V%C3%A4derstads_kyrka",
+   "author": "L.G.foto",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:V%C3%A4derstads_kyrka_fr%C3%A5n_luften.jpg",
+   "title": "File:Väderstads kyrka från luften.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a69b05f3222bd1.jpg",
+   "gld_id": "99a69b05f3222bd1",
+   "split": "test",
+   "gld_category": "Schloss_Scherneck",
+   "author": "Hamann M",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:D-7-71-158-8_054.JPG",
+   "title": "File:D-7-71-158-8 054.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/99a7170ba5957cfb.jpg",
+   "gld_id": "99a7170ba5957cfb",
+   "split": "test",
+   "gld_category": "Former_Residence_of_Ma_Yinchu_in_Hangzhou",
+   "author": "Siyuwj",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Former_Residence_of_Ma_Yinchu_in_Hangzhou,_2018-10-28_02.jpg",
+   "title": "File:Former Residence of Ma Yinchu in Hangzhou, 2018-10-28 02.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d71710a01a559317.jpg",
+   "gld_id": "d71710a01a559317",
+   "split": "test",
+   "gld_category": "Seebuck",
+   "author": "PantaRhei",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Feldberg_(Schwarzwald)_Seebuck_Blick_nach_Westen_Richtung_Todtnauberg_Bild_2.jpg",
+   "title": "File:Feldberg (Schwarzwald) Seebuck Blick nach Westen Richtung Todtnauberg Bild 2.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7fb2d3e42b78a.jpg",
+   "gld_id": "99a7fb2d3e42b78a",
+   "split": "test",
+   "gld_category": "Rotmoosferner",
+   "author": "Tiia Monto",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Kirchenkogel.jpg",
+   "title": "File:Kirchenkogel.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a70446660218b8.jpg",
+   "gld_id": "99a70446660218b8",
+   "split": "test",
+   "gld_category": "Ouvrage_de_l'Immerhof",
+   "author": "Morten Jensen from Randers, Denmark",
+   "license": "CC BY 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Petit_ouvrage_du_Immerhof_(15227575276).jpg",
+   "title": "File:Petit ouvrage du Immerhof (15227575276).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716e73dbc9d8414.jpg",
+   "gld_id": "d716e73dbc9d8414",
+   "split": "test",
+   "gld_category": "One_Shell_Square",
+   "author": "Infrogmation of New Orleans",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Girod_NOLA_CBD_Dec_2011_A.JPG",
+   "title": "File:Girod NOLA CBD Dec 2011 A.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/d716bbed377943e6.jpg",
+   "gld_id": "d716bbed377943e6",
+   "split": "test",
+   "gld_category": "Ch%C3%A2teau_de_Chazey-sur-Ain",
+   "author": "Mirej",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Ch%C3%A2teau_de_Chazey-sur-Ain.jpg",
+   "title": "File:Château de Chazey-sur-Ain.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a70c323e50f34e.jpg",
+   "gld_id": "99a70c323e50f34e",
+   "split": "test",
+   "gld_category": "Pembrokeshire_Coast_National_Park",
+   "author": "Dennis Turner",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Trewent_Point_-_geograph.org.uk_-_55955.jpg",
+   "title": "File:Trewent Point - geograph.org.uk - 55955.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7170ca725ff3475.jpg",
+   "gld_id": "d7170ca725ff3475",
+   "split": "test",
+   "gld_category": "Dorfkirche_Langengrassau",
+   "author": "Giorgio Michele",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Dorfkirche_Langengrassau_03-2017_03.jpg",
+   "title": "File:Dorfkirche Langengrassau 03-2017 03.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a7e1e5bd0f56cc.jpg",
+   "gld_id": "99a7e1e5bd0f56cc",
+   "split": "test",
+   "gld_category": "Church_in_Schlagsdorf",
+   "author": "Kresspahl",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Gew%C3%B6lbeSchlagsdorf29.JPG",
+   "title": "File:GewölbeSchlagsdorf29.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/99a7d258b308c151.jpg",
+   "gld_id": "99a7d258b308c151",
+   "split": "test",
+   "gld_category": "Loch_Hope",
+   "author": "AlastairG",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Loch_Hope_-_geograph.org.uk_-_954959.jpg",
+   "title": "File:Loch Hope - geograph.org.uk - 954959.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7170e2317c2d073.jpg",
+   "gld_id": "d7170e2317c2d073",
+   "split": "test",
+   "gld_category": "Sint-Jacobus_de_Meerdere,_Uithuizen",
+   "author": "Technau, Sergé (Fotograaf)",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Interieur,_standaard_met_een_doek_van_de_Heilige_Jacobus._De_voet_van_de_standaard_heeft_een_pelikaanmotief_-_Uithuizen_-_20413749_-_RCE.jpg",
+   "title": "File:Interieur, standaard met een doek van de Heilige Jacobus. De voet van de standaard heeft een pelikaanmotief - Uithuizen - 20413749 - RCE.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d715efc9e56eda7d.jpg",
+   "gld_id": "d715efc9e56eda7d",
+   "split": "test",
+   "gld_category": "Muzeum_Puszczy_Drawskiej_i_Noteckiej_im._Franciszka_Grasia",
+   "author": "Staszek99",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Muzeum_Puszczy_Drawskiej_i_Noteckiej_im._Franciszka_Grasia_-_eksponat_-_dzik2.JPG",
+   "title": "File:Muzeum Puszczy Drawskiej i Noteckiej im. Franciszka Grasia - eksponat - dzik2.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/99a7997215b5bf9f.jpg",
+   "gld_id": "99a7997215b5bf9f",
+   "split": "test",
+   "gld_category": "Vancouver_SkyTrain",
+   "author": "Roland Tanglao from Vancouver, Canada",
+   "license": "CC BY 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Coming_home_on_the_Skyte_2.jpg",
+   "title": "File:Coming home on the Skyte 2.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716e218ed8f835c.jpg",
+   "gld_id": "d716e218ed8f835c",
+   "split": "test",
+   "gld_category": "%C3%9Adol%C3%AD_%C5%98%C3%AD%C4%8Dky",
+   "author": "Dezidor",
+   "license": "CC BY 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%C3%9Adol%C3%AD_%C5%98%C3%AD%C4%8Dky_(8).jpg",
+   "title": "File:Údolí Říčky (8).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a77f3b88322c49.jpg",
+   "gld_id": "99a77f3b88322c49",
+   "split": "test",
+   "gld_category": "Rohtas_Fort",
+   "author": "Mobeen ur Rehman",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Mosque_rohtas_fort.jpg",
+   "title": "File:Mosque rohtas fort.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a817989f69842b.jpg",
+   "gld_id": "99a817989f69842b",
+   "split": "test",
+   "gld_category": "Cape_Fiolent",
+   "author": "Kamelot",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%A1%D0%B2%D1%8F%D1%82%D0%BE-%D0%93%D0%B5%D0%BE%D1%80%D0%B3%D1%96%D1%97%D0%B2%D1%81%D1%8C%D0%BA%D0%B8%D0%B9_%D0%BC%D0%BE%D0%BD%D0%B0%D1%81%D1%82%D0%B8%D1%80.JPG",
+   "title": "File:Свято-Георгіївський монастир.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/99a81f3bb0fc76c0.jpg",
+   "gld_id": "99a81f3bb0fc76c0",
+   "split": "test",
+   "gld_category": "Teatro_Carlo_Felice_(Genoa)",
+   "author": "Salvetti.photography",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:2017-03-18_Salvetti_Genova_Teatro_Carlo_Felice_1.jpg",
+   "title": "File:2017-03-18 Salvetti Genova Teatro Carlo Felice 1.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a711fde3c98ea0.jpg",
+   "gld_id": "99a711fde3c98ea0",
+   "split": "test",
+   "gld_category": "Chersonesos_Taurica",
+   "author": "Дмитро Ровчак",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%D0%9D%D0%B0%D1%86%D1%96%D0%BE%D0%BD%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%B9_%D0%B7%D0%B0%D0%BF%D0%BE%D0%B2%D1%96%D0%B4%D0%BD%D0%B8%D0%BA_%C2%AB%D0%A5%D0%B5%D1%80%D1%81%D0%BE%D0%BD%D0%B5%D1%81_%D0%A2%D0%B0%D0%B2%D1%80%D1%96%D0%B9%D1%81%D1%8C%D0%BA%D0%B8%D0%B9%C2%BB,_%D0%BA%D0%BE%D0%BC%D0%BF%D0%BB%D0%B5%D0%BA%D1%81_%D1%81%D0%BF%D0%BE%D1%80%D1%83%D0%B42.jpg",
+   "title": "File:Національний заповідник «Херсонес Таврійський», комплекс споруд2.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d7168a7c24681e95.jpg",
+   "gld_id": "d7168a7c24681e95",
+   "split": "test",
+   "gld_category": "Rathaus_Mainz",
+   "author": "© Olaf Kosinsky Olaf Kosinsky  (1964–)  ",
+   "license": "CC BY-SA 3.0 de",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:2017-11-13_Ratssaal_im_Mainzer_Rathaus-4301.jpg",
+   "title": "File:2017-11-13 Ratssaal im Mainzer Rathaus-4301.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a72d926e3491cc.jpg",
+   "gld_id": "99a72d926e3491cc",
+   "split": "test",
+   "gld_category": "Yorkshire_Wolds_Way",
+   "author": "Peter Church",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:The_Yorkshire_Wolds_Way_1.jpg",
+   "title": "File:The Yorkshire Wolds Way 1.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d717016c4b5e0974.jpg",
+   "gld_id": "d717016c4b5e0974",
+   "split": "test",
+   "gld_category": "St._Helena's_Chapel",
+   "author": "Kapsuglan",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:JerusalemMay2012_22.jpg",
+   "title": "File:JerusalemMay2012 22.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a72d1d99cf1292.jpg",
+   "gld_id": "99a72d1d99cf1292",
+   "split": "test",
+   "gld_category": "Puppet_Theatre_in_Wroc%C5%82aw",
+   "author": "Heem will ihch",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Wroc%C5%82aw_pl._Teatralny_4_(Teatr_Lalek).jpg",
+   "title": "File:Wrocław pl. Teatralny 4 (Teatr Lalek).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a6ac5d42fbe7cf.jpg",
+   "gld_id": "99a6ac5d42fbe7cf",
+   "split": "test",
+   "gld_category": "Gudsageren_Kirkeg%C3%A5rd_(Christiansfeld)",
+   "author": "Ajepbah",
+   "license": "CC BY-SA 3.0 de",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Gudsageren_Kirkeg%C3%A5rd,_Christiansfeld_(Kolding_Kommune).Port.621--2--1.ajb.jpg",
+   "title": "File:Gudsageren Kirkegård, Christiansfeld (Kolding Kommune).Port.621--2--1.ajb.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a8124add950372.jpg",
+   "gld_id": "99a8124add950372",
+   "split": "test",
+   "gld_category": "Abu_Rawash",
+   "author": "Hatem Moushir",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Uromastyx_at_Abu_Rawash_by_Hatem_Moushir_2.JPG",
+   "title": "File:Uromastyx at Abu Rawash by Hatem Moushir 2.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/d716e92f6a540fc9.jpg",
+   "gld_id": "d716e92f6a540fc9",
+   "split": "test",
+   "gld_category": "Mount_Elbert",
+   "author": "Ken Lund from Reno, Nevada, USA",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Mount_Elbert_and_Surrounding_Sawatch_Range,_Colorado_(9179291029).jpg",
+   "title": "File:Mount Elbert and Surrounding Sawatch Range, Colorado (9179291029).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716c1c879d96538.jpg",
+   "gld_id": "d716c1c879d96538",
+   "split": "test",
+   "gld_category": "Thai_Elephant_Conservation_Center",
+   "author": "PumpkinSky",
+   "license": "CC BY-SA 4.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:TECC-elephant_bathing.JPG",
+   "title": "File:TECC-elephant bathing.JPG"
+  },
+  {
+   "file": "landmarks/_unknown/d716d022314c452d.jpg",
+   "gld_id": "d716d022314c452d",
+   "split": "test",
+   "gld_category": "Avenue_Habib_Bourguiba_of_Tunis",
+   "author": "Badreddine besbes",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Avenue_de_Habib_Bourguiba.jpg",
+   "title": "File:Avenue de Habib Bourguiba.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a6aaebd90e3efc.jpg",
+   "gld_id": "99a6aaebd90e3efc",
+   "split": "test",
+   "gld_category": "Hirvij%C3%A4rvi",
+   "author": "Markus Rantala (Makele-90)",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Hirvij%C3%A4rvi,_Myn%C3%A4m%C3%A4ki,_8.6.2013_(7).JPG",
+   "title": "File:Hirvijärvi, Mynämäki, 8.6.2013 (7).JPG"
+  },
+  {
+   "file": "landmarks/_unknown/99a7547e62c12d67.jpg",
+   "gld_id": "99a7547e62c12d67",
+   "split": "test",
+   "gld_category": "Kolleg_St._Ludwig",
+   "author": "Paul van Galen  ",
+   "license": "CC BY-SA 3.0 nl",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Overzicht_kas_-_Vlodrop_-_20351891_-_RCE.jpg",
+   "title": "File:Overzicht kas - Vlodrop - 20351891 - RCE.jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a6d9da1fb051bc.jpg",
+   "gld_id": "99a6d9da1fb051bc",
+   "split": "test",
+   "gld_category": "2018_US_Open_(tennis)",
+   "author": "Carine06 from UK",
+   "license": "CC BY-SA 2.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Dusan_Lajovic_%26_Stefanos_Tsitsipas_(31484391837).jpg",
+   "title": "File:Dusan Lajovic & Stefanos Tsitsipas (31484391837).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/99a75ad76316dd82.jpg",
+   "gld_id": "99a75ad76316dd82",
+   "split": "test",
+   "gld_category": "Tsurugaoka_Hachiman-g%C5%AB",
+   "author": "gundam2345",
+   "license": "CC BY 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:%E9%B6%B4%E5%B2%A1%E5%85%AB%E5%B9%A1%E5%AE%AE_(%E7%A5%9E%E5%A5%88%E5%B7%9D%E7%9C%8C%E9%8E%8C%E5%80%89%E5%B8%82%E9%9B%AA%E3%83%8E%E4%B8%8B)_-_panoramio_(2).jpg",
+   "title": "File:鶴岡八幡宮 (神奈川県鎌倉市雪ノ下) - panoramio (2).jpg"
+  },
+  {
+   "file": "landmarks/_unknown/d716ba306c1d5dc2.jpg",
+   "gld_id": "d716ba306c1d5dc2",
+   "split": "test",
+   "gld_category": "Liesj%C3%A4rvi_National_Park",
+   "author": "Markus Rantala (Makele-90)",
+   "license": "CC BY-SA 3.0",
+   "commons_page": "http://commons.wikimedia.org/wiki/File:Mets%C3%A4%C3%A4_Peukalolammin_pohjoisrannalla,_Liesj%C3%A4rven_kansallispuisto,_Tammela,_15.11.2014..JPG",
+   "title": "File:Metsää Peukalolammin pohjoisrannalla, Liesjärven kansallispuisto, Tammela, 15.11.2014..JPG"
+  }
+ ]
+}
