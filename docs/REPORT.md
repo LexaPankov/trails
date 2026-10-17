@@ -50,7 +50,8 @@ npm run smoke                    # Playwright end-to-end (needs a running dev/pr
 
 ## 5. Build
 
-`npm run build` → `dist/` (static). Main JS bundle 831 kB (235 kB gzip); MediaPipe wasm, models,
+`npm run build` → `dist/` (static). Main JS bundle 912 kB (237 kB gzip, about half of it the bundled place dataset);
+the MediaPipe library (154 kB) loads only when the camera opens; MediaPipe wasm, models,
 photos and data are separate static files.
 
 ## 6. Training
@@ -98,6 +99,13 @@ need internet.
   also checked in the browser with no model configured.
   With the real walking matrix, Pantheon → Colosseum in 45 min gave: Ancient preset = Temple of
   Hadrian + Trajan's Column; Renaissance preset = Piazza della Rotonda + Trajan's Column.
+* 18 Oct, re-run on Windows 11 / Node 24 with internet access: smoke test **10/10 checks on desktop
+  and mobile** against (a) the production build served by the story server with a stand-in model,
+  (b) the GitHub Pages build under `/trails/` with no story server (offline story fallback), and
+  (c) `vite preview` with live CARTO tiles. Screenshots in `docs/screenshots` are from run (c):
+  real map tiles, offline story. Ancient preset = Temple of Hadrian + Trajan's Column; Renaissance
+  preset = Sant'Ignazio + San Marcello al Corso + Santa Maria di Loreto (the dataset grew to 269
+  places since the first run).
 * Preference MLP, held-out **synthetic** users: AUC 0.740 (rule baseline 0.709, popularity 0.504,
   simulator ceiling 0.869); NDCG@5 0.874 (rule 0.857, popularity 0.594, ceiling 1.000).
   Export parity: torch vs JSON 1.25e-6, torch vs ONNX 6e-8.
@@ -137,10 +145,12 @@ landmark photos or a styled placeholder.
 ## 15. Deployment
 
 Any HTTPS static host: `npm run build`, publish `dist/`. For a sub-path, `npx vite build --base=/trails/`.
+`.github/workflows/pages.yml` runs the unit tests, builds for the repository sub-path with keyless
+OpenStreetMap tiles and publishes to GitHub Pages on every push to `main`.
 
 ## 16. Next steps
 
-1. Run Gemma on AMD Developer Cloud for the storyteller and record latency and a few sample stories.
+1. Run the storyteller on AMD Developer Cloud and record latency and sample stories (scripts and steps ready: [AMD_RUNBOOK.md](AMD_RUNBOOK.md)).
 2. Refresh the Rome street graph periodically (`scripts/fetch_more_places.py --skip wikidata wiki images`, then `node scripts/build_walk_graph.mjs`).
 3. Run `ml/train.py` and `ml/benchmark.py` on AMD Developer Cloud and commit the GPU benchmark.
 4. Field-test GPS navigation and the live camera on phones in Rome.
@@ -154,9 +164,9 @@ Checked against the official page (https://lablab.ai/event/amd-developer-hackath
 
 | Requirement | Status |
 | --- | --- |
-| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Not met yet, path ready.** (1) Serve Gemma with vLLM on an AMD Instinct GPU and point the storyteller at it ([STORYTELLER.md](STORYTELLER.md)); the app badge then shows the model running on AMD during the demo. (2) Run `ml/train.py --device gpu` and `ml/benchmark.py` on AMD Developer Cloud and show the printed device. |
-| Public GitHub repository | Not done (the project lives in your local folder by request) |
-| Demo application URL | Not done; any HTTPS static host works (section 15) |
-| Cover image, video, slides, descriptions | Not done |
+| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Not met yet, path ready** (waiting for AMD Developer Cloud credits). (1) `amd/serve_llm.sh` serves the storyteller model with vLLM on an AMD Instinct GPU; `npm run story:eval` records latency and grounding; the app badge then shows the model running on AMD during the demo. (2) `amd/train_rocm.sh` trains and benchmarks the preference model on the GPU. Steps: [AMD_RUNBOOK.md](AMD_RUNBOOK.md). |
+| Public GitHub repository | Done: https://github.com/LexaPankov/trails |
+| Demo application URL | GitHub Pages workflow ready (section 15) |
+| Cover image, video, slides, descriptions | Cover, slides and texts prepared by the team (outside the repo); video after the AMD run |
 | "Submissions must be original and MIT-compliant" | Code is MIT; third-party assets are CC BY / CC BY-SA / CC0 / PD / Apache 2.0 / OFL with credits |
 | Gemma (Google prize, optional) | Storyteller is built for Gemma on AMD; qualifies once it is actually run |
