@@ -1,0 +1,340 @@
+{
+ "note": "Stories written ahead of time for the preset walks by the model named in each generator, then validated like live stories (unknown places and citations dropped). Shown only when no story server answers.",
+ "created": "2026-10-17",
+ "stories": {
+  "Pantheon | Colosseum | Cultural discovery | Ancient history,Archaeology,Hidden gems | temple-of-hadrian,trajans-column": {
+   "title": "Imperial Echoes: From Hadrian to Trajan",
+   "intro": "Step through the layers of time on a journey of archaeological discovery, tracing the legacies of the emperors who shaped the heart of Rome.",
+   "segments": [
+    {
+     "placeId": "temple-of-hadrian",
+     "text": "Begin at the Piazza di Pietra, where eleven Corinthian columns of a temple dedicated to the deified Hadrian stand integrated into a later structure. Originally dedicated by Antoninus Pius, these ruins were incorporated into a papal customs house by Carlo Fontana in the 17th century and now form the façade of the Rome Chamber of Commerce.",
+     "cite": [
+      1
+     ]
+    },
+    {
+     "placeId": "trajans-column",
+     "text": "Continue your exploration of imperial power at Trajan's Column, where a spiral relief frieze provides a visual record of the Roman army's equipment and wars against the Dacians. While the base once held the emperor's ashes, the statue of Trajan that once crowned the column was replaced by a statue of St Peter in 1587.",
+     "cite": [
+      2
+     ]
+    }
+   ],
+   "outro": "You have walked from the integrated ruins of Hadrian's temple to the narrative heights of Trajan's Forum, uncovering the enduring stones of ancient Rome.",
+   "sources": [
+    {
+     "n": 1,
+     "title": "Temple of Hadrian — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Temple_of_Hadrian"
+    },
+    {
+     "n": 2,
+     "title": "Trajan's Column — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Trajan%27s_Column"
+    }
+   ],
+   "generator": {
+    "kind": "model",
+    "model": "self-dploy/Gemma-4-31B-IT",
+    "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+    "latencyMs": 22704,
+    "pregenerated": "2026-10-17"
+   }
+  },
+  "Pantheon | Colosseum | Cultural discovery | Art & architecture,Baroque,Renaissance | sant-ignazio,san-marcello-al-corso,santa-maria-di-loreto": {
+   "title": "Baroque Splendor and Sacred Spaces",
+   "intro": "Step through the heart of Rome on a journey of cultural discovery, exploring the evolution of sacred architecture from the Renaissance to the Baroque era.",
+   "segments": [
+    {
+     "placeId": "sant-ignazio",
+     "text": "Begin at the Church of St. Ignatius of Loyola, a great 17th-century preaching church built in the Baroque style. Originally the chapel of the Roman College, it stands as a testament to the Counter-Reformation orders in the Centro.",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "placeId": "san-marcello-al-corso",
+     "text": "Continue to San Marcello al Corso, an ancient titular and conventual church. Since around 1375, it has been served by the friars of the Servite Order and remains the headquarters of their General Curia.",
+     "cite": [
+      3,
+      4
+     ]
+    },
+    {
+     "placeId": "santa-maria-di-loreto",
+     "text": "Your journey concludes at Santa Maria di Loreto, a 16th-century church. It is situated near the giant Monument of Vittorio Emanuele II, just across the street from Trajan's Column.",
+     "cite": [
+      5,
+      6
+     ]
+    }
+   ],
+   "outro": "From the dramatic Baroque lines of the 17th century to the early elegance of the 16th, you have walked through the architectural layers of Rome's spiritual history.",
+   "sources": [
+    {
+     "n": 1,
+     "title": "Sant'Ignazio — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sant%27Ignazio,_Rome"
+    },
+    {
+     "n": 2,
+     "title": "Q1465674 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1465674"
+    },
+    {
+     "n": 3,
+     "title": "San Marcello al Corso — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Marcello_al_Corso"
+    },
+    {
+     "n": 4,
+     "title": "Q972881 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q972881"
+    },
+    {
+     "n": 5,
+     "title": "Santa Maria di Loreto — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Santa_Maria_di_Loreto,_Rome"
+    },
+    {
+     "n": 6,
+     "title": "Q461997 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q461997"
+    }
+   ],
+   "generator": {
+    "kind": "model",
+    "model": "self-dploy/Gemma-4-31B-IT",
+    "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+    "latencyMs": 12006,
+    "pregenerated": "2026-10-17"
+   }
+  },
+  "Roma Termini station | Piazza Trilussa, Trastevere | Cultural discovery | Ancient history,Baroque,Hidden gems | san-bernardino-in-panisperna,san-gregorio-della-divina-pieta,santa-maria-in-publicolis,fontanone-di-ponte-sisto": {
+   "title": "Baroque Gems and Hidden Corners",
+   "intro": "Step away from the bustle of Termini to discover the intimate side of Rome, tracing a path through small churches and monumental waters that define the city's hidden charm.",
+   "segments": [
+    {
+     "placeId": "san-bernardino-in-panisperna",
+     "text": "Begin your journey in Rione Monti at San Bernardino in Panisperna. This small Roman Catholic church sits across from the church of Sant'Agata dei Goti on via Panisperna.",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "placeId": "san-gregorio-della-divina-pieta",
+     "text": "Continue toward the former Jewish quarter to find San Gregorio della Divina Pietà, sometimes called San Gregorietto due to its small size. Once known as San Gregorio a Ponte Quattro Capi or Pons Judaeorum, it stands near the Great Synagogue and the bridge connecting this sector to the Tiber.",
+     "cite": [
+      3,
+      4
+     ]
+    },
+    {
+     "placeId": "santa-maria-in-publicolis",
+     "text": "Moving into the rione of Sant'Eustachio, you will encounter the Baroque beauty of Santa Maria in Publicolis. Look closely at the facade, which was designed by Giovan Antonio de' Rossi.",
+     "cite": [
+      5,
+      6
+     ]
+    },
+    {
+     "placeId": "fontanone-di-ponte-sisto",
+     "text": "Cross over to Trastevere to reach the Fontanone di Ponte Sisto in Piazza Trilussa. This monumental early 17th-century fountain, once known as the Fontanone dei Cento Preti, was reconstructed here in the late 19th century after originally being located across the river.",
+     "cite": [
+      7,
+      8
+     ]
+    }
+   ],
+   "outro": "From the quiet streets of Monti to the lively heart of Trastevere, you have uncovered the small-scale wonders and grand monuments that hide in plain sight.",
+   "sources": [
+    {
+     "n": 1,
+     "title": "San Bernardino in Panisperna — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Bernardino_in_Panisperna"
+    },
+    {
+     "n": 2,
+     "title": "Q1344657 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1344657"
+    },
+    {
+     "n": 3,
+     "title": "San Gregorio della Divina Pietà — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Gregorio_della_Divina_Piet%C3%A0"
+    },
+    {
+     "n": 4,
+     "title": "Q3670720 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3670720"
+    },
+    {
+     "n": 5,
+     "title": "Santa Maria in Publicolis — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Santa_Maria_in_Publicolis"
+    },
+    {
+     "n": 6,
+     "title": "Q3585438 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3585438"
+    },
+    {
+     "n": 7,
+     "title": "Fontanone di Ponte Sisto — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Fontanone_di_Ponte_Sisto"
+    },
+    {
+     "n": 8,
+     "title": "Q3747421 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3747421"
+    }
+   ],
+   "generator": {
+    "kind": "model",
+    "model": "self-dploy/Gemma-4-31B-IT",
+    "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+    "latencyMs": 11568,
+    "pregenerated": "2026-10-17"
+   }
+  },
+  "Campo de' Fiori | Spanish Steps | Maximum history | Art & architecture,Baroque,Hidden gems | san-pantaleo,santivo-alla-sapienza,palazzo-giustiniani,palazzo-gabrielli-borromeo,oratory-of-san-francesco-saverio-del-caravita,palazzo-nunez-torlonia,palazzo-di-spagna": {
+   "title": "Baroque Treasures and Hidden Palaces",
+   "intro": "Step away from the crowds to discover the architectural evolution of Rome, from hidden courtyards to the grand Baroque facades of the city's historic center.",
+   "segments": [
+    {
+     "placeId": "san-pantaleo",
+     "text": "Begin at San Pantaleo, an ancient church in the Parione neighborhood that shares its piazza with the Museo di Roma in Palazzo Braschi. While the facade is Neoclassical, the interiors were elaborated in a Baroque style.",
+     "cite": [
+      1,
+      2
+     ]
+    },
+    {
+     "placeId": "santivo-alla-sapienza",
+     "text": "Continue to a hidden gem tucked inside the courtyard of the Palazzo della Sapienza, which now houses the State Archives. Here you will find Borromini's masterpiece, featuring a star-shaped plan, interlocking triangles, and a unique corkscrew lantern.",
+     "cite": [
+      3
+     ]
+    },
+    {
+     "placeId": "palazzo-giustiniani",
+     "text": "Move toward the Sant'Eustachio district to find Palazzo Giustiniani, also known as the Piccolo Colle. This palace sits on the Via della Dogana Vecchia and Piazza della Rotonda.",
+     "cite": [
+      4,
+      5
+     ]
+    },
+    {
+     "placeId": "palazzo-gabrielli-borromeo",
+     "text": "Nearby in the ancient Campus Martius, discover the Palazzo Gabrielli-Borromeo. It is located on Via del Seminario, positioned between the Pantheon and Piazza di Sant'Ignazio.",
+     "cite": [
+      6,
+      7
+     ]
+    },
+    {
+     "placeId": "oratory-of-san-francesco-saverio-del-caravita",
+     "text": "Just a short walk away in rione Pigna is the Oratory of San Francesco Saverio del Caravita. This 17th-century Baroque oratory is home to an international English-language Catholic community.",
+     "cite": [
+      8,
+      9
+     ]
+    },
+    {
+     "placeId": "palazzo-nunez-torlonia",
+     "text": "As you head toward the Spanish Steps, you encounter Palazzo Núñez-Torlonia. This palace serves as the current home of the Torlonia family.",
+     "cite": [
+      10,
+      11
+     ]
+    },
+    {
+     "placeId": "palazzo-di-spagna",
+     "text": "End your journey at the Palazzo di Spagna, a historic Baroque-style palace also known as the Monaldeschi Palace. Owned by the Spanish state, it has housed the Embassy of Spain to the Holy See since 1647.",
+     "cite": [
+      12,
+      13
+     ]
+    }
+   ],
+   "outro": "You have traversed the heart of Rome, uncovering the intricate geometry of the Baroque and the quiet elegance of the city's private palaces.",
+   "sources": [
+    {
+     "n": 1,
+     "title": "San Pantaleo — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/San_Pantaleo,_Rome"
+    },
+    {
+     "n": 2,
+     "title": "Q3585371 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3585371"
+    },
+    {
+     "n": 3,
+     "title": "Sant'Ivo alla Sapienza — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Sant%27Ivo_alla_Sapienza"
+    },
+    {
+     "n": 4,
+     "title": "Palazzo Giustiniani — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Palazzo_Giustiniani,_Rome"
+    },
+    {
+     "n": 5,
+     "title": "Q3890240 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3890240"
+    },
+    {
+     "n": 6,
+     "title": "Palazzo Gabrielli-Borromeo — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Palazzo_Gabrielli-Borromeo"
+    },
+    {
+     "n": 7,
+     "title": "Q3360871 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q3360871"
+    },
+    {
+     "n": 8,
+     "title": "Oratory of San Francesco Saverio del Caravita — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Oratory_of_San_Francesco_Saverio_del_Caravita"
+    },
+    {
+     "n": 9,
+     "title": "Q1523718 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q1523718"
+    },
+    {
+     "n": 10,
+     "title": "Palazzo Núñez-Torlonia — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Palazzo_N%C3%BA%C3%B1ez-Torlonia"
+    },
+    {
+     "n": 11,
+     "title": "Q17051524 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q17051524"
+    },
+    {
+     "n": 12,
+     "title": "Palazzo di Spagna — Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Palazzo_di_Spagna"
+    },
+    {
+     "n": 13,
+     "title": "Q9054484 — Wikidata",
+     "url": "https://www.wikidata.org/wiki/Q9054484"
+    }
+   ],
+   "generator": {
+    "kind": "model",
+    "model": "self-dploy/Gemma-4-31B-IT",
+    "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+    "latencyMs": 49601,
+    "pregenerated": "2026-10-17"
+   }
+  }
+ }
+}

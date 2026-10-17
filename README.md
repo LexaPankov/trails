@@ -21,8 +21,10 @@ Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it 
    Colosseum with the stops a neural network picked for you, and the card at the top shows what the
    extra minutes buy compared with the fastest walk.
 2. Go back and tap **Renaissance & Baroque**: same start, end and time, different stops.
-3. Tap **Tell me the story of this walk**: one narrated walk with numbered sources. The public site
-   tells the offline version from our notes; the AI version runs on our model server (see below).
+3. Tap **Tell me the story of this walk**: one narrated walk with numbered sources, written by
+   **Gemma 4 31B running on AMD GPUs** (AMD Developer Cloud). The public site has no server and no key,
+   so for the preset walks it shows stories Gemma wrote ahead of time (the badge says "pre-generated");
+   other walks get the offline version from our notes. Run `npm run story` (below) for live AI stories on any walk.
 4. Tap **Start walking**, then play the simulated walk: each stop's story appears and is read aloud.
 5. Open **Camera → Demo photos** and pick a photo: TRAILS recognises the landmark in the browser and
    opens its history.
@@ -35,7 +37,7 @@ Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
 | --- | --- |
 | Plan screen: any address or map pin as start/destination (OpenStreetMap search), time budget, 8 interests, 3 route modes, presets | Implemented, browser-tested with TRAILS places and map pins; live address search could not be reached from the build sandbox |
 | Culture-rich path: stops to visit plus places the path is bent to walk past, and "also on your path" | Implemented, unit- and browser-tested |
-| AI storyteller: one grounded, cited story for the walk, read aloud on request; model runs on an OpenAI-compatible endpoint (Gemma on AMD via vLLM/ROCm) | Implemented and **run on AMD** (18 Oct): Gemma 4 31B on the AMD Developer Cloud Token Factory wrote all 5 test walks, covering 17/17 stops with no numbers outside the supplied facts, 9–50 s per story (`docs/story_eval_Gemma-4-31B-IT.json`); browser-tested end to end with the AMD badge ([docs/STORYTELLER.md](docs/STORYTELLER.md)) |
+| AI storyteller: one grounded, cited story for the walk, read aloud on request; model runs on an OpenAI-compatible endpoint (Gemma on AMD via vLLM/ROCm) | Implemented and **run on AMD** (17 Oct): Gemma 4 31B on the AMD Developer Cloud Token Factory wrote all 5 test walks, covering 17/17 stops with no numbers outside the supplied facts, 9–50 s per story (`docs/story_eval_Gemma-4-31B-IT.json`); browser-tested end to end with the AMD badge ([docs/STORYTELLER.md](docs/STORYTELLER.md)) |
 | Trade-off card: the TRAILS walk next to the fastest walk (extra minutes vs. places and strong matches on each), fastest walk drawn dotted on the map | Implemented, unit- and browser-tested |
 | Walk mode audio guide: as you walk (GPS or simulated), each stop's part of the story, or its notes, and every place you pass is shown and read aloud as you get within 60 m | Implemented, unit- and browser-tested with the simulated walk; **not field-tested** with real GPS |
 | Thumbs up / down ("More like this", "Not for me") on stops and in walk mode, with an immediate "your taste" readout and re-plan | Implemented, unit- and browser-tested |
@@ -44,7 +46,7 @@ Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
 | Preference learning from like / save / visited / read more / skip / not-for-me, editable and resettable | Implemented, unit-tested |
 | Route optimiser (fastest / cultural discovery / maximum history) with hard time budget | Implemented, unit-tested (deterministic, budget respected) |
 | Pedestrian routing: Valhalla → OSRM foot → labelled estimate, plus TRAILS' own A* router on a bundled OSM graph | Implemented. Valhalla parsing is tested against a **recorded real response**; live calls could not be made from the build sandbox. The Rome street graph (65,014 nodes from OpenStreetMap) is bundled, so routes follow real streets offline; browser-tested. |
-| Map (Leaflet + OpenStreetMap/CARTO tiles), route line, stops, alternatives | Implemented; browser-tested with live CARTO tiles (18 Oct) and with the offline fallback when tiles fail |
+| Map (Leaflet + OpenStreetMap/CARTO tiles), route line, stops, alternatives | Implemented; browser-tested with live CARTO tiles (17 Oct) and with the offline fallback when tiles fail |
 | Navigation: next instruction, next stop, remaining distance/time, GPS with consent or simulated walk | Implemented; simulated walk browser-tested; real GPS **not field-tested** |
 | Camera recognition: live camera, held-out demo photos, photo upload, unknown state, 2D label overlay | Implemented; accuracy measured on held-out photos (below); live camera **not tested on a phone** |
 | Place pages: image + licence, periods, themes, then & now, history, sources, related places | Implemented |
@@ -59,14 +61,14 @@ Measured results (all reproducible, see "Tests"):
   landmarks): top-1 82.5 %; with the calibrated threshold 60.8 % recognised correctly, 1.7 % wrong
   (2 photos: Trajan's Column taken for the Column of Marcus Aurelius or Sant'Agnese), 37.5 % "not
   sure"; 10 % of unrelated landmarks falsely accepted; ~170 ms per photo (6 crops) in headless
-  Chromium on a Windows laptop. The 5 landmarks added on 18 Oct: Colosseum 7/7 top-1 (5 recognised),
+  Chromium on a Windows laptop. The 5 landmarks added on 17 Oct: Colosseum 7/7 top-1 (5 recognised),
   Pantheon 7/9 (5), Arch of Constantine 5/5 (5), Trajan's Column 3/5 (2), Four Rivers Fountain 3/4 (2).
   Earlier 22-landmark run: 83.3 % / 63.3 % / 0 % wrong. MobileNetV3-Large was measured only on the
   22-landmark set (84.4 % / 72.2 % / 4.4 % wrong at 169 ms). See `docs/vision_eval_*.json`.
 
 ## Quick start
 
-Requirements: Node 20+ (tested with Node 22), Python 3.10+ only for the ML and data scripts.
+Requirements: Node 20+ (tested with Node 22 and 24), Python 3.10+ only for the ML and data scripts.
 
 ```bash
 npm install          # also copies the MediaPipe wasm runtime into public/mediapipe
@@ -76,6 +78,26 @@ npm run preview      # serve the production build
 npm test             # unit + integration tests (Vitest)
 npm run story        # optional: serves dist/ + the AI storyteller API (see docs/STORYTELLER.md)
 ```
+
+**Windows PowerShell:** if `npm` fails with "running scripts is disabled on this system", type
+`npm.cmd` instead (or run `Set-ExecutionPolicy -Scope CurrentUser RemoteSigned` once).
+
+### Live AI stories on AMD
+
+The storyteller calls Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs) through an
+OpenAI-compatible API. The key stays on your machine, in the server's environment only:
+
+```powershell
+$env:STORY_API_BASE="https://developer.amd.com.cn/radeon/api/v1"
+$env:STORY_MODEL="Gemma-4-31B-IT"
+$env:STORY_API_KEY="<your Token Factory key>"
+$env:STORY_PROVIDER_LABEL="Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)"
+npm.cmd run build; npm.cmd run story          # app + live stories on http://localhost:8787
+npm.cmd run story:eval                         # measure: docs/story_eval_<model>.json
+```
+
+With the server running, `node --experimental-strip-types scripts/pregen_stories.ts` refreshes the
+pre-generated stories for the preset walks that the public site shows (`public/data/story_cache.json`).
 
 The camera needs HTTPS on phones. For a quick phone test, deploy (below) or use a tunnel such as
 `npx localtunnel --port 5173`.
@@ -121,7 +143,8 @@ python scripts/validate_dataset.py                  # schema, ids, duplicates, l
 | `VITE_OSRM_FOOT_URL` | `https://routing.openstreetmap.de/routed-foot` | OSRM foot routing |
 | `VITE_EMBED_MODEL` | `mobilenet_v3_small` | Vision embedder (must match the reference index) |
 | `VITE_PHOTON_URL`, `VITE_NOMINATIM_URL` | public OSM geocoders | Address search (type-ahead / explicit search) |
-| `STORY_API_BASE`, `STORY_MODEL`, `STORY_API_KEY`, `STORY_PROVIDER_LABEL` | unset | Storyteller server only, never sent to the browser |
+| `STORY_API_BASE`, `STORY_MODEL`, `STORY_API_KEY`, `STORY_PROVIDER_LABEL` | unset | Storyteller server only, never sent to the browser (see "Live AI stories on AMD") |
+| `STORY_TIMEOUT_MS`, `STORY_JSON_MODE` | 95000, unset | Storyteller server: model timeout; `1` requests JSON output |
 | `STORY_ALLOW_ORIGIN` | unset | Storyteller server: sites allowed to call it from another origin (see docs/STORYTELLER.md) |
 | `VITE_STORY_API` | `/api` | Where the app sends story requests, e.g. a story server behind an HTTPS tunnel |
 

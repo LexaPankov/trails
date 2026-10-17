@@ -32,7 +32,12 @@ export interface Story {
   outro: string
   sources: { n: number; title: string; url: string }[]
   /** who wrote it: the configured model, or the offline assembler */
-  generator: { kind: 'model' | 'offline'; model?: string; provider?: string; latencyMs?: number }
+  generator: { kind: 'model' | 'offline'; model?: string; provider?: string; latencyMs?: number; pregenerated?: string }
+}
+
+/** Identifies a walk for the pre-generated story cache (public/data/story_cache.json). */
+export function storyKey(r: { start: string; end: string; mode: string; interests: string[]; stopIds: string[] }): string {
+  return [r.start, r.end, r.mode, [...r.interests].sort().join(','), r.stopIds.join(',')].join(' | ')
 }
 
 const MAX_HISTORY = 700
