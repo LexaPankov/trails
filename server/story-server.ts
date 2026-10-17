@@ -3,7 +3,8 @@
 // validates the answer and, if dist/ exists, also serves the built app.
 //   node --experimental-strip-types server/story-server.ts
 // Env: STORY_API_BASE (e.g. http://<amd-host>:8000/v1), STORY_API_KEY, STORY_MODEL,
-//      STORY_PROVIDER_LABEL (shown in the app, e.g. "vLLM on AMD Instinct MI300X (ROCm)"), PORT (8787)
+//      STORY_PROVIDER_LABEL (shown in the app, e.g. "vLLM on AMD Instinct MI300X (ROCm)"), PORT (8787),
+//      STORY_JSON_MODE=1 (request response_format json_object)
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import { extname, join, normalize, resolve } from 'node:path'
@@ -82,7 +83,11 @@ export async function tellStory(body: Record<string, unknown>, fetchImpl: typeof
   const r = await fetchImpl(`${API_BASE}/chat/completions`, {
     method: 'POST',
     headers: { 'content-type': 'application/json', ...(env.STORY_API_KEY ? { authorization: `Bearer ${env.STORY_API_KEY}` } : {}) },
-    body: JSON.stringify({ model: MODEL, messages: buildMessages(input), temperature: 0.4, max_tokens: 1200 }),
+    body: JSON.stringify({
+      model: MODEL, messages: buildMessages(input), temperature: 0.4, max_tokens: 1200,
+      // STORY_JSON_MODE=1: ask the endpoint for a JSON object (vLLM and OpenAI support it), so fewer answers fail to parse
+      ...(env.STORY_JSON_MODE === '1' ? { response_format: { type: 'json_object' } } : {}),
+    }),
     signal: AbortSignal.timeout(TIMEOUT_MS),
   })
   if (!r.ok) throw Object.assign(new Error(`model endpoint answered ${r.status}`), { status: 502 })
