@@ -24,7 +24,7 @@ browser ──POST /api/story {stopIds, start, end, interests}──► server/s
 ## What we run: Gemma 4 31B on the AMD Developer Cloud Token Factory
 
 The event's AMD Developer Cloud Token Factory serves models on AMD GPUs behind an OpenAI-compatible API,
-so no instance or Docker is needed. Measured on 18 Oct with `npm run story:eval`: 5/5 walks, 17/17 stops,
+so no instance or Docker is needed. Measured on 17 Oct with `npm run story:eval`: 5/5 walks, 17/17 stops,
 no numbers outside the facts, 9–50 s per story (`docs/story_eval_Gemma-4-31B-IT.json`).
 
 PowerShell (Windows blocks `npm.ps1` by default, so call `npm.cmd`; the key is personal, never commit it):

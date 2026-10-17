@@ -37,6 +37,12 @@ describe('storyteller grounding', () => {
     expect(out.segments[0].text).toBe('A column with a spiral frieze. Topped by St Peter.')
     expect(out.segments[0].cite).toEqual([1])
   })
+  it('keys pre-generated stories by walk, ignoring interest order', async () => {
+    const { storyKey } = await import('../src/lib/story/core')
+    const a = { start: 'Pantheon', end: 'Colosseum', mode: 'Cultural discovery', interests: ['Baroque', 'Ancient Rome'], stopIds: ['x', 'y'] }
+    expect(storyKey(a)).toBe(storyKey({ ...a, interests: ['Ancient Rome', 'Baroque'] }))
+    expect(storyKey(a)).not.toBe(storyKey({ ...a, stopIds: ['y', 'x'] }))
+  })
   it('rejects output without usable segments', () => {
     expect(() => parseStory('{"title":"x","segments":[]}', input)).toThrow()
     expect(() => parseStory('no json here', input)).toThrow()

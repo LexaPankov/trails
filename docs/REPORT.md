@@ -82,7 +82,7 @@ need internet.
 
 ## 11. Actual test results (run on 2026-10-16 in the build container)
 
-* Vitest: **37 passed / 37** (18 Oct: optional JSON mode for the storyteller; 17 Oct: added storyteller fallback messages on static hosts and CORS allow-list; before that: trade-off, walk-mode cues, story-in-cue, taste shift).
+* Vitest: **37 passed / 37** (17 Oct: optional JSON mode for the storyteller; 17 Oct: added storyteller fallback messages on static hosts and CORS allow-list; before that: trade-off, walk-mode cues, story-in-cue, taste shift).
 * 17 Oct: on a static host the story card now explains in plain words that the AI storyteller is not reachable, instead of "story server answered 501". The story server accepts cross-origin calls from sites listed in `STORY_ALLOW_ORIGIN`; browser-tested with a separate site calling a stand-in model. Added since the first report: storyteller grounding and server tests (6),
   address search parsing, arbitrary-endpoint planning in all modes, pass-by behaviour, places-along-path (5).
   Original 19: (model parity with PyTorch, schema check, fallback scorer, preference
@@ -99,7 +99,7 @@ need internet.
   also checked in the browser with no model configured.
   With the real walking matrix, Pantheon → Colosseum in 45 min gave: Ancient preset = Temple of
   Hadrian + Trajan's Column; Renaissance preset = Piazza della Rotonda + Trajan's Column.
-* 18 Oct, re-run on Windows 11 / Node 24 with internet access: smoke test **10/10 checks on desktop
+* 17 Oct, re-run on Windows 11 / Node 24 with internet access: smoke test **10/10 checks on desktop
   and mobile** against (a) the production build served by the story server with a stand-in model,
   (b) the GitHub Pages build under `/trails/` with no story server (offline story fallback), and
   (c) `vite preview` with live CARTO tiles. Screenshots in `docs/screenshots` are from run (c):
@@ -109,14 +109,21 @@ need internet.
 * Preference MLP, held-out **synthetic** users: AUC 0.740 (rule baseline 0.709, popularity 0.504,
   simulator ceiling 0.869); NDCG@5 0.874 (rule 0.857, popularity 0.594, ceiling 1.000).
   Export parity: torch vs JSON 1.25e-6, torch vs ONNX 6e-8.
-* Landmark recognition, 18 Oct (MobileNetV3-Small, 27 landmarks, 269 reference + 120 held-out photos
+* Landmark recognition, 17 Oct (MobileNetV3-Small, 27 landmarks, 269 reference + 120 held-out photos
   + 30 unrelated): top-1 82.5 %; with threshold 0.54 and margin 0.04 (re-calibrated, unchanged):
   60.8 % correct, 1.7 % wrong (2 Trajan's Column photos), 37.5 % "not sure"; 10 % of unrelated photos
   falsely accepted; 170 ms per photo on a Windows laptop. New landmarks (Colosseum, Pantheon, Arch of
   Constantine, Trajan's Column, Four Rivers Fountain) use Wikimedia Commons photos checked by eye
   (`scripts/fetch_commons_landmarks.py`). Earlier 22-landmark run: 83.3 % top-1, 63.3 % correct,
   0 % wrong, 76 ms; MobileNetV3-Large on that set: 72.2 % correct, 4.4 % wrong, 169 ms.
-* Dataset, 18 Oct: 465 places (74 curated + 391 imported, was 195). The import now also dates places
+* AMD storyteller, 17 Oct: Gemma 4 31B on the AMD Developer Cloud Token Factory, 5/5 eval walks
+  (`docs/story_eval_Gemma-4-31B-IT.json`); the 4 preset walks were also pre-generated with it
+  (`scripts/pregen_stories.ts` → `public/data/story_cache.json`), so the static site shows those AI
+  stories, badged "pre-generated", with no server and no key. Smoke test on the GitHub Pages build:
+  story badge = Gemma 4 31B on AMD, pre-generated. One preset (Hidden Rome, 7 stops) took 50–56 s and
+  twice got no answer within 2–4 min, so the endpoint's latency varies; the app waits up to 100 s,
+  then falls back to the pre-generated or offline story.
+* Dataset, 17 Oct: 465 places (74 curated + 391 imported, was 195). The import now also dates places
   that have no Wikidata inception or style, from an antiquity-only class (24 places) or the Wikipedia
   description (35); a sample was checked by hand and one rule was tightened ("an ancient church" is
   not Roman antiquity). Left out: 53 little-known sites that Wikipedia describes in the past tense
@@ -177,7 +184,7 @@ Checked against the official page (https://lablab.ai/event/amd-developer-hackath
 
 | Requirement | Status |
 | --- | --- |
-| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Met for the storyteller** (18 Oct): every AI story is written by Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs), and the story card shows that model and provider. Measured on 5 fixed walks: 5/5 succeeded, 17/17 stops covered, 0 walks with numbers outside the supplied facts, median 21.6 s, max 49.7 s, about 10–26 output tokens/s seen from the client (`docs/story_eval_Gemma-4-31B-IT.json`). Still open: `amd/train_rocm.sh` (preference model on an AMD GPU) needs a ROCm instance. |
+| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Met for the storyteller** (17 Oct): every AI story is written by Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs), and the story card shows that model and provider. Measured on 5 fixed walks: 5/5 succeeded, 17/17 stops covered, 0 walks with numbers outside the supplied facts, median 21.6 s, max 49.7 s, about 10–26 output tokens/s seen from the client (`docs/story_eval_Gemma-4-31B-IT.json`). Still open: `amd/train_rocm.sh` (preference model on an AMD GPU) needs a ROCm instance. |
 | Public GitHub repository | Done: https://github.com/LexaPankov/trails |
 | Demo application URL | GitHub Pages workflow ready (section 15) |
 | Cover image, video, slides, descriptions | Cover, slides and texts prepared by the team (outside the repo); video after the AMD run |
