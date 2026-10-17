@@ -314,3 +314,23 @@ input[type='range'] { width: 100%; accent-color: var(--terracotta); }
 .guide-card { margin-bottom: 10px; border-left: 4px solid var(--gold); padding-left: 12px; }
 .guide-card h4 { margin: 2px 0 4px; font-family: var(--serif); }
 .guide-card p { margin: 0 0 8px; }
+
+/* navigate: compact top card with icon tools, bottom sheet that swipes down to show the map */
+.nav-card { padding: 10px 12px; }
+.nav-top { display: flex; align-items: flex-start; gap: 10px; }
+.nav-top .nav-instr { flex: 1; min-width: 0; font-size: 1.15rem; }
+.nav-then { font-family: var(--sans); font-size: 0.82rem; margin-top: 2px; }
+.nav-tools { display: flex; gap: 6px; flex-shrink: 0; }
+.nav-tool { width: 36px; height: 36px; border-radius: 50%; border: 1px solid var(--line); background: transparent; color: var(--muted);
+  display: inline-flex; align-items: center; justify-content: center; cursor: pointer; padding: 0; }
+.nav-tool[aria-pressed='true'] { background: var(--ink); border-color: var(--ink); color: var(--ivory); }
+.nav-tool:disabled { opacity: 0.4; cursor: not-allowed; }
+.nav-info { margin-top: 8px; padding-top: 8px; border-top: 1px solid var(--line); }
+.nav-info p { margin: 0 0 4px; }
+.nav-note { margin: 8px 0 0; }
+.nav-bottom { padding: 0 14px 14px; max-height: 55vh; display: flex; flex-direction: column; transition: max-height 0.25s ease; }
+.nav-collapsed { padding-bottom: 10px; }
+.nav-handle { display: flex; justify-content: center; width: 100%; padding: 8px 0 8px; border: 0; background: none; cursor: pointer; touch-action: none; }
+.nav-handle span { width: 40px; height: 5px; border-radius: 3px; background: var(--line); }
+.nav-sheet-body { overflow-y: auto; min-height: 0; }
+.nav-oneline { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
