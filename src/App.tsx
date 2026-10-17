@@ -35,11 +35,12 @@ export default function App() {
     default: screen = <Home />
   }
   const full = top === 'route' || top === 'navigate'
+  const immersive = top === 'navigate' // the walk screen is a full-screen map with its own back button
 
   return (
     <div className="app">
       <a href="#main" className="sr-only">Skip to content</a>
-      <header className="header">
+      {!immersive && <header className="header">
         <a className="brand" href="#/" aria-label="TRAILS home">
           <span className="brand-mark">TRAILS</span>
           <span className="brand-tag">Every route has a story.</span>
@@ -60,20 +61,20 @@ export default function App() {
             {DEMO_SCENARIOS.map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}
           </select>
         )}
-      </header>
+      </header>}
       <main id="main" className="main">{screen}</main>
       {!full && (
         <footer className="footer">
           TRAILS · Rome dataset v{DATASET_VERSION} · Map data © OpenStreetMap contributors · <a href="#/about">Sources, models & limitations</a>
         </footer>
       )}
-      <nav className="tabbar" aria-label="Main">
+      {!immersive && <nav className="tabbar" aria-label="Main">
         {TABS.map((t) => (
           <a key={t.path} href={`#/${t.path}`} aria-current={current === t.path ? 'page' : undefined}>
             <Icon name={t.icon} size={20} /> {t.label}
           </a>
         ))}
-      </nav>
+      </nav>}
     </div>
   )
 }
