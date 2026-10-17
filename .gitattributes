@@ -5,3 +5,4 @@
 *.onnx binary
 *.pt binary
 *.wasm binary
+*.cmd text eol=crlf
