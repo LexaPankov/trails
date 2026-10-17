@@ -1,0 +1,50 @@
+# Build TRAILS and publish it to GitHub Pages on every push to main.
+# The static site has no /api, so stories come from the offline assembler (labelled in the app);
+# see docs/STORYTELLER.md for pointing it at a story server with VITE_STORY_API.
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+      - run: npm ci
+      - run: npm test
+      - name: Build for https://<owner>.github.io/<repo>/
+        run: npx tsc -b && npx vite build --base="/${{ github.event.repository.name }}/"
+        env:
+          # Standard OpenStreetMap tiles need no key (light demo traffic, attribution shown in the map).
+          VITE_TILE_URL: https://tile.openstreetmap.org/{z}/{x}/{y}.png
+          VITE_TILE_ATTRIBUTION: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
