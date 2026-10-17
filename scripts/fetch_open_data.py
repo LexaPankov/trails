@@ -63,7 +63,7 @@ def wiki(places, out):
         res[p["id"]] = entry
         print(f"[wiki] {p['id']:<34} {entry['status']:<8} offset={entry.get('offset_m')}", flush=True)
         time.sleep(0.2)
-    json.dump(res, open(os.path.join(out, "wikipedia.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(out, "wikipedia.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     return res
 
 
@@ -96,7 +96,7 @@ def images(places, wikidata, out):
         except Exception as e:
             print(f"[img] {p['id']} failed: {e}")
         time.sleep(0.5)
-    json.dump(attrib, open(os.path.join(d, "attribution.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(attrib, open(os.path.join(d, "attribution.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
 
 def overpass(out):
@@ -137,7 +137,7 @@ def valhalla(places, out):
             time.sleep(1.0)
     json.dump({"ids": [p["id"] for p in places], "duration_s": dur, "distance_m": dist,
                "provider": "valhalla1.openstreetmap.de (FOSSGIS), costing=pedestrian",
-               "fetched": time.strftime("%Y-%m-%d")}, open(os.path.join(out, "valhalla_matrix.json"), "w"))
+               "fetched": time.strftime("%Y-%m-%d")}, open(os.path.join(out, "valhalla_matrix.json"), "w", encoding="utf-8"))
     samples = {}
     by = {p["id"]: p for p in places}
     for a, b in [("pantheon", "colosseum"), ("trevi-fountain", "piazza-navona"), ("castel-sant-angelo", "campo-de-fiori")]:
@@ -149,7 +149,7 @@ def valhalla(places, out):
         except Exception as e:
             print(f"[valhalla] route {a} -> {b} failed: {e}")
         time.sleep(1.0)
-    json.dump(samples, open(os.path.join(out, "valhalla_samples.json"), "w"))
+    json.dump(samples, open(os.path.join(out, "valhalla_samples.json"), "w", encoding="utf-8"))
 
 
 def main():
@@ -159,12 +159,12 @@ def main():
     ap.add_argument("--skip", nargs="*", default=[], choices=["wiki", "images", "osm", "valhalla"])
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
-    places = json.load(open(a.places))["places"]
+    places = json.load(open(a.places, encoding="utf-8"))["places"]
     w = {}
     if "wiki" not in a.skip:
         w = wiki(places, a.out)
     elif os.path.exists(os.path.join(a.out, "wikipedia.json")):
-        w = json.load(open(os.path.join(a.out, "wikipedia.json")))
+        w = json.load(open(os.path.join(a.out, "wikipedia.json"), encoding="utf-8"))
     if "images" not in a.skip:
         images(places, w, a.out)
     if "osm" not in a.skip:

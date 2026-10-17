@@ -159,6 +159,14 @@
         "wikidata"
       ],
       "description": "wikidata = imported automatically by scripts/merge_more_places.py, not reviewed by hand"
+    },
+    "period_source": {
+      "enum": [
+        "wikidata",
+        "wikidata class",
+        "wikipedia description"
+      ],
+      "description": "Imported places only: where the period came from (inception/style, an antiquity-only class, or the Wikipedia description)"
     }
   }
 }

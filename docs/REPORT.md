@@ -50,7 +50,7 @@ npm run smoke                    # Playwright end-to-end (needs a running dev/pr
 
 ## 5. Build
 
-`npm run build` → `dist/` (static). Main JS bundle 912 kB (237 kB gzip, about half of it the bundled place dataset);
+`npm run build` → `dist/` (static). Main JS bundle 1,255 kB (296 kB gzip, more than half of it the bundled place dataset);
 the MediaPipe library (154 kB) loads only when the camera opens; MediaPipe wasm, models,
 photos and data are separate static files.
 
@@ -109,10 +109,22 @@ need internet.
 * Preference MLP, held-out **synthetic** users: AUC 0.740 (rule baseline 0.709, popularity 0.504,
   simulator ceiling 0.869); NDCG@5 0.874 (rule 0.857, popularity 0.594, ceiling 1.000).
   Export parity: torch vs JSON 1.25e-6, torch vs ONNX 6e-8.
-* Landmark recognition (MobileNetV3-Small, 22 landmarks, 90 held-out photos + 30 unrelated):
-  top-1 83.3 %; with threshold 0.54 and margin 0.04: 63.3 % correct, 0 % wrong, 36.7 % "not sure";
-  10 % of unrelated photos falsely accepted; 76 ms per photo. MobileNetV3-Large: 72.2 % correct,
-  4.4 % wrong, 169 ms.
+* Landmark recognition, 18 Oct (MobileNetV3-Small, 27 landmarks, 269 reference + 120 held-out photos
+  + 30 unrelated): top-1 82.5 %; with threshold 0.54 and margin 0.04 (re-calibrated, unchanged):
+  60.8 % correct, 1.7 % wrong (2 Trajan's Column photos), 37.5 % "not sure"; 10 % of unrelated photos
+  falsely accepted; 170 ms per photo on a Windows laptop. New landmarks (Colosseum, Pantheon, Arch of
+  Constantine, Trajan's Column, Four Rivers Fountain) use Wikimedia Commons photos checked by eye
+  (`scripts/fetch_commons_landmarks.py`). Earlier 22-landmark run: 83.3 % top-1, 63.3 % correct,
+  0 % wrong, 76 ms; MobileNetV3-Large on that set: 72.2 % correct, 4.4 % wrong, 169 ms.
+* Dataset, 18 Oct: 465 places (74 curated + 391 imported, was 195). The import now also dates places
+  that have no Wikidata inception or style, from an antiquity-only class (24 places) or the Wikipedia
+  description (35); a sample was checked by hand and one rule was tightened ("an ancient church" is
+  not Roman antiquity). Left out: 53 little-known sites that Wikipedia describes in the past tense
+  (the first run sent the "Ancient stones" preset to the vanished Villa Publica), and the general
+  "Catacombs of Rome" article. Two imports must now be 15 m apart (30 m from a curated place), so a
+  church above a temple both stay. Of the earlier 269 places only Porta Caelimontana is gone, replaced
+  by the Arch of Dolabella (the same structure, 0 m). New photos are resized to 720 px (80 kB average).
+  Validator passes; main JS bundle 296 kB gzip (was 237 kB).
 
 ## 12. Known limitations
 
@@ -120,15 +132,16 @@ need internet.
 * No on-device retraining; learning works through the affinity inputs the network was trained on.
 * The optimiser is a greedy heuristic, not an exact orienteering solver.
 * The bundled street graph covers central Rome only (about 41.870–41.919 N, 12.444–12.507 E); outside it, without network, routes are labelled estimates.
-* 269 places in central Rome only: 74 hand-curated, 195 imported automatically from Wikidata/Wikipedia (period from inception date or architectural style, importance from the number of Wikipedia language editions; not reviewed by hand).
+* 465 places in central Rome only: 74 hand-curated, 391 imported automatically from Wikidata/Wikipedia (period from inception date or architectural style, else from an antiquity-only class or the Wikipedia description; importance from the number of Wikipedia language editions; not reviewed by hand).
 * Possible near-duplicate photos between reference and test sets in GLDv2, so recognition accuracy
   may be optimistic. Rule-of-thumb threshold calibrated on reference photos only.
 
 ## 13. Camera and browser limitations
 
 * Camera and GPS need HTTPS (or localhost) and user permission.
-* Only 22 landmarks are recognisable; everything else should yield "not recognised", but 10 % of
-  unrelated landmarks were falsely accepted in testing.
+* Only 27 landmarks are recognisable; everything else should yield "not recognised", but 10 % of
+  unrelated landmarks were falsely accepted in testing. Trajan's Column can be confused with the
+  Column of Marcus Aurelius.
 * The overlay is a 2D label on the best-matching region, not 3D AR tracking.
 * Night, heavy occlusion and close-up details were not evaluated.
 * Live-camera behaviour has not been tested on a physical phone.

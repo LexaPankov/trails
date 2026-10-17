@@ -17,10 +17,10 @@ ap.add_argument("--open", default=os.path.join(ROOT, "data", "open"))
 a = ap.parse_args()
 
 pf = os.path.join(ROOT, "data", "rome", "places.json")
-data = json.load(open(pf))
-wiki = json.load(open(os.path.join(a.open, "wikipedia.json")))
+data = json.load(open(pf, encoding="utf-8"))
+wiki = json.load(open(os.path.join(a.open, "wikipedia.json"), encoding="utf-8"))
 fixed_path = os.path.join(a.open, "fixed_titles.json")
-fixed = json.load(open(fixed_path)) if os.path.exists(fixed_path) else {}
+fixed = json.load(open(fixed_path, encoding="utf-8")) if os.path.exists(fixed_path) else {}
 report = {"coords_updated": 0, "verified_sources": 0, "unverified": []}
 for p in data["places"]:
     w = wiki.get(p["id"], {})
@@ -44,12 +44,12 @@ for p in data["places"]:
         p["sources"][0]["verified"] = False
         p["coord_source"] = "curated"
         report["unverified"].append(p["id"])
-json.dump(data, open(pf, "w"), indent=2, ensure_ascii=False)
+json.dump(data, open(pf, "w", encoding="utf-8"), indent=2, ensure_ascii=False)
 
 img_dir = os.path.join(a.open, "images")
 attr_path = os.path.join(img_dir, "attribution.json")
 if os.path.exists(attr_path):
-    attr = json.load(open(attr_path))
+    attr = json.load(open(attr_path, encoding="utf-8"))
     os.makedirs(os.path.join(ROOT, "public", "places"), exist_ok=True)
     out = {}
     for pid, m in attr.items():
@@ -58,7 +58,7 @@ if os.path.exists(attr_path):
             shutil.copy(src, os.path.join(ROOT, "public", "places", pid + ".jpg"))
             out[pid] = {**m, "file": f"places/{pid}.jpg",
                        "author": html.unescape(re.sub(r"<[^>]+>", "", m.get("author_html") or "")).strip() or "unknown"}
-    json.dump(out, open(os.path.join(ROOT, "data", "rome", "place_images.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(out, open(os.path.join(ROOT, "data", "rome", "place_images.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     report["lead_images"] = len(out)
 
 mx = os.path.join(a.open, "valhalla_matrix.json")

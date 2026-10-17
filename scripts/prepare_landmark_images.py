@@ -61,6 +61,6 @@ for pid in sorted(set(wanted.values())):
                       "commons_page": meta["url"], "title": meta.get("title")})
     manifest["landmarks"][pid] = items
 os.makedirs(os.path.dirname(a.manifest), exist_ok=True)
-json.dump(manifest, open(a.manifest, "w"), indent=1, ensure_ascii=False)
+json.dump(manifest, open(a.manifest, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 tot = sum(len(v) for v in manifest["landmarks"].values())
 print(f"{len(manifest['landmarks'])} landmarks, {tot} images, skipped {skipped} without licence")

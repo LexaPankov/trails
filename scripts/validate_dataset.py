@@ -10,9 +10,9 @@ Exit code 1 on any error.
 import json, math, os, re, sys, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-places = json.load(open(os.path.join(ROOT, "data/rome/places.json")))["places"]
-schema = json.load(open(os.path.join(ROOT, "data/schema/place.schema.json")))
-images = json.load(open(os.path.join(ROOT, "data/rome/landmark_images.json")))
+places = json.load(open(os.path.join(ROOT, "data/rome/places.json"), encoding="utf-8"))["places"]
+schema = json.load(open(os.path.join(ROOT, "data/schema/place.schema.json"), encoding="utf-8"))
+images = json.load(open(os.path.join(ROOT, "data/rome/landmark_images.json"), encoding="utf-8"))
 errors, warnings = [], []
 
 try:

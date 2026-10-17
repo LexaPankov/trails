@@ -14,7 +14,7 @@ Standard library only. Every request sends a descriptive User-Agent and is rate 
 """
 import argparse, json, os, sys, time, urllib.error, urllib.parse, urllib.request
 
-UA = "TRAILS-hackathon-data-fetch/1.1 (open-source cultural navigation prototype)"
+UA = "TRAILS-hackathon-data-fetch/1.2 (https://github.com/LexaPankov/trails; open-source cultural navigation prototype)"
 BBOX = (41.872, 12.448, 41.915, 12.502)  # south, west, north, east (same as fetch_open_data.py)
 CULTURAL = (
     "church", "basilica", "chapel", "oratory", "cathedral", "temple", "palace", "palazzo", "villa", "fountain",
@@ -76,7 +76,7 @@ SELECT ?item ?label ?lat ?lon ?article ?sitelinks ?inception ?image
         for c in (v("styles") or "").split("|"):
             if c and c not in it["styles"]: it["styles"].append(c)
     res = sorted(items.values(), key=lambda x: -x["sitelinks"])
-    json.dump(res, open(os.path.join(out, "wikidata_candidates.json"), "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(os.path.join(out, "wikidata_candidates.json"), "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     print(f"[wikidata] {len(res)} items with an English article in the box", flush=True)
     return res
 
@@ -87,7 +87,7 @@ def cultural(it):
 
 def wiki(cands, out, limit):
     path = os.path.join(out, "more_wikipedia.json")
-    res = json.load(open(path)) if os.path.exists(path) else {}  # resumable: keep entries that already loaded
+    res = json.load(open(path, encoding="utf-8")) if os.path.exists(path) else {}  # resumable: keep entries that already loaded
     for it in [c for c in cands if cultural(c)][:limit]:
         if res.get(it["qid"], {}).get("status") == "ok":
             continue
@@ -104,16 +104,16 @@ def wiki(cands, out, limit):
         res[it["qid"]] = e
         print(f"[wiki] {it['qid']:<11} {e['status']:<7} {title}", flush=True)
         if len(res) % 25 == 0:
-            json.dump(res, open(path, "w"), indent=1, ensure_ascii=False)
+            json.dump(res, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
         time.sleep(0.6)
-    json.dump(res, open(path, "w"), indent=1, ensure_ascii=False)
+    json.dump(res, open(path, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
     return res
 
 
 def images(cands, wk, out):
     d = os.path.join(out, "more_images"); os.makedirs(d, exist_ok=True)
     ap = os.path.join(d, "attribution.json")
-    attrib = json.load(open(ap)) if os.path.exists(ap) else {}  # resumable
+    attrib = json.load(open(ap, encoding="utf-8")) if os.path.exists(ap) else {}  # resumable
     for it in cands:
         if (wk.get(it["qid"]) or {}).get("status") != "ok" or not it.get("image") or it["qid"] in attrib:
             continue
@@ -137,7 +137,7 @@ def images(cands, wk, out):
         except Exception as err:
             print(f"[img] {it['qid']} failed: {err}")
         time.sleep(0.4)
-    json.dump(attrib, open(ap, "w"), indent=1, ensure_ascii=False)
+    json.dump(attrib, open(ap, "w", encoding="utf-8"), indent=1, ensure_ascii=False)
 
 
 ENDPOINTS = ("https://overpass-api.de/api/interpreter", "https://overpass.private.coffee/api/interpreter",
@@ -166,7 +166,7 @@ out body;"""
             for ep in ENDPOINTS:
                 try:
                     r = get(ep, data=urllib.parse.urlencode({"data": q}).encode(), timeout=150, tries=2)
-                    json.dump(r["elements"], open(os.path.join(td, f"{grid}_{k}.json"), "w"))
+                    json.dump(r["elements"], open(os.path.join(td, f"{grid}_{k}.json"), "w", encoding="utf-8"))
                     print(f"[osm] tile {k} ok from {ep}: {len(r['elements'])} elements", flush=True)
                     break
                 except Exception as err:
@@ -179,9 +179,9 @@ out body;"""
         print(f"[osm] {len(missing)} tiles still missing ({missing}); rerun later to resume. osm_walk.json not written"); return
     nodes, ways = {}, {}
     for k in range(len(tiles)):
-        for el in json.load(open(os.path.join(td, f"{grid}_{k}.json"))):
+        for el in json.load(open(os.path.join(td, f"{grid}_{k}.json"), encoding="utf-8")):
             (nodes if el["type"] == "node" else ways)[el["id"]] = el
-    json.dump({"elements": list(nodes.values()) + list(ways.values())}, open(os.path.join(out, "osm_walk.json"), "w"))
+    json.dump({"elements": list(nodes.values()) + list(ways.values())}, open(os.path.join(out, "osm_walk.json"), "w", encoding="utf-8"))
     print(f"[osm] wrote osm_walk.json: {len(nodes)} nodes, {len(ways)} ways")
 
 
@@ -190,13 +190,22 @@ def main():
     ap.add_argument("--out", default="data/open")
     ap.add_argument("--limit", type=int, default=450, help="max cultural candidates to fetch summaries for")
     ap.add_argument("--skip", nargs="*", default=[], choices=["wikidata", "wiki", "images", "osm"])
+    ap.add_argument("--images-for-imported", action="store_true",
+                    help="only fetch lead images for places already imported into data/rome/places.json "
+                         "(run merge_more_places.py first, then merge again to copy the images in)")
     a = ap.parse_args()
     os.makedirs(a.out, exist_ok=True)
     cp = os.path.join(a.out, "wikidata_candidates.json")
-    cands = wikidata(a.out) if "wikidata" not in a.skip else json.load(open(cp))
+    cands = wikidata(a.out) if "wikidata" not in a.skip else json.load(open(cp, encoding="utf-8"))
     wp = os.path.join(a.out, "more_wikipedia.json")
-    wk = wiki(cands, a.out, a.limit) if "wiki" not in a.skip else json.load(open(wp))
+    wk = wiki(cands, a.out, a.limit) if "wiki" not in a.skip else json.load(open(wp, encoding="utf-8"))
     if "images" not in a.skip:
+        if a.images_for_imported:
+            root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+            places = json.load(open(os.path.join(root, "data", "rome", "places.json"), encoding="utf-8"))["places"]
+            have = json.load(open(os.path.join(root, "data", "rome", "place_images.json"), encoding="utf-8"))
+            imported = {p.get("wikidata") for p in places if p.get("origin") == "wikidata" and p["id"] not in have}
+            cands = [c for c in cands if c["qid"] in imported]
         images(cands, wk, a.out)
     if "osm" not in a.skip:
         osm(a.out)

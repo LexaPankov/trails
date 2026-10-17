@@ -2976,6 +2976,976 @@
     "commons_page": "http://commons.wikimedia.org/wiki/File:Piazza_Venezia_in_rome.80.jpg",
     "title": "File:Piazza Venezia in rome.80.jpg"
    }
+  ],
+  "colosseum": [
+   {
+    "file": "landmarks/colosseum/167e4d279a7b6e5f.jpg",
+    "split": "reference",
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:0_Colosseum_-_Rome_111001_(1).JPG",
+    "title": "File:0 Colosseum - Rome 111001 (1).JPG",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/2b320722f77aced7.jpg",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseum_(06).jpg",
+    "title": "File:Colosseum (06).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/312e4a0975b60590.jpg",
+    "split": "test",
+    "author": "Vadim Zhivotovsky",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_-_panoramio_(22).jpg",
+    "title": "File:Colosseo - panoramio (22).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/37d7af0f0322f7fb.jpg",
+    "split": "reference",
+    "author": "Mariordo",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_Romano_Rome_04_2024_1343.jpg",
+    "title": "File:Colosseo Romano Rome 04 2024 1343.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/382805fde34ce17a.jpg",
+    "split": "reference",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:10865_-_Rome_-_Colosseum_(3506623122).jpg",
+    "title": "File:10865 - Rome - Colosseum (3506623122).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/452d9c30c7c890fb.jpg",
+    "split": "test",
+    "author": "Nono vlf",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colis%C3%A9e,_Rome.jpg",
+    "title": "File:Colisée, Rome.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/495aabfa6d7de41e.jpg",
+    "split": "reference",
+    "author": "Vadim Zhivotovsky",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_-_panoramio_(38).jpg",
+    "title": "File:Colosseo - panoramio (38).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/4fc6e59a3f1b904c.jpg",
+    "split": "reference",
+    "author": "Giuseppe Basile 99",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020_08_02_4.jpg",
+    "title": "File:Colosseo 2020 08 02 4.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/702dbe1ce378f9d7.jpg",
+    "split": "test",
+    "author": "Bybbisch94, Christian Gebhardt",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:20211110.Rom.Colosseum.-014.jpg",
+    "title": "File:20211110.Rom.Colosseum.-014.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/7fbb192f787c020b.jpg",
+    "split": "reference",
+    "author": "Serenapaliria",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo,_Roma,_Italia_Colosseum,_Rome,_Italy_03.jpg",
+    "title": "File:Colosseo, Roma, Italia Colosseum, Rome, Italy 03.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/a466f62ff144a3a9.jpg",
+    "split": "reference",
+    "author": "Falk2",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:14_548_Flavisches_Amphitheater.jpg",
+    "title": "File:14 548 Flavisches Amphitheater.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/b162c44d0ca6a1e7.jpg",
+    "split": "test",
+    "author": "Diego Delso",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Coliseo,_Roma,_Italia,_2022-09-15,_DD_42.jpg",
+    "title": "File:Coliseo, Roma, Italia, 2022-09-15, DD 42.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/bd95eaf8647b4e47.jpg",
+    "split": "reference",
+    "author": "Ramesh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_-_through_my_lens..jpg",
+    "title": "File:Colosseo - through my lens..jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/c4885af28dc4a1b9.jpg",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseum_(181).jpg",
+    "title": "File:Colosseum (181).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/ce75bdd982c58a4f.jpg",
+    "split": "test",
+    "author": "Luca Nebuloni",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_(13361445535).jpg",
+    "title": "File:Colosseo (13361445535).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/d87b659ea33ada1d.jpg",
+    "split": "reference",
+    "author": "Adri45an",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:ColloseumRome.jpg",
+    "title": "File:ColloseumRome.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/e0aaadca3769b1e8.jpg",
+    "split": "reference",
+    "author": "FeaturedPics",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseo_2020.jpg",
+    "title": "File:Colosseo 2020.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/ec2a87e634a1f2b4.jpg",
+    "split": "test",
+    "author": "xiquinhosilva",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:09712_-_Rome_-_Colosseum_(3505806907).jpg",
+    "title": "File:09712 - Rome - Colosseum (3505806907).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/f48ff79a81ca5a7c.jpg",
+    "split": "reference",
+    "author": "Geobia",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:1553RomaColosseo.jpg",
+    "title": "File:1553RomaColosseo.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/f5c2117784dcb718.jpg",
+    "split": "reference",
+    "author": "Wknight94",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseum_(Rome)_14.jpg",
+    "title": "File:Colosseum (Rome) 14.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/colosseum/f787d7b5ec490f67.jpg",
+    "split": "test",
+    "author": "Ben Skála, Benfoto",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Benfoto-Roma2013-017.jpg",
+    "title": "File:Benfoto-Roma2013-017.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   }
+  ],
+  "pantheon": [
+   {
+    "file": "landmarks/pantheon/0a7cc0133c1d687e.jpg",
+    "split": "reference",
+    "author": "FrDr",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_1000_104.jpg",
+    "title": "File:Roma 1000 104.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/10f5cf161d8e2b4c.jpg",
+    "split": "reference",
+    "author": "Mikhail Malykh",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Rione_VIII_Sant%27Eustachio,_00186_Roma,_Italy_-_panoramio_(16).jpg",
+    "title": "File:Rione VIII Sant'Eustachio, 00186 Roma, Italy - panoramio (16).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/16e478ec19b02c9a.jpg",
+    "split": "test",
+    "author": "Nicholas Hartmann",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Rome_Pantheon_Piazza_della_Rotonda.jpg",
+    "title": "File:Rome Pantheon Piazza della Rotonda.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/1dfabcf37042ffcf.jpg",
+    "split": "reference",
+    "author": "Falk2",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:14_515_Piazza_della_Rotonda,_Pantheon.jpg",
+    "title": "File:14 515 Piazza della Rotonda, Pantheon.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/1f661a238aefceb1.jpg",
+    "split": "reference",
+    "author": "Ottavia Cacciami",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Pantheon_-_2023-09-06_21-40-33_001.jpeg",
+    "title": "File:Roma - Pantheon - 2023-09-06 21-40-33 001.jpeg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/20a619befecc6f03.jpg",
+    "split": "test",
+    "author": "Lunna Campos",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Partenon_(21271833011).jpg",
+    "title": "File:Partenon (21271833011).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/2f696dfdecd660d3.jpg",
+    "split": "reference",
+    "author": "Sean Da Ros",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:20190811_roma_jpeg2_14.jpg",
+    "title": "File:20190811 roma jpeg2 14.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/2fbe89e48239154f.jpg",
+    "split": "reference",
+    "author": "Andy / Andrew Fogg from near Cambridge, UK",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_(8297337032).jpg",
+    "title": "File:Pantheon (8297337032).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/2fdf280425b36b7c.jpg",
+    "split": "test",
+    "author": "Wilfredor",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_of_Roma.jpg",
+    "title": "File:Pantheon of Roma.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/3e0b9a017b6491a1.jpg",
+    "split": "reference",
+    "author": "Gary Todd from Xinzheng, China",
+    "license": "Public domain",
+    "license_url": null,
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_(Roman_Catholic_Church_of_St._Mary_%26_the_Martyrs)_(48424186646).jpg",
+    "title": "File:Pantheon (Roman Catholic Church of St. Mary & the Martyrs) (48424186646).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/43663e6f80d2dcfc.jpg",
+    "split": "reference",
+    "author": "Ypsilon from Finland",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_main_entrance.jpg",
+    "title": "File:Pantheon main entrance.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/62f5cea35eca5b0c.jpg",
+    "split": "test",
+    "author": "Tommasopaiano",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Pantheon_-_2024-01-31_08-40-58_001.jpg",
+    "title": "File:Roma - Pantheon - 2024-01-31 08-40-58 001.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/8abb29fd0c2a7537.jpg",
+    "split": "reference",
+    "author": "FrDr",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_1000_91.jpg",
+    "title": "File:Roma 1000 91.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/9e1c5a68efa33688.jpg",
+    "split": "reference",
+    "author": "This Photo was taken by Andrea Bertozzi.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message.",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_(2).jpg",
+    "title": "File:Pantheon (2).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/9f5e04760c1c2275.jpg",
+    "split": "test",
+    "author": "Dora Dragoni",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_-_panoramio_(11).jpg",
+    "title": "File:Pantheon - panoramio (11).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/a5c6b959d9b9ec5f.jpg",
+    "split": "reference",
+    "author": "EliziR",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pante%C3%B3_de_Roma_(febrer_2009)_-_panoramio.jpg",
+    "title": "File:Panteó de Roma (febrer 2009) - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/a6f37f12d1d28f53.jpg",
+    "split": "reference",
+    "author": "Ilya Sergeevich Roi",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Rally_in_support_of_Ukraine_in_front_of_Pantheon.jpg",
+    "title": "File:Rally in support of Ukraine in front of Pantheon.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/ddaeaf536013ea67.jpg",
+    "split": "test",
+    "author": "Mariordo (Mario Roberto Durán Ortiz)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_Rome_04_2016_6466.jpg",
+    "title": "File:Pantheon Rome 04 2016 6466.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/fedfedf31f701053.jpg",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_(45592022215).jpg",
+    "title": "File:Pantheon (45592022215).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/3d95128d75c1d850.jpg",
+    "split": "reference",
+    "author": "C messier",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%AC%CE%BD%CE%B8%CE%B5%CE%BF%CE%BD_%CE%A1%CF%8E%CE%BC%CE%B7%CF%82_2025-10-14_0424.jpg",
+    "title": "File:Πάνθεον Ρώμης 2025-10-14 0424.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/5016c7f0ac98ab20.jpg",
+    "split": "reference",
+    "author": "Nhartmannphotos",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_roof_1,_Rome.jpg",
+    "title": "File:Pantheon roof 1, Rome.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/5ea801b75e7cda45.jpg",
+    "split": "test",
+    "author": "Pep Rizal (Tagzania user ID: 29)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Panteon_Erroma_-_Pantheon_(Rome)_-_Tagzania_-_1767355139600.jpg",
+    "title": "File:Panteon Erroma - Pantheon (Rome) - Tagzania - 1767355139600.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/6b8246bf107ef802.jpg",
+    "split": "reference",
+    "author": "Nhartmannphotos",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Pantheon_portico_and_dome,_Rome.jpg",
+    "title": "File:Pantheon portico and dome, Rome.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/6d584914926a45d3.jpg",
+    "split": "reference",
+    "author": "Thomas_Fuhrmann_Jakobsthal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Pantheon_at_dusk_-_in_2024.jpg",
+    "title": "File:Roma - Pantheon at dusk - in 2024.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/951aea856309a9ec.jpg",
+    "split": "test",
+    "author": "Pep Rizal (Tagzania user ID: 29)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Panteon_Erroma_-_Pantheon_(Rome)_-_Tagzania_-_1767355139394.jpg",
+    "title": "File:Panteon Erroma - Pantheon (Rome) - Tagzania - 1767355139394.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/ae5161c062272609.jpg",
+    "split": "reference",
+    "author": "Pep Rizal (Tagzania user ID: 29)",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Panteon_Erroma_-_Pantheon_(Rome)_-_Tagzania_-_1767355139962.jpg",
+    "title": "File:Panteon Erroma - Pantheon (Rome) - Tagzania - 1767355139962.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/b85e9263c17938ea.jpg",
+    "split": "reference",
+    "author": "C messier",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%AC%CE%BD%CE%B8%CE%B5%CE%BF%CE%BD_%CE%A1%CF%8E%CE%BC%CE%B7%CF%82_2025-10-12_1987.jpg",
+    "title": "File:Πάνθεον Ρώμης 2025-10-12 1987.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/bd248d855a22dced.jpg",
+    "split": "test",
+    "author": "Thomas_Fuhrmann_Jakobsthal",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Pantheon_-_in_2024_v06.jpg",
+    "title": "File:Roma - Pantheon - in 2024 v06.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/pantheon/bd7d7a5c300f775d.jpg",
+    "split": "reference",
+    "author": "C messier",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:%CE%A0%CE%AC%CE%BD%CE%B8%CE%B5%CE%BF%CE%BD_%CE%A1%CF%8E%CE%BC%CE%B7%CF%82_2025-10-14_0444-HDR.jpg",
+    "title": "File:Πάνθεον Ρώμης 2025-10-14 0444-HDR.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   }
+  ],
+  "arch-of-constantine": [
+   {
+    "file": "landmarks/arch-of-constantine/0546d85bd8878e7b.jpg",
+    "split": "reference",
+    "author": "SeveroAntonelli",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_titus_1000676.jpg",
+    "title": "File:Arch of titus 1000676.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/1003d7e72a1db300.jpg",
+    "split": "reference",
+    "author": "Carlo Pelagalli",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arco_di_Costantino_(315-325_d.C.)_-_panoramio.jpg",
+    "title": "File:Arco di Costantino (315-325 d.C.) - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/33d6deb2f7c85b33.jpg",
+    "split": "test",
+    "author": "Gary Todd from Xinzheng, China",
+    "license": "Public domain",
+    "license_url": null,
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(48413049437).jpg",
+    "title": "File:Arch of Constantine (48413049437).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/4fb16fb5a91d7ec8.jpg",
+    "split": "reference",
+    "author": "Sidvics",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arco_di_Costantino_-_ROMA_-_agosto_2014.jpg",
+    "title": "File:Arco di Costantino - ROMA - agosto 2014.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/58f828e4b9701164.jpg",
+    "split": "reference",
+    "author": "bradhostetler",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_-_033.jpg",
+    "title": "File:Arch of Constantine - 033.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/5cf82dc96860ff1f.jpg",
+    "split": "test",
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:0_Arc_de_Constantin_-_Partie_sup%C3%A9rieure_de_la_face_sud_(1).JPG",
+    "title": "File:0 Arc de Constantin - Partie supérieure de la face sud (1).JPG",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/71096ed039671745.jpg",
+    "split": "reference",
+    "author": "Darafsh",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Colosseum_(123).jpg",
+    "title": "File:Colosseum (123).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/9bf1ba071819a747.jpg",
+    "split": "reference",
+    "author": "bradhostetler",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_-_001.jpg",
+    "title": "File:Arch of Constantine - 001.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/9cae3803fd0d8df9.jpg",
+    "split": "test",
+    "author": "Wknight94",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_(Rome)_2.jpg",
+    "title": "File:Arch of Constantine (Rome) 2.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/b0fc09be2ce6edb4.jpg",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_and_Colosseum_in_the_back_(45460449585).jpg",
+    "title": "File:Arch of Constantine and Colosseum in the back (45460449585).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/b33613a17af85f1b.jpg",
+    "split": "reference",
+    "author": "bradhostetler",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine_-_016.jpg",
+    "title": "File:Arch of Constantine - 016.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/ba5c368d2d141369.jpg",
+    "split": "test",
+    "author": "Maddalena.pegoraro",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arco_di_Costantino_a_Roma.jpg",
+    "title": "File:Arco di Costantino a Roma.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/c4940b35983fe137.jpg",
+    "split": "reference",
+    "author": "DnTrotaMundos ☮",
+    "license": "CC BY 3.0",
+    "license_url": "https://creativecommons.org/licenses/by/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arco_de_Constantino_-_panoramio.jpg",
+    "title": "File:Arco de Constantino - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/d3b8369d665efb26.jpg",
+    "split": "reference",
+    "author": "EliziR",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arc_de_Constant%C3%AD,_Roma_(febrer_2009)_-_panoramio.jpg",
+    "title": "File:Arc de Constantí, Roma (febrer 2009) - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/da7deb73c3f78e2f.jpg",
+    "split": "test",
+    "author": "Maros M r a z (Maros)",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arch_of_Constantine,_Rome.jpg",
+    "title": "File:Arch of Constantine, Rome.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/arch-of-constantine/deb694a809ef0761.jpg",
+    "split": "reference",
+    "author": "Luciano Tronati",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Arco_di_Costantino_-_Roma_05.jpg",
+    "title": "File:Arco di Costantino - Roma 05.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   }
+  ],
+  "trajans-column": [
+   {
+    "file": "landmarks/trajans-column/0013fd06ddd7561f.jpg",
+    "split": "reference",
+    "author": "Jean-Pol GRANDMONT",
+    "license": "CC BY 4.0",
+    "license_url": "https://creativecommons.org/licenses/by/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:0_Colonne_Trajane_-_Rome_(1).JPG",
+    "title": "File:0 Colonne Trajane - Rome (1).JPG",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/11411a0587e18863.jpg",
+    "split": "reference",
+    "author": "MumblerJamie",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Down_the_End_04.jpg",
+    "title": "File:Down the End 04.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/171446dc6702f63f.jpg",
+    "split": "test",
+    "author": "MumblerJamie",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Down_the_End_01.jpg",
+    "title": "File:Down the End 01.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/43b6506ccf59b4e0.jpg",
+    "split": "reference",
+    "author": "Gary Todd from Xinzheng, China",
+    "license": "Public domain",
+    "license_url": null,
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_(48423832937).jpg",
+    "title": "File:Trajan's Column (48423832937).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/49ca7c627d2c23e8.jpg",
+    "split": "reference",
+    "author": "Wknight94",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_2.jpg",
+    "title": "File:Trajan's Column 2.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/5249beb320d562d8.jpg",
+    "split": "test",
+    "author": "Livioandronico2013",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Trajan%27s_Column_HD.jpg",
+    "title": "File:Trajan's Column HD.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/5a60ecd582bbc1cb.jpg",
+    "split": "reference",
+    "author": "Cezar Suceveanu",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Columna_lui_Traian_din_Roma3.jpg",
+    "title": "File:Columna lui Traian din Roma3.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/62ad171112d01d58.jpg",
+    "split": "reference",
+    "author": "User:MatthiasKabel",
+    "license": "CC BY-SA 3.0",
+    "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Trajans_column_from_east_01.jpg",
+    "title": "File:Trajans column from east 01.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/6d8e5908bb18867e.jpg",
+    "split": "test",
+    "author": "MumblerJamie",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:From_the_Bridge_in_the_Evening.jpg",
+    "title": "File:From the Bridge in the Evening.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/756fadb65bffd44e.jpg",
+    "split": "reference",
+    "author": "MarkusMark",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:073ForoTraiano.jpg",
+    "title": "File:073ForoTraiano.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/7bbf3153354eb143.jpg",
+    "split": "reference",
+    "author": "No machine-readable author provided. MM assumed (based on copyright claims).",
+    "license": "Public domain",
+    "license_url": null,
+    "commons_page": "https://commons.wikimedia.org/wiki/File:RomaColonnaTraiana%26BasilicaUlpia.jpg",
+    "title": "File:RomaColonnaTraiana&BasilicaUlpia.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/a11e8d30bcb1b1bb.jpg",
+    "split": "test",
+    "author": "Szilas",
+    "license": "Public domain",
+    "license_url": null,
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Traijan%27s_Column_2013-2.jpg",
+    "title": "File:Traijan's Column 2013-2.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/b379ffd5b1fdd01f.jpg",
+    "split": "reference",
+    "author": "Jordiferrer",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:2016_Colonna_Traiana_03.jpg",
+    "title": "File:2016 Colonna Traiana 03.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/bab1b2933eccaaf2.jpg",
+    "split": "reference",
+    "author": "Xosema",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Columna_de_Trajano_-_001.jpg",
+    "title": "File:Roma - Columna de Trajano - 001.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/d24642373fb65937.jpg",
+    "split": "test",
+    "author": "Rodrigo Pereira da S…",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Rione_I_Monti,_Roma,_Italy_-_panoramio_(45).jpg",
+    "title": "File:Rione I Monti, Roma, Italy - panoramio (45).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/trajans-column/dc06e1a458565e0c.jpg",
+    "split": "reference",
+    "author": "trolvag",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Columna_de_Trajano_-_panoramio.jpg",
+    "title": "File:Columna de Trajano - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   }
+  ],
+  "four-rivers-fountain": [
+   {
+    "file": "landmarks/four-rivers-fountain/05afab4187201dc1.jpg",
+    "split": "reference",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontaine_Quatre_Fleuves_-_Rome_(IT62)_-_2021-08-29_-_3.jpg",
+    "title": "File:Fontaine Quatre Fleuves - Rome (IT62) - 2021-08-29 - 3.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/10c66d654379cc1f.jpg",
+    "split": "reference",
+    "author": "Álvaro de la Paz Franco",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fuente_del_Neptuno_en_Plaza_Navona_32.jpg",
+    "title": "File:Fuente del Neptuno en Plaza Navona 32.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/523abc9e87d9033e.jpg",
+    "split": "test",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontaine_Quatre_Fleuves_-_Rome_(IT62)_-_2021-08-28_-_5.jpg",
+    "title": "File:Fontaine Quatre Fleuves - Rome (IT62) - 2021-08-28 - 5.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/6671f73e7e8dda01.jpg",
+    "split": "reference",
+    "author": "Nicholas Gemini",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontana_dei_Quattro_Fiumi_2019_02.jpg",
+    "title": "File:Fontana dei Quattro Fiumi 2019 02.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/696ba6be717d1495.jpg",
+    "split": "reference",
+    "author": "Sonse",
+    "license": "CC BY 2.0",
+    "license_url": "https://creativecommons.org/licenses/by/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontana_dei_Quattro_Fiumi,_Piazza_Navona_(46511978331).jpg",
+    "title": "File:Fontana dei Quattro Fiumi, Piazza Navona (46511978331).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/8ed42e33372b88b3.jpg",
+    "split": "test",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fountain_of_the_Four_Rivers(Fontana_dei_Quattro_Fiumi)_with_the_%27Obelisco_Agonale%27_at_Piazza_Navona,_Rome,_Italy_(Ank_Kumar,_Infosys_Limited)_06.jpg",
+    "title": "File:Fountain of the Four Rivers(Fontana dei Quattro Fiumi) with the 'Obelisco Agonale' at Piazza Navona, Rome, Italy (Ank Kumar, Infosys Limited) 06.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/8f447d3f4681a2f6.jpg",
+    "split": "reference",
+    "author": "Ferras",
+    "license": "CC BY-SA 2.5",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Vierstroemebrunnen_Piazza_Navona_Rom.jpg",
+    "title": "File:Vierstroemebrunnen Piazza Navona Rom.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/b6cd807eea2a6b04.jpg",
+    "split": "reference",
+    "author": "Chabe01",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontaine_Quatre_Fleuves_-_Rome_(IT62)_-_2021-08-28_-_7.jpg",
+    "title": "File:Fontaine Quatre Fleuves - Rome (IT62) - 2021-08-28 - 7.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/b923658d36e0c037.jpg",
+    "split": "test",
+    "author": "山海风",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:%E5%9B%9B%E6%B2%B3%E5%96%B7%E6%B3%89%E5%B9%BF%E5%9C%BA_-_panoramio.jpg",
+    "title": "File:四河喷泉广场 - panoramio.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/bb6644d7f7ce4170.jpg",
+    "split": "reference",
+    "author": "daryl_mitchell from Saskatoon, Saskatchewan, Canada",
+    "license": "CC BY-SA 2.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fontana_dei_Quattro_Fiumi_2_(14839014823).jpg",
+    "title": "File:Fontana dei Quattro Fiumi 2 (14839014823).jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/d322122a453328d0.jpg",
+    "split": "reference",
+    "author": "Arnaud 25",
+    "license": "CC BY-SA 3.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Piazza_Navona_0020.jpg",
+    "title": "File:Piazza Navona 0020.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/e23775745351db65.jpg",
+    "split": "test",
+    "author": "Álvaro de la Paz Franco",
+    "license": "CC0",
+    "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:De_Plaza_Navona_al_Pante%C3%B3n_25.jpg",
+    "title": "File:De Plaza Navona al Panteón 25.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/e7ebc76bc9603d3d.jpg",
+    "split": "reference",
+    "author": "Ank Kumar",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fountain_of_the_Four_Rivers(Fontana_dei_Quattro_Fiumi)_with_the_%27Obelisco_Agonale%27_at_Piazza_Navona,_Rome,_Italy_(Ank_Kumar,_Infosys_Limited)_02.jpg",
+    "title": "File:Fountain of the Four Rivers(Fontana dei Quattro Fiumi) with the 'Obelisco Agonale' at Piazza Navona, Rome, Italy (Ank Kumar, Infosys Limited) 02.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   },
+   {
+    "file": "landmarks/four-rivers-fountain/f270e53b34a6be0c.jpg",
+    "split": "reference",
+    "author": "Américo Toledano",
+    "license": "CC BY-SA 4.0",
+    "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+    "commons_page": "https://commons.wikimedia.org/wiki/File:Fuente_de_los_Cuatro_R%C3%ADos_-_Roma_009.jpg",
+    "title": "File:Fuente de los Cuatro Ríos - Roma 009.jpg",
+    "source": "Wikimedia Commons category (TRAILS, hand-checked)"
+   }
   ]
  },
  "unknown_negatives": [
