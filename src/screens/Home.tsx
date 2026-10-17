@@ -4,11 +4,13 @@ import { ImageCredit, InterestPicker, ModeSelector } from '../components/common'
 import { LocationField } from '../components/LocationField'
 import { PLACE_BY_ID, placeImage } from '../lib/data'
 import { formatMinutes, haversine } from '../lib/geo'
+import { reverseLabel, ROME_BBOX } from '../lib/geocode'
 import { planRoute, type PlanRequest } from '../lib/planner'
 import type { Endpoint, Interest, RouteMode } from '../lib/types'
 import { go, useApp } from '../state'
 
 const BASE = import.meta.env.BASE_URL
+const ROME_CENTER = { lat: 41.8986, lon: 12.4768 } // the Pantheon
 
 interface Preset { title: string; from: string | Endpoint; to: string | Endpoint; minutes: number; mode: RouteMode; interests: Interest[]; note: string }
 const PRESETS: Preset[] = [
@@ -25,7 +27,7 @@ function endpointFor(id: string | Endpoint): Endpoint {
 }
 
 export function Home() {
-  const { profile, setProfile, scorer, setPlan, settings, location, demo, setDraft, draft } = useApp()
+  const { profile, setProfile, scorer, setPlan, settings, location, demo, setDraft, draft, setGpsLocation } = useApp()
   const [start, setStart] = useState<Endpoint | null>(draft?.start ?? endpointFor('pantheon'))
   const [end, setEnd] = useState<Endpoint | null>(draft?.end ?? endpointFor('colosseum'))
   const [minutes, setMinutes] = useState(draft?.budgetMin ?? 45)
@@ -35,7 +37,30 @@ export function Home() {
   const [err, setErr] = useState<string | null>(null)
   const hero = placeImage('trevi-fountain')
 
-  const here = location ? { lat: location.lat, lon: location.lon, label: location.source === 'simulated' ? 'Simulated location (demo)' : 'My current location' } : null
+  // demo mode offers the simulated point; otherwise the field offers a live "use my current location" button
+  const here = location?.source === 'simulated' ? { lat: location.lat, lon: location.lon, label: 'Simulated location (demo)' } : null
+
+  /** One GPS fix for the start point. Asking the browser is the consent; it is remembered like the Profile switch. */
+  async function locate(): Promise<Endpoint> {
+    if (!window.isSecureContext || !navigator.geolocation) throw new Error('This browser cannot share your location here (it needs HTTPS). Pick the start on the map instead.')
+    const pos = await new Promise<GeolocationPosition>((res, rej) =>
+      navigator.geolocation.getCurrentPosition(res, rej, { enableHighAccuracy: true, timeout: 15000, maximumAge: 60000 }))
+      .catch((e: GeolocationPositionError) => {
+        throw new Error(e.code === 1 ? 'Location permission was refused. Allow it for this site in the browser settings, or pick the start on the map.'
+          : e.code === 3 ? 'Finding your location took too long. Try again outdoors, or pick the start on the map.'
+            : 'Your location is not available right now. Pick the start on the map instead.')
+      })
+    const p = { lat: pos.coords.latitude, lon: pos.coords.longitude }
+    const b = ROME_BBOX
+    if (p.lat < b.south || p.lat > b.north || p.lon < b.west || p.lon > b.east) {
+      const km = Math.round(haversine(p, ROME_CENTER) / 1000)
+      throw new Error(`You are about ${km} km from central Rome, and TRAILS covers central Rome only. Pick a start on the map, or turn on Demo to simulate being there.`)
+    }
+    setProfile({ ...profile, locationConsent: true })
+    setGpsLocation(p)
+    const street = await reverseLabel(p).catch(() => '')
+    return { ...p, label: street ? `My location · ${street}` : 'My current location' }
+  }
   const directMin = useMemo(() => (start && end ? (haversine(start, end) * 1.35) / ((profile.walkingSpeedKmh * 1000) / 60) : 0), [start, end, profile.walkingSpeedKmh])
 
   async function submit(override?: Partial<{ start: Endpoint; end: Endpoint; minutes: number; mode: RouteMode; interests: Interest[] }>) {
@@ -71,7 +96,7 @@ export function Home() {
       <form className="card card-pad" style={{ marginTop: 0 }} onSubmit={(e) => { e.preventDefault(); void submit() }}>
         <h1 className="plan-title">Where are you walking? <em>Every route has a story.</em></h1>
         <div className="grid2">
-          <LocationField id="from" label="From" value={start} onChange={setStart} here={here} placeholder="Any address, hotel, station or place in Rome" />
+          <LocationField id="from" label="From" value={start} onChange={setStart} here={here} onLocate={demo ? undefined : locate} placeholder="Any address, hotel, station or place in Rome" />
           <LocationField id="to" label="To" value={end} onChange={setEnd} here={here} placeholder="Where are you going?" />
         </div>
         <p className="tiny muted" style={{ marginTop: 6 }}>Any two points in central Rome. TRAILS finds the walk that passes the most of what you love within your time.</p>

@@ -10,12 +10,16 @@ interface Props {
   value: Endpoint | null
   onChange: (e: Endpoint) => void
   here?: (LatLon & { label: string }) | null
+  /** asks the device for one GPS fix; rejects with a message the user can act on */
+  onLocate?: () => Promise<Endpoint>
   placeholder?: string
 }
 
 /** Google-Maps-style field: type any address or place in Rome, use your location, or drop a pin on the map. */
-export function LocationField({ id, label, value, onChange, here, placeholder }: Props) {
+export function LocationField({ id, label, value, onChange, here, onLocate, placeholder }: Props) {
   const [q, setQ] = useState(value?.label ?? '')
+  const [locating, setLocating] = useState(false)
+  const [locateErr, setLocateErr] = useState<string | null>(null)
   const [open, setOpen] = useState(false)
   const [remote, setRemote] = useState<GeoResult[]>([])
   const [status, setStatus] = useState<'idle' | 'searching' | 'error'>('idle')
@@ -52,6 +56,12 @@ export function LocationField({ id, label, value, onChange, here, placeholder }:
     setQ(r.label); setOpen(false); setRemote([])
   }
 
+  async function locateMe() {
+    if (!onLocate) return
+    setLocating(true); setLocateErr(null)
+    try { choose(await onLocate()) } catch (e) { setLocateErr((e as Error).message); setOpen(false) } finally { setLocating(false) }
+  }
+
   async function onEnter() {
     if (results[active]) return choose(results[active])
     if (q.trim().length < 3) return
@@ -70,7 +80,7 @@ export function LocationField({ id, label, value, onChange, here, placeholder }:
         <input id={id} type="text" autoComplete="off" value={q} placeholder={placeholder ?? 'Search an address or place in Rome'}
           role="combobox" aria-expanded={open} aria-controls={listId} aria-autocomplete="list"
           onFocus={() => setOpen(true)}
-          onChange={(e) => { setQ(e.target.value); setOpen(true); setActive(0) }}
+          onChange={(e) => { setQ(e.target.value); setOpen(true); setActive(0); setLocateErr(null) }}
           onKeyDown={(e) => {
             if (e.key === 'ArrowDown') { e.preventDefault(); setActive((a) => Math.min(a + 1, results.length - 1)) }
             else if (e.key === 'ArrowUp') { e.preventDefault(); setActive((a) => Math.max(a - 1, 0)) }
@@ -84,6 +94,13 @@ export function LocationField({ id, label, value, onChange, here, placeholder }:
           {here && (
             <li role="option" aria-selected={false}>
               <button type="button" onClick={() => choose(here)}><Icon name="locate" size={15} /> <b>{here.label}</b></button>
+            </li>
+          )}
+          {onLocate && (
+            <li role="option" aria-selected={false}>
+              <button type="button" onClick={() => void locateMe()} disabled={locating}>
+                {locating ? <span className="spinner" /> : <Icon name="locate" size={15} />} <b>{locating ? 'Finding you…' : 'Use my current location'}</b>
+              </button>
             </li>
           )}
           <li role="option" aria-selected={false}>
@@ -102,6 +119,7 @@ export function LocationField({ id, label, value, onChange, here, placeholder }:
           <li className="tiny muted locfield-note">Search by OpenStreetMap (Photon, Nominatim)</li>
         </ul>
       )}
+      {locateErr && !open && <p className="notice notice-danger small" role="alert" style={{ marginTop: 8 }}>{locateErr}</p>}
       {picking && <MapPicker title={label} initial={value} onCancel={() => setPicking(false)} onPick={(e) => { setPicking(false); choose(e) }} />}
     </div>
   )
