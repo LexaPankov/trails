@@ -28,3 +28,6 @@ public/mediapipe/
 ml/data/
 __pycache__/
 .venv/
+
+# Submission kit from the team (large binaries, kept out of git)
+submission/
