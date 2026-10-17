@@ -68,7 +68,10 @@ Measured results (all reproducible, see "Tests"):
 
 ## Quick start
 
-Requirements: Node 20+ (tested with Node 22 and 24), Python 3.10+ only for the ML and data scripts.
+Requirements: Node 22+ (tested with Node 22 and 24), Python 3.10+ only for the ML and data scripts.
+
+**Windows, fastest way:** double-click `start-trails.cmd`. It installs dependencies on the first run,
+builds the app, starts it with the AI storyteller and opens http://localhost:8787.
 
 ```bash
 npm install          # also copies the MediaPipe wasm runtime into public/mediapipe
@@ -85,16 +88,22 @@ npm run story        # optional: serves dist/ + the AI storyteller API (see docs
 ### Live AI stories on AMD
 
 The storyteller calls Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs) through an
-OpenAI-compatible API. The key stays on your machine, in the server's environment only:
+OpenAI-compatible API. Put the settings in `.env.local` in the project folder (git-ignored; the story
+scripts read it, and only `VITE_*` values ever reach the browser):
+
+```ini
+STORY_API_BASE=https://developer.amd.com.cn/radeon/api/v1
+STORY_MODEL=Gemma-4-31B-IT
+STORY_API_KEY=<your Token Factory key>
+STORY_PROVIDER_LABEL="Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)"
+```
 
 ```powershell
-$env:STORY_API_BASE="https://developer.amd.com.cn/radeon/api/v1"
-$env:STORY_MODEL="Gemma-4-31B-IT"
-$env:STORY_API_KEY="<your Token Factory key>"
-$env:STORY_PROVIDER_LABEL="Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)"
-npm.cmd run build; npm.cmd run story          # app + live stories on http://localhost:8787
+npm.cmd run build; npm.cmd run story          # app + live stories on http://localhost:8787 (or start-trails.cmd)
 npm.cmd run story:eval                         # measure: docs/story_eval_<model>.json
 ```
+
+Variables set in the shell (`$env:STORY_MODEL=...`) work too and take precedence.
 
 With the server running, `node --experimental-strip-types scripts/pregen_stories.ts` refreshes the
 pre-generated stories for the preset walks that the public site shows (`public/data/story_cache.json`).
