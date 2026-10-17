@@ -56,6 +56,20 @@ describe('story server', () => {
     expect(story.generator).toMatchObject({ kind: 'model', model: 'gemma-test' })
     expect(story.segments[0].cite).toEqual([1])
   })
+  it('asks for a JSON object only when STORY_JSON_MODE=1', async () => {
+    const { tellStory } = await import('../server/story-server')
+    const bodies: Record<string, unknown>[] = []
+    const fake = (async (_url: string, init: RequestInit) => {
+      bodies.push(JSON.parse(String(init.body)))
+      return new Response(JSON.stringify({ choices: [{ message: { content: JSON.stringify({
+        segments: [{ placeId: 'pantheon', text: 'x', cite: [1] }] }) } }] }))
+    }) as typeof fetch
+    await tellStory({ stopIds: ['pantheon'], start: 'json-off' }, fake)
+    process.env.STORY_JSON_MODE = '1'
+    try { await tellStory({ stopIds: ['pantheon'], start: 'json-on' }, fake) } finally { delete process.env.STORY_JSON_MODE }
+    expect(bodies[0].response_format).toBeUndefined()
+    expect(bodies[1].response_format).toEqual({ type: 'json_object' })
+  })
   it('refuses unknown place ids before calling the model', async () => {
     const { tellStory } = await import('../server/story-server')
     await expect(tellStory({ stopIds: ['nope'] }, (() => { throw new Error('should not call') }) as never)).rejects.toThrow(/unknown/)

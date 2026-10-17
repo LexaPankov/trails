@@ -12,6 +12,22 @@ Built for the AMD Developer Hackathon: ACT III (lablab.ai).
 
 ![Route results](docs/screenshots/desktop-2-route.png)
 
+## Try it in 2 minutes
+
+Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it on a phone for the camera).
+
+1. On **Plan**, tap the preset **Ancient stones**. You get a real walking route from the Pantheon to the
+   Colosseum with the stops a neural network picked for you, and the card at the top shows what the
+   extra minutes buy compared with the fastest walk.
+2. Go back and tap **Renaissance & Baroque**: same start, end and time, different stops.
+3. Tap **Tell me the story of this walk**: one narrated walk with numbered sources. The public site
+   tells the offline version from our notes; the AI version runs on our model server (see below).
+4. Tap **Start walking**, then play the simulated walk: each stop's story appears and is read aloud.
+5. Open **Camera → Demo photos** and pick a photo: TRAILS recognises the landmark in the browser and
+   opens its history.
+
+Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
+
 ## What works (and how well)
 
 | Feature | Status |

@@ -33,8 +33,11 @@ In a second terminal, in the repository (PowerShell: set each variable with `$en
 
 ```bash
 STORY_API_BASE=http://localhost:8000/v1 STORY_MODEL=Qwen/Qwen2.5-7B-Instruct STORY_API_KEY=<key> \
-STORY_PROVIDER_LABEL="Qwen2.5 7B · vLLM on AMD Instinct <GPU> (ROCm)" npm run story:eval
+STORY_JSON_MODE=1 STORY_PROVIDER_LABEL="Qwen2.5 7B · vLLM on AMD Instinct <GPU> (ROCm)" npm run story:eval
 ```
+
+`STORY_JSON_MODE=1` makes vLLM return a JSON object, so fewer stories fail to parse. If the eval shows
+errors with it, run once without it and keep whichever succeeds more often.
 
 This sends five fixed walks from the dataset and writes `docs/story_eval_<model>.json`: every story,
 latency, tokens per second, stop coverage, and numbers in the story that are not in our facts

@@ -82,6 +82,7 @@ On Windows PowerShell set the variables with `$env:STORY_API_BASE="..."` first. 
 | `STORY_API_KEY` | only if the endpoint needs one; stays on the server |
 | `STORY_PROVIDER_LABEL` | text shown in the app badge; describe the real hardware |
 | `PORT`, `STORY_TIMEOUT_MS` | server port (8787), model timeout (45000) |
+| `STORY_JSON_MODE` | `1` asks the endpoint for `response_format: json_object` (supported by vLLM and OpenAI) |
 | `STORY_ALLOW_ORIGIN` | sites allowed to call `/api` from another origin (comma-separated, or `*`); unset = same origin only |
 | `VITE_STORY_API` | build-time, in the app: where the app sends story requests (default `/api`) |
 
