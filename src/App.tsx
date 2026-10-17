@@ -56,7 +56,7 @@ export default function App() {
           <Icon name="locate" size={15} /> Demo{demo ? ' on' : ''}
         </button>
         {demo && (
-          <select aria-label="Demo scenario" value={scenario.id} style={{ width: 'auto', maxWidth: 190, padding: '6px 8px', fontSize: '0.8rem' }}
+          <select className="demo-scenario" aria-label="Demo scenario" value={scenario.id} style={{ width: 'auto', maxWidth: 190, padding: '6px 8px', fontSize: '0.8rem' }}
             onChange={(e) => setScenario(DEMO_SCENARIOS.find((s) => s.id === e.target.value)!)}>
             {DEMO_SCENARIOS.map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}
           </select>

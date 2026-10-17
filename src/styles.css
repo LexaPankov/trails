@@ -71,8 +71,16 @@ button { font: inherit; color: inherit; }
 .page { max-width: 1120px; margin: 0 auto; padding: 24px 16px 96px; }
 .tabbar { display: none; }
 
+/* compact map credit: small and see-through */
+.leaflet-container .leaflet-control-attribution { font-size: 10px; line-height: 1.4; padding: 0 5px; background: rgba(255, 253, 248, 0.6); color: var(--muted); }
+.leaflet-container .leaflet-control-attribution a { color: inherit; }
+.demo-pill { white-space: nowrap; flex-shrink: 0; }
+
 @media (max-width: 760px) {
   .brand-tag, .nav { display: none; }
+  .header { overflow: hidden; }
+  /* the scenario list does not fit next to the logo; it is on the Profile screen */
+  .demo-scenario { display: none; }
   .demo-pill { margin-left: auto; }
   .tabbar {
     display: flex; position: fixed; bottom: 0; left: 0; right: 0; z-index: 1000;
@@ -347,6 +355,5 @@ input[type='range'] { width: 100%; accent-color: var(--terracotta); }
 .nav-sheet-body { overflow-y: auto; min-height: 0; overscroll-behavior: contain; transition: opacity 0.2s; }
 .nav-hidden { opacity: 0; pointer-events: none; }
 /* the map attribution stays readable in the strip under the sheet */
-.nav-screen .leaflet-control-attribution { font-size: 10px; }
 .nav-section { margin-top: 12px; }
 .nav-oneline { white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }

@@ -1,7 +1,7 @@
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import { useEffect, useMemo, useState } from 'react'
-import { MapContainer, Marker, Polyline, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
+import { AttributionControl, MapContainer, Marker, Polyline, TileLayer, Tooltip, useMap, useMapEvents } from 'react-leaflet'
 import type { RouteQuality } from '../lib/routing/types'
 import type { LatLon, Place } from '../lib/types'
 
@@ -13,8 +13,10 @@ const env = (import.meta as unknown as { env: Record<string, string | undefined>
 const CARTO_KEY = env.VITE_CARTO_KEY
 export const TILE_URL = env.VITE_TILE_URL ||
   `https://basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}.png${CARTO_KEY ? `?key=${encodeURIComponent(CARTO_KEY)}` : ''}`
+// Short credit line (the licences require it); a custom tile URL is assumed to be plain OpenStreetMap tiles.
+const OSM_CREDIT = '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>'
 export const TILE_ATTRIBUTION = env.VITE_TILE_ATTRIBUTION ||
-  '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>'
+  (env.VITE_TILE_URL ? OSM_CREDIT : `${OSM_CREDIT} &middot; &copy; <a href="https://carto.com/attributions">CARTO</a>`)
 
 function divIcon(html: string, size: number) {
   return L.divIcon({ html, className: '', iconSize: [size, size], iconAnchor: [size / 2, size / 2] })
@@ -82,10 +84,11 @@ export function MapView({ route, alt, stops = [], start, end, others = [], me, o
 
   return (
     <div className={className ?? 'map'}>
-      <MapContainer center={[41.8967, 12.4822]} zoom={15} style={{ position: 'absolute', inset: 0 }} zoomControl={false} attributionControl
+      <MapContainer center={[41.8967, 12.4822]} zoom={15} style={{ position: 'absolute', inset: 0 }} zoomControl={false} attributionControl={false}
         zoomAnimation={!still} fadeAnimation={!still} markerZoomAnimation={!still}>
         <TileLayer url={TILE_URL} attribution={TILE_ATTRIBUTION} maxZoom={19}
           eventHandlers={{ tileerror: () => setTileErrors((n) => n + 1) }} />
+        <AttributionControl position="bottomright" prefix={false} />
         <Fit pts={pts} fitKey={fitKey} />
         <Follow p={follow} />
         {onMapClick && <ClickCatcher onClick={onMapClick} />}
