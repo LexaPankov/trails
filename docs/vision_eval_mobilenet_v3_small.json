@@ -1,38 +1,38 @@
 {
  "model": "mobilenet_v3_small",
- "created": "2026-10-16T20:29:41.914Z",
- "landmarks": 22,
- "reference_images": 203,
- "index_vectors": 406,
+ "created": "2026-10-17T11:49:57.246Z",
+ "landmarks": 27,
+ "reference_images": 269,
+ "index_vectors": 538,
  "calibration": {
   "method": "grid search on leave-one-image-out reference photos + 50% of unrelated GLDv2 photos; objective = correct - 3*wrong - 3*false_accept",
   "threshold": 0.54,
   "margin": 0.04,
-  "loo_known": 203,
+  "loo_known": 269,
   "cal_negatives": 30,
-  "loo_accept_correct": 0.448,
+  "loo_accept_correct": 0.517,
   "cal_negative_false_accept": 0
  },
  "test": {
-  "known_images": 90,
-  "top1_accuracy": 0.833,
-  "recognized_correct": 0.633,
-  "recognized_wrong": 0,
-  "abstained": 0.367,
+  "known_images": 120,
+  "top1_accuracy": 0.825,
+  "recognized_correct": 0.608,
+  "recognized_wrong": 0.017,
+  "abstained": 0.375,
   "negatives": 30,
   "negative_false_accept": 0.1,
   "with_geo_filter_2km": {
-   "top1_accuracy": 0.844,
-   "recognized_correct": 0.644,
-   "recognized_wrong": 0
+   "top1_accuracy": 0.833,
+   "recognized_correct": 0.617,
+   "recognized_wrong": 0.017
   },
-  "mean_ms_per_image": 76
+  "mean_ms_per_image": 170
  },
  "per_landmark": {
   "arch-of-septimius-severus": {
    "test": 3,
    "top1": 3,
-   "recognized": 2
+   "recognized": 1
   },
   "castel-sant-angelo": {
    "test": 5,
@@ -111,8 +111,8 @@
   },
   "temple-of-portunus": {
    "test": 4,
-   "top1": 4,
-   "recognized": 2
+   "top1": 3,
+   "recognized": 1
   },
   "temple-of-venus-and-roma": {
    "test": 3,
@@ -122,7 +122,7 @@
   "theatre-of-marcellus": {
    "test": 4,
    "top1": 4,
-   "recognized": 4
+   "recognized": 3
   },
   "trajans-market": {
    "test": 1,
@@ -138,7 +138,43 @@
    "test": 13,
    "top1": 13,
    "recognized": 10
+  },
+  "colosseum": {
+   "test": 7,
+   "top1": 7,
+   "recognized": 5
+  },
+  "pantheon": {
+   "test": 9,
+   "top1": 7,
+   "recognized": 5
+  },
+  "arch-of-constantine": {
+   "test": 5,
+   "top1": 5,
+   "recognized": 5
+  },
+  "trajans-column": {
+   "test": 5,
+   "top1": 3,
+   "recognized": 2
+  },
+  "four-rivers-fountain": {
+   "test": 4,
+   "top1": 3,
+   "recognized": 2
   }
  },
- "confusions": []
+ "confusions": [
+  {
+   "truth": "trajans-column",
+   "predicted": "column-of-marcus-aurelius",
+   "score": 0.616
+  },
+  {
+   "truth": "trajans-column",
+   "predicted": "santagnese-in-agone",
+   "score": 0.707
+  }
+ ]
 }

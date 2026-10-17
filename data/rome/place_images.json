@@ -583,14 +583,6 @@
   "license_url": null,
   "author": "No machine-readable author provided. MM assumed (based on copyright claims)."
  },
- "tabularium": {
-  "file": "places/tabularium.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Rome_Forum_Romanum_Tabularium.JPG",
-  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rita1234&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rita1234 (page does not exist)\">Rita1234</a>",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "author": "Rita1234"
- },
  "theatre-of-pompey": {
   "file": "places/theatre-of-pompey.jpg",
   "file_page": "https://commons.wikimedia.org/wiki/File:Theatre_of_Pompey_3D_cut_out.png",
@@ -671,14 +663,6 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
   "author": "Livioandronico2013"
  },
- "porta-esquilina": {
-  "file": "places/porta-esquilina.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:ArchofGallienus2.jpg",
-  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tomk2ski&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tomk2ski (page does not exist)\">Tomk2ski</a>",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "author": "Tomk2ski"
- },
  "san-lorenzo-in-damaso": {
   "file": "places/san-lorenzo-in-damaso.jpg",
   "file_page": "https://commons.wikimedia.org/wiki/File:San_Lorenzo_in_Damaso_-_esterno.jpg",
@@ -743,14 +727,6 @@
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "author": "sailko"
  },
- "porta-caelimontana": {
-  "file": "places/porta-caelimontana.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Porte_Caelimontane_externe.JPG",
-  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
-  "license": "CC BY-SA 3.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
-  "author": "LPLT"
- },
  "vatican-obelisk": {
   "file": "places/vatican-obelisk.jpg",
   "file_page": "https://commons.wikimedia.org/wiki/File:Obelisque_Saint_Peter%27s_square_Vatican_City.jpg",
@@ -790,14 +766,6 @@
   "license": "CC BY-SA 3.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "author": "Lalupa"
- },
- "fontana-dell-acqua-paola": {
-  "file": "places/fontana-dell-acqua-paola.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:Fontanone_dell%27Acqua_Paola.jpg",
-  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
-  "license": "CC BY 4.0",
-  "license_url": "https://creativecommons.org/licenses/by/4.0",
-  "author": "Labicanense"
  },
  "porta-metronia": {
   "file": "places/porta-metronia.jpg",
@@ -887,14 +855,6 @@
   "license_url": "https://creativecommons.org/licenses/by/4.0",
   "author": "Fiat 500e"
  },
- "san-giuseppe-dei-falegnami": {
-  "file": "places/san-giuseppe-dei-falegnami.jpg",
-  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giuseppe_dei_Falegnami_(Roma)_-_Facciata_(Mamertinum).jpg",
-  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:ThePhotografer\" title=\"User:ThePhotografer\">ThePhotografer</a>",
-  "license": "CC BY-SA 4.0",
-  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
-  "author": "ThePhotografer"
- },
  "san-giacomo-in-augusta": {
   "file": "places/san-giacomo-in-augusta.jpg",
   "file_page": "https://commons.wikimedia.org/wiki/File:Benfoto-Roma2013-353.jpg",
@@ -902,5 +862,2589 @@
   "license": "CC BY-SA 3.0",
   "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
   "author": "Ben Skála, Benfoto"
+ },
+ "sistine-chapel": {
+  "file": "places/sistine-chapel.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sistina-interno.jpg",
+  "author_html": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/it:User:Snowdog\" class=\"extiw\" title=\"w:it:User:Snowdog\">Snowdog</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>.",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "The original uploader was Snowdog at Italian Wikipedia."
+ },
+ "vatican-museums": {
+  "file": "places/vatican-museums.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Mura_vaticane_-_ingresso_ai_Musei_00410.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "user:Lalupa"
+ },
+ "apostolic-palace": {
+  "file": "places/apostolic-palace.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2018-03-18_Apostolischer_Palast.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pimpinellus\" title=\"User:Pimpinellus\">Burkhard Mücke </a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Burkhard Mücke"
+ },
+ "aurelian-walls": {
+  "file": "places/aurelian-walls.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Celio_-_le_mura_tra_porta_san_Sebastiano_e_porta_Ardeatina_1974.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "laocoon-and-his-sons": {
+  "file": "places/laocoon-and-his-sons.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Laoco%C3%B6n_and_his_sons_group.jpg",
+  "author_html": null,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "unknown"
+ },
+ "trajan-s-forum": {
+  "file": "places/trajan-s-forum.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:IT-Rom-kaiserforen.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3ABgabel\">Bgabel</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Bgabel"
+ },
+ "capitoline-wolf": {
+  "file": "places/capitoline-wolf.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Lupa_Capitolina,_Rome.jpg",
+  "author_html": null,
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "unknown"
+ },
+ "temple-of-vesta": {
+  "file": "places/temple-of-vesta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Temple_of_Vesta_3D.jpg",
+  "author_html": "L.VII.C",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "L.VII.C"
+ },
+ "piazza-venezia": {
+  "file": "places/piazza-venezia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Piazza_Venezia_a_Roma.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Zavijavah\" title=\"User:Zavijavah\">Zavijavah</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Zavijavah"
+ },
+ "servian-wall": {
+  "file": "places/servian-wall.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ripa_-_le_mura_a_via_di_sant_anselmo_051211-06.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "cloaca-maxima": {
+  "file": "places/cloaca-maxima.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:040227_tevere16CloacaMaxima.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "imperial-fora": {
+  "file": "places/imperial-fora.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fori-imperiali-big-1-.jpg",
+  "author_html": "<a href=\"https://it.wikipedia.org/wiki/utente:Forma_mentis\" class=\"extiw\" title=\"it:utente:Forma mentis\">it:utente:Forma mentis</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "it:utente:Forma mentis"
+ },
+ "santa-maria-in-ara-coeli": {
+  "file": "places/santa-maria-in-ara-coeli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Aracoeli_(Rome)_-_Facade.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:ThePhotografer\" title=\"User:ThePhotografer\">ThePhotografer</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "ThePhotografer"
+ },
+ "domus-sanctae-marthae": {
+  "file": "places/domus-sanctae-marthae.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Domus_Sanctae_Marthae_from_the_Dome_of_St._Peter%27s.jpg",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:%24traight-%24hoota\" title=\"User:$traight-$hoota\">Johannes Müller</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Johannes Müller"
+ },
+ "temple-of-saturn": {
+  "file": "places/temple-of-saturn.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Tempio_di_Saturno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:ThePhotografer\" title=\"User:ThePhotografer\">ThePhotografer</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "ThePhotografer"
+ },
+ "villa-medici": {
+  "file": "places/villa-medici.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Villa_Medici_-_2023-09-10_18-13-14_006.jpeg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Laterbat&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Laterbat (page does not exist)\">Laterbat</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Laterbat"
+ },
+ "villa-borghese-gardens": {
+  "file": "places/villa-borghese-gardens.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Villa_Borghese_-_entrata_2669.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "museo-nazionale-romano": {
+  "file": "places/museo-nazionale-romano.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Therme-vum-Diokletian.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bris%C3%A9is~commonswiki\" title=\"User:Briséis~commonswiki\">Briséis~commonswiki</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Briséis~commonswiki"
+ },
+ "palazzo-barberini": {
+  "file": "places/palazzo-barberini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PalaisBarberini-Facade_avant_du_palais.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mallowtek\" title=\"User:Mallowtek\">Mallowtek</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Mallowtek"
+ },
+ "forum-of-augustus": {
+  "file": "places/forum-of-augustus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Temple_Mars_Vengeur_-_Rome_(IT62)_-_2021-08-30_-_1.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Chabe01"
+ },
+ "santa-maria-degli-angeli-e-dei-martiri": {
+  "file": "places/santa-maria-degli-angeli-e-dei-martiri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Maria_degli_Angeli_e_dei_Martiri_-_22-11-2019.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Gustavo_La_Pizza\" class=\"mw-redirect\" title=\"User:Gustavo La Pizza\">Gustavo La Pizza</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Gustavo La Pizza"
+ },
+ "temple-of-jupiter-optimus-maximus": {
+  "file": "places/temple-of-jupiter-optimus-maximus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:TempleofCapitoliumRome.jpg",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/ja:User:Hiro-o\" class=\"extiw\" title=\"w:ja:User:Hiro-o\">Hiro-o</a> at <a href=\"https://en.wikipedia.org/wiki/ja:\" class=\"extiw\" title=\"w:ja:\">Japanese Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Hiro-o at Japanese Wikipedia"
+ },
+ "teatro-dell-opera-di-roma": {
+  "file": "places/teatro-dell-opera-di-roma.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Teatro_Costanzi_-_palchi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Udine2812\" title=\"User:Udine2812\">Udine2812</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Udine2812"
+ },
+ "baths-of-diocletian": {
+  "file": "places/baths-of-diocletian.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Baths_of_Diocletian-Antmoose1.jpg",
+  "author_html": null,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "unknown"
+ },
+ "gardens-of-vatican-city": {
+  "file": "places/gardens-of-vatican-city.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Vatikanische_Gaerten_Museen_Rom.jpg",
+  "author_html": "Stefan Bauer, <a rel=\"nofollow\" class=\"external free\" href=\"http://www.ferras.at\">http://www.ferras.at</a>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "Stefan Bauer, http://www.ferras.at"
+ },
+ "fontana-del-tritone": {
+  "file": "places/fontana-del-tritone.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fontana_del_Tritone,Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Architas\" title=\"User:Architas\">Architas</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Architas"
+ },
+ "sant-ignazio": {
+  "file": "places/sant-ignazio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Church_of_Sant%27Ignazio_di_Loyola.jpg",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Fiat_500e\" title=\"User:Fiat 500e\">Fiat 500e</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Fiat 500e"
+ },
+ "santa-cecilia-in-trastevere": {
+  "file": "places/santa-cecilia-in-trastevere.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_cecilia_in_trastevere,_esterno_02.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "pons-aemilius": {
+  "file": "places/pons-aemilius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma-ponterotto.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/currybet/\">currybet</a>",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "author": "currybet"
+ },
+ "basilica-aemilia": {
+  "file": "places/basilica-aemilia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Resti_basilica_Emilia,fori_imperiali.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Chiaraaa123&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Chiaraaa123 (page does not exist)\">Chiaraaa123</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Chiaraaa123"
+ },
+ "forum-boarium": {
+  "file": "places/forum-boarium.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Temple_of_Portunus_Rome_2.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Torquatus\" title=\"User:Torquatus\">Torquatus</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Torquatus"
+ },
+ "basilica-julia": {
+  "file": "places/basilica-julia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:RomaForoRomanoBasilicaGiuli.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MM\" title=\"User:MM\">MM</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "MM"
+ },
+ "temple-of-concord": {
+  "file": "places/temple-of-concord.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Temple_of_Concord.jpg",
+  "author_html": "L.VII.C",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "L.VII.C"
+ },
+ "temple-of-peace": {
+  "file": "places/temple-of-peace.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2016_Temple_of_Peace_(Rome)_02.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jordiferrer\" title=\"User:Jordiferrer\">Jordiferrer</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Jordiferrer"
+ },
+ "apollo-and-daphne-bernini": {
+  "file": "places/apollo-and-daphne-bernini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Apollo_and_Daphne_(Bernini)_(cropped).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Architas\" title=\"User:Architas\">Architas</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Architas"
+ },
+ "teatro-argentina": {
+  "file": "places/teatro-argentina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_Teatro_Argentina.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Blackcat"
+ },
+ "baths-of-trajan": {
+  "file": "places/baths-of-trajan.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trajansthermen.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rabax63&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rabax63 (page does not exist)\">Rabax63</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Rabax63"
+ },
+ "baths-of-agrippa": {
+  "file": "places/baths-of-agrippa.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:BathsAgrippa.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:SkiDragon\" title=\"User:SkiDragon\">SkiDragon</a>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "SkiDragon"
+ },
+ "porta-pia": {
+  "file": "places/porta-pia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Porta_Pia_-_internal_side.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Monticiano\" title=\"User:Monticiano\">Monticiano</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Monticiano"
+ },
+ "santi-cosma-e-damiano": {
+  "file": "places/santi-cosma-e-damiano.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DSC06812_Saints_Cosmas_and_Damian_outside.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:RealRome\" title=\"User:RealRome\">RealRome</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "RealRome"
+ },
+ "santa-prassede": {
+  "file": "places/santa-prassede.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_di_Santa_Prassede_-_esterno.jpg",
+  "author_html": "Rione I Monti",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Rione I Monti"
+ },
+ "forum-of-nerva": {
+  "file": "places/forum-of-nerva.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:RomaForoNervaColonnacce.jpg",
+  "author_html": "<a href=\"https://it.wikipedia.org/wiki/Utente:MM\" class=\"extiw\" title=\"it:Utente:MM\">it:User:MM</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "it:User:MM"
+ },
+ "galleria-doria-pamphilj": {
+  "file": "places/galleria-doria-pamphilj.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma-palazzodoriapamphili.jpg",
+  "author_html": "antmoose",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "antmoose"
+ },
+ "palazzo-montecitorio": {
+  "file": "places/palazzo-montecitorio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Montecitorio_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "san-marco-evangelista-al-campidoglio": {
+  "file": "places/san-marco-evangelista-al-campidoglio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_di_San_Marco_Evangelista_al_Campidoglio_02.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Nicholas_Gemini\" title=\"User:Nicholas Gemini\">Nicholas Gemini</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Nicholas Gemini"
+ },
+ "san-giovanni-dei-fiorentini": {
+  "file": "places/san-giovanni-dei-fiorentini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giovanni_dei_Fiorentini_(Roma).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Peter1936F\" title=\"User:Peter1936F\">Peter1936F</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Peter1936F"
+ },
+ "san-bernardo-alle-terme": {
+  "file": "places/san-bernardo-alle-terme.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Bernardo_alle_Terme_(Rome)_-_Front.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Architas\" title=\"User:Architas\">Architas</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Architas"
+ },
+ "santo-stefano-al-monte-celio": {
+  "file": "places/santo-stefano-al-monte-celio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:RomaSStefanoRotIngresso.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MM\" title=\"User:MM\">MM</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "MM"
+ },
+ "sant-ambrogio-e-carlo-al-corso": {
+  "file": "places/sant-ambrogio-e-carlo-al-corso.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Carlo_al_Corso_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "pons-cestius": {
+  "file": "places/pons-cestius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ripa_-_ponte_cestio_2_000205_12.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "pons-sublicius": {
+  "file": "places/pons-sublicius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pons_Sublicius_-_Project_Gutenberg_eText_19694.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "colossus-of-nero": {
+  "file": "places/colossus-of-nero.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Lawrence_Alma-Tadema_02.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Lawrence_Alma-Tadema\" class=\"extiw\" title=\"w:en:Lawrence Alma-Tadema\"><span title=\"Dutch-born British painter (1836–1912)\">Lawrence Alma-Tadema</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Lawrence Alma-Tadema"
+ },
+ "fontana-dell-acqua-felice": {
+  "file": "places/fontana-dell-acqua-felice.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fontana_dell%27Acqua_Felice_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Architas\" title=\"User:Architas\">Architas</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Architas"
+ },
+ "santa-francesca-romana": {
+  "file": "places/santa-francesca-romana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Francesca_Romana_Forum_Romanum_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jebulon\" title=\"User:Jebulon\">Jebulon</a>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Jebulon"
+ },
+ "santa-maria-in-via-lata": {
+  "file": "places/santa-maria-in-via-lata.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_via_Lata_IMG_4846.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Carlomorino\" title=\"User:Carlomorino\">Carlomorino</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Carlomorino"
+ },
+ "santi-apostoli": {
+  "file": "places/santi-apostoli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma,_santi_apostoli,_facciata_00.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "san-bartolomeo-all-isola": {
+  "file": "places/san-bartolomeo-all-isola.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma-san_bartolomeo_all%27isola.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/sonofgroucho/\">sonofgroucho</a>",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "sonofgroucho"
+ },
+ "santa-pudenziana": {
+  "file": "places/santa-pudenziana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Pudenziana_-_esterno.jpg",
+  "author_html": "Rione I Monti",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Rione I Monti"
+ },
+ "pontifical-ecclesiastical-academy": {
+  "file": "places/pontifical-ecclesiastical-academy.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_dell_accademia_ecclesiastica_Roma.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jastrow\" title=\"User:Jastrow\">Jastrow</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jastrow"
+ },
+ "gardens-of-sallust": {
+  "file": "places/gardens-of-sallust.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Horti_Sallustiani_incisione.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "basilica-ulpia": {
+  "file": "places/basilica-ulpia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_Ulpia_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Yair-haklai\" title=\"User:Yair-haklai\">Yair Haklai</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Yair Haklai"
+ },
+ "leonine-city": {
+  "file": "places/leonine-city.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Torre_Giovanni_Giardini_Vaticani_20110705.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Gugganij\" title=\"User:Gugganij\">gugganij</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "gugganij"
+ },
+ "via-della-conciliazione": {
+  "file": "places/via-della-conciliazione.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%D0%92%D0%B8%D0%B0_%D0%B4%D0%B5%D0%BB%D0%BB%D0%B0_%D0%9A%D0%BE%D0%BD%D1%87%D0%B8%D0%BB%D0%B8%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%B5.jpg",
+  "author_html": "Ульрих Петерс",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Ульрих Петерс"
+ },
+ "san-pancrazio": {
+  "file": "places/san-pancrazio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Pancrazio_-_facciata_1537.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "san-giovanni-a-porta-latina": {
+  "file": "places/san-giovanni-a-porta-latina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DSC09436_MSan_Giovanni_a_Porta_Latina_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Ardeatino&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Ardeatino (page does not exist)\">Ardeatino</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Ardeatino"
+ },
+ "san-vitale": {
+  "file": "places/san-vitale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Church_of_San_Vitale_-_exterior.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:1municipio\" title=\"User:1municipio\">1municipio</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "1municipio"
+ },
+ "san-silvestro-in-capite": {
+  "file": "places/san-silvestro-in-capite.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Silvestro_in_Capite_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Monticiano\" title=\"User:Monticiano\">Monticiano</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Monticiano"
+ },
+ "aqua-alsietina": {
+  "file": "places/aqua-alsietina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Aqua_alsietina_planlatium.jpg",
+  "author_html": "? / <a href=\"//commons.wikimedia.org/wiki/User:Coldeel\" class=\"mw-redirect\" title=\"User:Coldeel\">Coldeel</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "? / Coldeel"
+ },
+ "column-of-antoninus-pius": {
+  "file": "places/column-of-antoninus-pius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musei_vaticani_-_base_colonna_antonina_01106.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "palazzo-corsini": {
+  "file": "places/palazzo-corsini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Corsini_rear_entrance_angle_AvL.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:AlexanderVanLoon\" title=\"User:AlexanderVanLoon\">AlexanderVanLoon</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "AlexanderVanLoon"
+ },
+ "porta-capena": {
+  "file": "places/porta-capena.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Forma_Urbis_Romae_Lanciani-35-UR.jpg",
+  "author_html": "Rodolfo Lanciani",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Rodolfo Lanciani"
+ },
+ "porta-san-paolo": {
+  "file": "places/porta-san-paolo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Porta_San_Paolo_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Livioandronico2013\" title=\"User:Livioandronico2013\">Livioandronico2013</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Livioandronico2013"
+ },
+ "santa-maria-antiqua": {
+  "file": "places/santa-maria-antiqua.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rome_SantaMariaAntiqua01.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Cnyborg\" title=\"User:Cnyborg\">Chris Nyborg</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Chris Nyborg"
+ },
+ "septizodium": {
+  "file": "places/septizodium.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Septiconium_Luci_Septimi_Severi.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "san-marcello-al-corso": {
+  "file": "places/san-marcello-al-corso.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Marcello_al_Corso_-_Facade.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Columnsss\" title=\"User:Columnsss\">Columnsss</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Columnsss"
+ },
+ "sant-eustachio": {
+  "file": "places/sant-eustachio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilique_Sant%27Eustachio.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "santi-bonifacio-ed-alessio": {
+  "file": "places/santi-bonifacio-ed-alessio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_dei_Santi_Bonifacio_e_Alessio.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Merulana\" title=\"User:Merulana\">Merulana</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Merulana"
+ },
+ "palazzo-borghese": {
+  "file": "places/palazzo-borghese.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_palazzo_Borghese_sulla_piazza_1110995.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "san-giorgio-in-velabro": {
+  "file": "places/san-giorgio-in-velabro.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giorgio_in_Velabro.JPG",
+  "author_html": "William Domenichini",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "William Domenichini"
+ },
+ "santa-susanna": {
+  "file": "places/santa-susanna.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Susanna_(Rome)_-_Front.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Architas\" title=\"User:Architas\">Architas</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Architas"
+ },
+ "santa-maria-in-vallicella": {
+  "file": "places/santa-maria-in-vallicella.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Vallicella_Facade_a_Roma.jpg",
+  "author_html": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Emblem-camera.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/40px-Emblem-camera.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/60px-Emblem-camera.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></a></span>  <a href=\"https://upload.wikimedia.org/wikipedia/commons/f/f3/Santa_Maria_in_Vallicella_Facade_a_Roma.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Santa Maria in Vallicella Facade a Roma.jpg\">This Photo</a> was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Moroder\" title=\"User:Moroder\">Wolfgang Moroder</a></b></i>.  <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:User_with_smile.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/40px-User_with_smile.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/60px-User_with_smile.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td>\n<td align=\"right\">Feel free to use my photos, but please mention me as the author and send me a  <a class=\"external text\" data-mw-original-href=\"http://commons.wikimedia.org/w/index.php?title=User_talk:Moroder&amp;action=edit&amp;section=new\" href=\"https://commons.wikimedia.org/w/index.php?title=User_talk:Moroder&amp;action=edit&amp;section=new\">message</a>. <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Crystal_128_mail.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/40px-Crystal_128_mail.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/60px-Crystal_128_mail.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #cc0000; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Control_copyright_icon.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/120px-Control_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"61\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/250px-Control_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"171\" data-file-height=\"163\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">This image is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"en:Public domain\">public domain</a></b>. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically <b>excludes use in social media</b>, if applicable terms of the licenses listed here not appropriate.</div>\n</td></tr></tbody></table></div>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/250px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract."
+ },
+ "nostra-signora-del-sacro-cuore": {
+  "file": "places/nostra-signora-del-sacro-cuore.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rom,_die_Kirche_Nostra_Signora_del_Sacro_Cuore.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Dguendel&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Dguendel (page does not exist)\">Dguendel</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Dguendel"
+ },
+ "san-nicola-in-carcere": {
+  "file": "places/san-nicola-in-carcere.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Nicola_in_Carcere_-_esterno.jpg",
+  "author_html": "Ninfamania",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Ninfamania"
+ },
+ "torre-dei-conti": {
+  "file": "places/torre-dei-conti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Torre_de%27_Conti.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:IlMarcheseDelGrillo\" title=\"User:IlMarcheseDelGrillo\">IlMarcheseDelGrillo</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "IlMarcheseDelGrillo"
+ },
+ "saepta-julia": {
+  "file": "places/saepta-julia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pantheon_with_remains_of_the_Saepta_Iulia.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Joris\" title=\"User:Joris\">Joris</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Joris"
+ },
+ "circus-of-nero": {
+  "file": "places/circus-of-nero.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Meta_Romuli_in_Rome.jpg",
+  "author_html": "Pirro Ligorio",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Pirro Ligorio"
+ },
+ "circus-flaminius": {
+  "file": "places/circus-flaminius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SoutherCircusFlaminiusInRomeByGismondi.jpg",
+  "author_html": "Alessandro57",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Alessandro57"
+ },
+ "protestant-cemetery": {
+  "file": "places/protestant-cemetery.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Cimitero_Acattolico_Roma.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LuciusCommons\" title=\"User:LuciusCommons\">LuciusCommons</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "LuciusCommons"
+ },
+ "ludus-magnus": {
+  "file": "places/ludus-magnus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ludus_magnus_Rome_2006.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jastrow\" title=\"User:Jastrow\">Jastrow</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jastrow"
+ },
+ "porta-collina": {
+  "file": "places/porta-collina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:The_British_Library_-_Rome_-_Porta_Collina.jpg",
+  "author_html": "The British Library <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"//commons.wikimedia.org/wiki/File:The_British_Library_-_Rome_-_Porta_Collina.jpg#P170\" title=\"Edit this at Structured Data on Commons\"><img alt=\"Edit this at Structured Data on Commons\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "The British Library"
+ },
+ "temple-of-apollo-palatinus": {
+  "file": "places/temple-of-apollo-palatinus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Remains_of_Temple_Apollo_Palatinus.jpg",
+  "author_html": null,
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "unknown"
+ },
+ "sant-anastasia-al-palatino": {
+  "file": "places/sant-anastasia-al-palatino.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant%27Anastasia_al_Palatino_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "san-francesco-a-ripa": {
+  "file": "places/san-francesco-a-ripa.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Francesco_a_Ripa_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Messapi\" title=\"User:Messapi\">Messapi</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Messapi"
+ },
+ "santa-maria-dell-anima": {
+  "file": "places/santa-maria-dell-anima.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_del_Anima_I.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "santa-maria-in-domnica": {
+  "file": "places/santa-maria-in-domnica.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_Santa_Maria_Domenica.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "capitoline-venus": {
+  "file": "places/capitoline-venus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Capitoline_Venus_-_Palazzo_Nuovo_-_Musei_Capitolini_-_Rome_2016.jpg",
+  "author_html": "<bdi><big>José Luiz</big></bdi>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "José Luiz"
+ },
+ "niccoline-chapel": {
+  "file": "places/niccoline-chapel.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:St._Peter_Niccoline_Chapel.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Fra_Angelico\" class=\"extiw\" title=\"w:en:Fra Angelico\"><span title=\"Italian Early Renaissance painter\">Fra Angelico</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Fra Angelico"
+ },
+ "palazzo-spada": {
+  "file": "places/palazzo-spada.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Spada_-_Rome,_Italy_-_DSC09752.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Daderot\" title=\"User:Daderot\">Daderot</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Daderot"
+ },
+ "san-gregorio-magno-al-celio": {
+  "file": "places/san-gregorio-magno-al-celio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Gregorio_al_Celio_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Livioandronico2013\" title=\"User:Livioandronico2013\">Livioandronico2013</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Livioandronico2013"
+ },
+ "palazzo-braschi": {
+  "file": "places/palazzo-braschi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palais_Braschi_-_Rome_(IT62)_-_2021-08-29_-_3.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Chabe01"
+ },
+ "santa-maria-in-montesanto": {
+  "file": "places/santa-maria-in-montesanto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Montesanto_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "palazzo-pamphilj": {
+  "file": "places/palazzo-pamphilj.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_Palazzo_Pamphilj_ambasciata_Brasile.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Blackcat"
+ },
+ "santa-prisca": {
+  "file": "places/santa-prisca.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Prisca_(Rome)_-_Esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:WikiRomaWiki\" title=\"User:WikiRomaWiki\">WikiRomaWiki</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "WikiRomaWiki"
+ },
+ "santa-maria-in-campitelli": {
+  "file": "places/santa-maria-in-campitelli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campitelli_-_santa_maria_in_Portico_1918st.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "santa-maria-della-concezione-dei-cappuccini": {
+  "file": "places/santa-maria-della-concezione-dei-cappuccini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ludovisi_-_S._Maria_della_Concezione_dei_Cappuccini.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "fontana-delle-api": {
+  "file": "places/fontana-delle-api.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:RomaBerniniFontanaApi.JPG",
+  "author_html": "No machine-readable author provided. <a href=\"//commons.wikimedia.org/wiki/User:MM\" title=\"User:MM\">MM</a> assumed (based on copyright claims).",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "No machine-readable author provided. MM assumed (based on copyright claims)."
+ },
+ "collegium-germanicum-et-hungaricum": {
+  "file": "places/collegium-germanicum-et-hungaricum.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Germanicum_building_1.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:DzsGyLyNy&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:DzsGyLyNy (page does not exist)\">DzsGyLyNy</a>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "DzsGyLyNy"
+ },
+ "mater-ecclesiae-monastery": {
+  "file": "places/mater-ecclesiae-monastery.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Giardini_vaticani,_monastero_di_mater_ecclesiae_2.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "arch-of-dolabella": {
+  "file": "places/arch-of-dolabella.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Porte_Caelimontane_externe.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "tomb-of-the-scipios": {
+  "file": "places/tomb-of-the-scipios.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sepolcro_degli_Scipioni_001_Entrata.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pippo-b\" title=\"User:Pippo-b\">Pippo-b</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Pippo-b"
+ },
+ "cappella-paolina": {
+  "file": "places/cappella-paolina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Cappella_paolina,_02,0.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "san-saba": {
+  "file": "places/san-saba.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_chiesa_san_saba.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Lalupa"
+ },
+ "santa-maria-della-scala": {
+  "file": "places/santa-maria-della-scala.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_santa_maria_della_scala_01586-9.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Lalupa"
+ },
+ "santissimo-nome-di-maria-al-foro-traiano": {
+  "file": "places/santissimo-nome-di-maria-al-foro-traiano.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Kolumna_Trajana_i_Kosciol_Najswietdzego_Imienia_Marii.JPG",
+  "author_html": null,
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "unknown"
+ },
+ "argiletum": {
+  "file": "places/argiletum.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Curie_face_nord.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Ursus\" title=\"User:Ursus\">Ursus</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Ursus"
+ },
+ "temple-of-mars-ultor": {
+  "file": "places/temple-of-mars-ultor.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Temple_of_Mars_Ultor_panorama.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Alekjds\" title=\"User:Alekjds\">Alekjds</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Alekjds"
+ },
+ "meta-sudans": {
+  "file": "places/meta-sudans.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Meta_Sudans_-_Thorald_L%C3%A6ss%C3%B8e_1867.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Kuamscience&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Kuamscience (page does not exist)\">Kuamscience</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Kuamscience"
+ },
+ "temple-of-divus-augustus": {
+  "file": "places/temple-of-divus-augustus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Antoninus_Pius_sestertius_-_Templum_Divi_Augusti_-_RIC_1004.jpg",
+  "author_html": "CNG",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "CNG"
+ },
+ "santa-maria-maddalena": {
+  "file": "places/santa-maria-maddalena.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Santa_Maria_Maddalena_Roma.jpg",
+  "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q115464159\" class=\"extiw\" title=\"d:Q115464159\"><span title=\"developer analyst and photographer from Venezuela\">Wilfredor</span></a></bdi>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Wilfredor"
+ },
+ "basilica-di-sant-apollinare": {
+  "file": "places/basilica-di-sant-apollinare.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Basilica_di_Sant%27Apollinare_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SonyGM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SonyGM (page does not exist)\">SonyGM</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SonyGM"
+ },
+ "santi-domenico-e-sisto": {
+  "file": "places/santi-domenico-e-sisto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santi_Domenico_e_Sisto_-_Facciata.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Fiat_500e\" title=\"User:Fiat 500e\">Fiat 500e</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Fiat 500e"
+ },
+ "santa-maria-ai-monti": {
+  "file": "places/santa-maria-ai-monti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_ai_Monti_-_Esterno.jpg",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Fiat_500e\" title=\"User:Fiat 500e\">Fiat 500e</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Fiat 500e"
+ },
+ "casina-pio-iv": {
+  "file": "places/casina-pio-iv.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Casino_di_pio_IV,_05.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "san-carlo-ai-catinari": {
+  "file": "places/san-carlo-ai-catinari.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S._Eustachio_-_S._Carlo_ai_Catinari.JPG",
+  "author_html": "Original uploader was <a href=\"https://it.wikipedia.org/wiki/User:Croberto68\" class=\"extiw\" title=\"it:User:Croberto68\">Croberto68</a> at <a class=\"external text\" data-mw-original-href=\"http://it.wikipedia.org\" href=\"https://it.wikipedia.org\">it.wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Original uploader was Croberto68 at it.wikipedia"
+ },
+ "theatre-of-balbus": {
+  "file": "places/theatre-of-balbus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Theatre_of_Balbus.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "san-girolamo-dei-croati": {
+  "file": "places/san-girolamo-dei-croati.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_San_Girolamo_Croati_-_Rome_(IT62)_-_2021-08-29_-_4.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Chabe01"
+ },
+ "domus-augustana": {
+  "file": "places/domus-augustana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Domus-augustana-map.png",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Cassius_Ahenobarbus\" title=\"User:Cassius Ahenobarbus\">Cassius Ahenobarbus</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Cassius Ahenobarbus"
+ },
+ "santa-maria-della-consolazione": {
+  "file": "places/santa-maria-della-consolazione.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_della_Consolazione_-_esterno.jpg",
+  "author_html": "Ninfamania",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Ninfamania"
+ },
+ "san-callisto": {
+  "file": "places/san-callisto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_Trastevere_Chiesa_di_San_Callisto.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3AGobbler\">Gobbler</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Gobbler"
+ },
+ "santa-maria-di-loreto": {
+  "file": "places/santa-maria-di-loreto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_di_Loreto.jpg",
+  "author_html": null,
+  "license": "CC SA 1.0",
+  "license_url": "http://creativecommons.org/licenses/sa/1.0/",
+  "author": "unknown"
+ },
+ "st-alphonsus-liguori-church": {
+  "file": "places/st-alphonsus-liguori-church.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Alfonso_de_Liguori_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sant%27Alfonso_de_Liguori\" title=\"User:Sant'Alfonso de Liguori\">Sant'Alfonso de Liguori</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Sant'Alfonso de Liguori"
+ },
+ "san-lorenzo-in-panisperna": {
+  "file": "places/san-lorenzo-in-panisperna.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DSC00778_San_Lorenzo_in_Panisperna.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Rione_Colonna\" title=\"User:Rione Colonna\">Rione Colonna</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Rione Colonna"
+ },
+ "santi-luca-e-martina": {
+  "file": "places/santi-luca-e-martina.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2012-02-17_Foro_Romano_da_Palazzo_Senatorio_3.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 3.0 it",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en",
+  "author": "Blackcat"
+ },
+ "angel-of-grief": {
+  "file": "places/angel-of-grief.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Emelyn_Story_Tomba_(Cimitero_Acattolico_Roma).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LuciusCommons\" title=\"User:LuciusCommons\">LuciusCommons</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "LuciusCommons"
+ },
+ "palazzo-poli": {
+  "file": "places/palazzo-poli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pannini,_Giovanni_Paolo_-_Fountain_of_Trevi,_Rome_-_18th_c.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Giovanni_Paolo_Panini\" class=\"extiw\" title=\"w:en:Giovanni Paolo Panini\"><span title=\"Italian painter and architect (1691–1765)\">Giovanni Paolo Panini</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Giovanni Paolo Panini"
+ },
+ "porta-portese": {
+  "file": "places/porta-portese.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:DSC08090_Portese_Door.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Borgo_Pius\" title=\"User:Borgo Pius\">Borgo Pius</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Borgo Pius"
+ },
+ "solarium-augusti": {
+  "file": "places/solarium-augusti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Colonna_-_meridiana_sotto_Campo_Marzio_48_1050300.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "sant-antonio-dei-portoghesi": {
+  "file": "places/sant-antonio-dei-portoghesi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Antonio_in_Campo_Marzio_-_esterno.jpg",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:SonyGM?action=edit&amp;redlink=1\" title=\"User:SonyGM (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:SonyGM\"]}}'>SonyGM</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SonyGM"
+ },
+ "christuskirche": {
+  "file": "places/christuskirche.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma,_chiesa_evangelica_luterana_-_Esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_PcPifpef\" title=\"User:Pufui PcPifpef\">Pufui PcPifpef</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui PcPifpef"
+ },
+ "san-gioacchino-ai-prati-di-castello": {
+  "file": "places/san-gioacchino-ai-prati-di-castello.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Prati_-_S._Gioacchino_ai_Prati.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santissima-trinita-dei-pellegrini": {
+  "file": "places/santissima-trinita-dei-pellegrini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_Regola_Chiesa_della_Santissima_Trinit%C3%A0_dei_Pellegrini.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3AGobbler\">Gobbler</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Gobbler"
+ },
+ "palazzo-massimo-alle-colonne": {
+  "file": "places/palazzo-massimo-alle-colonne.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Massimo_alle_Colonne.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "villa-del-priorato-di-malta": {
+  "file": "places/villa-del-priorato-di-malta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_Aventino_Villa_Malta.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"http://www.wikivoyage-old.org/shared/User%3AGobbler\">Gobbler</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Gobbler"
+ },
+ "palazzo-margherita": {
+  "file": "places/palazzo-margherita.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_ambasciata_USA.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.panoramio.com/user/861544\">trolvag</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "trolvag"
+ },
+ "baths-of-constantine": {
+  "file": "places/baths-of-constantine.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Baths_of_Constantine_-_E_du_Perac.jpg",
+  "author_html": "Etienne du Perac",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Etienne du Perac"
+ },
+ "sant-angelo-in-pescheria": {
+  "file": "places/sant-angelo-in-pescheria.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:15_Portico_di_Ottavia.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "obelisk-of-montecitorio": {
+  "file": "places/obelisk-of-montecitorio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Egyptian_Obelisk_Solare,_Psammeticus_II,_Heliopolis,_Taken_by_Augustus_in_10_BC_(48424248527).jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/101561334@N08\">Gary Todd</a> from Xinzheng, China",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Gary Todd from Xinzheng, China"
+ },
+ "arch-of-drusus": {
+  "file": "places/arch-of-drusus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Appia_antica_2-7-05_003.jpg",
+  "author_html": "Nick",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Nick"
+ },
+ "biblioteca-angelica": {
+  "file": "places/biblioteca-angelica.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S_Eustachio_-_piazza_s_Agostino_Arcadia_e_Angelica_1150281.jpg",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "theatre-of-nero": {
+  "file": "places/theatre-of-nero.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_dei_penitenzieri,_cortile_02.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">sailko</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "sailko"
+ },
+ "palazzo-delle-esposizioni": {
+  "file": "places/palazzo-delle-esposizioni.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_delle_Esposizioni_(2034877959).jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/people/11432907@N00\">Emanuele</a> from Roma",
+  "license": "CC BY-SA 2.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.0",
+  "author": "Emanuele from Roma"
+ },
+ "porta-viminale": {
+  "file": "places/porta-viminale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Plan_Rome-_Servische_Muur.png",
+  "author_html": "<a href=\"https://fr.wikipedia.org/wiki/User:ColdEel\" class=\"extiw\" title=\"fr:User:ColdEel\">fr:User:ColdEel</a> &amp; edited by <a href=\"https://nl.wikipedia.org/wiki/Gebruiker:Joris\" class=\"extiw\" title=\"nl:Gebruiker:Joris\">nl:Gebruiker:Joris</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "fr:User:ColdEel & edited by nl:Gebruiker:Joris"
+ },
+ "ponte-cavour": {
+  "file": "places/ponte-cavour.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Cavour_Bridge,_Rome,_Italy.jpg",
+  "author_html": "<span style=\"font: bold 95% 'Arial', sans-serif;\"><a href=\"//commons.wikimedia.org/wiki/User:ColdShine\" title=\"User:ColdShine\"><span style=\"color: #003399;\">Cold</span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:ColdShine\" title=\"User talk:ColdShine\"><span style=\"color: #FF9933;\">Shine</span></a></span>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "ColdShine"
+ },
+ "san-teodoro": {
+  "file": "places/san-teodoro.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campitelli_-_san_teodoro_00768.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "san-giuliano-dei-fiamminghi": {
+  "file": "places/san-giuliano-dei-fiamminghi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S._Eustachio_-_S._Giuliano_Ospitaliere_dei_Fiamminghi.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-maria-della-pieta-in-camposanto-dei-teutonici": {
+  "file": "places/santa-maria-della-pieta-in-camposanto-dei-teutonici.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Borgo_(CdV)_-_Edificio_con_SM_in_Camposanto_teutonico.JPG",
+  "author_html": "The original uploader was <a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>.",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "The original uploader was Croberto68 at Italian Wikipedia."
+ },
+ "san-nicola-da-tolentino-agli-orti-sallustiani": {
+  "file": "places/san-nicola-da-tolentino-agli-orti-sallustiani.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Facade_(Saint_Nicolas_de_Tolentino,_Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Mallowtek\" title=\"User:Mallowtek\">Mallowtek</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Mallowtek"
+ },
+ "santa-caterina-a-magnanapoli": {
+  "file": "places/santa-caterina-a-magnanapoli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Caterina_a_Magnanapoli_(Rome)_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Fiat_500e\" title=\"User:Fiat 500e\">Fiat 500e</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Fiat 500e"
+ },
+ "san-sebastiano-al-palatino": {
+  "file": "places/san-sebastiano-al-palatino.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campitelli_-_san_Sebastiano_al_Palatino_-_facciata_01620-1.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "santa-dorotea": {
+  "file": "places/santa-dorotea.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_S._Dorotea.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "sant-anselmo-all-aventino": {
+  "file": "places/sant-anselmo-all-aventino.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Anselmo_all%27Aventino_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Merulana\" title=\"User:Merulana\">Merulana</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Merulana"
+ },
+ "santi-vincenzo-e-anastasio-a-trevi": {
+  "file": "places/santi-vincenzo-e-anastasio-a-trevi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_dei_Santi_Vincenzo_e_Anastasio_a_Fontana_di_Trevi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:WikiRomaWiki\" title=\"User:WikiRomaWiki\">WikiRomaWiki</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "WikiRomaWiki"
+ },
+ "san-francesco-di-paola-ai-monti": {
+  "file": "places/san-francesco-di-paola-ai-monti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Francesco_di_Paola_-_esterno.jpg",
+  "author_html": "Ninfamania",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Ninfamania"
+ },
+ "santa-maria-del-priorato": {
+  "file": "places/santa-maria-del-priorato.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Aventino_s_Maria_del_Priorato_facciata_1050375.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "palazzo-san-callisto": {
+  "file": "places/palazzo-san-callisto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2016_Palazzo_di_San_Callisto_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jordiferrer\" title=\"User:Jordiferrer\">Jordiferrer</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Jordiferrer"
+ },
+ "pons-neronianus": {
+  "file": "places/pons-neronianus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Remains_of_Neronian_Bridge,_Rome,_Italy.jpg",
+  "author_html": "<span style=\"font: bold 95% 'Arial', sans-serif;\"><a href=\"//commons.wikimedia.org/wiki/User:ColdShine\" title=\"User:ColdShine\"><span style=\"color: #003399;\">Cold</span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:ColdShine\" title=\"User talk:ColdShine\"><span style=\"color: #FF9933;\">Shine</span></a></span>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "ColdShine"
+ },
+ "portico-dii-consentes": {
+  "file": "places/portico-dii-consentes.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Portico_degli_dei_consenti_sullo_sfondo_del_tabularium.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "ponte-garibaldi": {
+  "file": "places/ponte-garibaldi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2012-05-15_Roma_ponte_Garibaldi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 3.0 it",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/it/deed.en",
+  "author": "Blackcat"
+ },
+ "palazzo-zuccari": {
+  "file": "places/palazzo-zuccari.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Zuccari_Roma_119-1983_IMG_GS.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Schelbertgeorg\" title=\"User:Schelbertgeorg\">Georg Schelbert</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Georg Schelbert"
+ },
+ "st-stephen-of-the-abyssinians": {
+  "file": "places/st-stephen-of-the-abyssinians.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Giardini_vaticani,_chiesa_di_santo_stefano_degli_abissini,_01.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "palazzo-della-consulta": {
+  "file": "places/palazzo-della-consulta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_della_Consulta_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Monticiano\" title=\"User:Monticiano\">Monticiano</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Monticiano"
+ },
+ "sant-isidoro-a-capo-le-case": {
+  "file": "places/sant-isidoro-a-capo-le-case.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ludovisi_-_S._Isidoro.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "oratorio-dei-filippini": {
+  "file": "places/oratorio-dei-filippini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Oratorio_dei_Filippini_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "sant-eligio-degli-orefici": {
+  "file": "places/sant-eligio-degli-orefici.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_S._Eligio_degli_Orefici.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-caterina-dei-funari": {
+  "file": "places/santa-caterina-dei-funari.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S._Angelo_-_S._Caterina_dei_Funari.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "governor-s-palace-vatican": {
+  "file": "places/governor-s-palace-vatican.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Vatikanische_G%C3%A4rten_08.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pimpinellus\" title=\"User:Pimpinellus\">Burkhard Mücke</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Burkhard Mücke"
+ },
+ "santa-maria-dell-orto": {
+  "file": "places/santa-maria-dell-orto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Santa_Maria_dell%27Orto.JPG",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "villa-ludovisi": {
+  "file": "places/villa-ludovisi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Casino_di_Villa_Lodovisi_-_Plate_189_-_Giuseppe_Vasi.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Giuseppe_Vasi\" class=\"extiw\" title=\"w:en:Giuseppe Vasi\"><span title=\"Italian architect and engraver (1710–1782)\">Giuseppe Vasi</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Giuseppe Vasi"
+ },
+ "santi-martino-e-sebastiano-degli-svizzeri": {
+  "file": "places/santi-martino-e-sebastiano-degli-svizzeri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Citt%C3%A0_del_Vaticano,_chiesa_dei_Santi_Martino_e_Sebastiano_degli_Svizzeri_-_Esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_Pc_Pifpef_I\" class=\"mw-redirect\" title=\"User:Pufui Pc Pifpef I\">Pufui Pc Pifpef I</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui Pc Pifpef I"
+ },
+ "santi-michele-e-magno": {
+  "file": "places/santi-michele-e-magno.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rom_-Santi_Michele_e_Magno-_2019_by-RaBoe_001.jpg",
+  "author_html": "© <a href=\"https://de.wikipedia.org/wiki/Benutzer:Raboe001\" class=\"extiw\" title=\"de:Benutzer:Raboe001\">Ra Boe / Wikipedia</a>",
+  "license": "CC BY-SA 3.0 de",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0/de/deed.en",
+  "author": "© Ra Boe / Wikipedia"
+ },
+ "sant-anna-dei-palafrenieri": {
+  "file": "places/sant-anna-dei-palafrenieri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Anna_dei_Palafrenieri_-_esterno.jpg",
+  "author_html": "Ninfamania",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Ninfamania"
+ },
+ "gesu-e-maria": {
+  "file": "places/gesu-e-maria.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_dei_Santissimi_Nomi_di_Ges%C3%B9_e_Maria_in_via_Lata.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "temple-of-claudius": {
+  "file": "places/temple-of-claudius.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Plan_Rome-_Tempel_van_Claudius.png",
+  "author_html": "<a href=\"https://fr.wikipedia.org/wiki/User:ColdEel\" class=\"extiw\" title=\"fr:User:ColdEel\">fr:User:ColdEel</a> &amp; edited by <a href=\"https://nl.wikipedia.org/wiki/Gebruiker:Joris1919\" class=\"extiw\" title=\"nl:Gebruiker:Joris1919\">nl:Gebruiker:Joris1919</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "fr:User:ColdEel & edited by nl:Gebruiker:Joris1919"
+ },
+ "santa-monica-degli-agostiniani": {
+  "file": "places/santa-monica-degli-agostiniani.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Borgo_-_Chiesa_di_Santa_Monica.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "gregorian-tower": {
+  "file": "places/gregorian-tower.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Musei_Vaticani.jpg",
+  "author_html": "<a href=\"https://nl.wikipedia.org/wiki/User:Martin_Hooijschuur\" class=\"extiw\" title=\"nl:User:Martin Hooijschuur\">Martin Hooijschuur</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Martin Hooijschuur"
+ },
+ "regina-coeli-prison": {
+  "file": "places/regina-coeli-prison.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Regina_Coeli_alla_Lungara_1040154.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Lalupa"
+ },
+ "blessed-ludovica-albertoni": {
+  "file": "places/blessed-ludovica-albertoni.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Beata_Ludovica_Albertoni_(Bernini).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "temple-of-the-nymphs": {
+  "file": "places/temple-of-the-nymphs.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:RomaTempioNinfe1.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MM\" title=\"User:MM\">MM</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "MM"
+ },
+ "santi-giovanni-evangelista-e-petronio": {
+  "file": "places/santi-giovanni-evangelista-e-petronio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SS._Giovanni_Evangelista_e_Petronio,_Roma,_via_del_Mascherone.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Bargioni\" title=\"User:Bargioni\">Bargioni</a>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Bargioni"
+ },
+ "sant-egidio": {
+  "file": "places/sant-egidio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Giles_church_in_Rome_(2).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tournasol7\" title=\"User:Tournasol7\">Krzysztof Golik</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Krzysztof Golik"
+ },
+ "arcus-novus": {
+  "file": "places/arcus-novus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Boboli,_prigionieri_parti_08.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">sailko</a>",
+  "license": "CC BY 2.5",
+  "license_url": "https://creativecommons.org/licenses/by/2.5",
+  "author": "sailko"
+ },
+ "curia-of-pompey": {
+  "file": "places/curia-of-pompey.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Curia_Pompey.jpg",
+  "author_html": "Screen capture by <a href=\"//commons.wikimedia.org/wiki/User:Mark_Miller\" title=\"User:Mark Miller\">Mark Miller</a> of a work by Lasha Tskhondia - L.VII.C.",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Screen capture by Mark Miller of a work by Lasha Tskhondia - L.VII.C."
+ },
+ "palazzo-del-viminale": {
+  "file": "places/palazzo-del-viminale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_-_Viminale.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Lucamato&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Lucamato (page does not exist)\">Lucamato</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Lucamato"
+ },
+ "san-giovanni-battista-decollato": {
+  "file": "places/san-giovanni-battista-decollato.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giovanni_Decollato_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "san-salvatore-in-lauro": {
+  "file": "places/san-salvatore-in-lauro.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Salvatore_in_Lauro_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "san-bonaventura-al-palatino": {
+  "file": "places/san-bonaventura-al-palatino.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Bonaventura_03.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "via-dei-coronari": {
+  "file": "places/via-dei-coronari.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ponte_-_Immagine_di_Ponte_1130330.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "palazzo-wedekind": {
+  "file": "places/palazzo-wedekind.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Wedekind_-_esterno.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Pietro_Camporese_the_Younger\" class=\"extiw\" title=\"w:en:Pietro Camporese the Younger\"><span title=\"Italian neoclassical architect\">Pietro Camporese the Younger</span></a></bdi>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Pietro Camporese the Younger"
+ },
+ "san-salvatore-alle-coppelle": {
+  "file": "places/san-salvatore-alle-coppelle.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_San_Salvatore_alle_Coppelle_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "santa-maria-in-aquiro": {
+  "file": "places/santa-maria-in-aquiro.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Aquiro_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "palazzo-pallavicini-rospigliosi": {
+  "file": "places/palazzo-pallavicini-rospigliosi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Monti_-_Palazzo_Rospigliosi-Pallavicini_1020787.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "san-silvestro-al-quirinale": {
+  "file": "places/san-silvestro-al-quirinale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trevi_-_S_Silvestro_al_Quirinale.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "all-saints-church": {
+  "file": "places/all-saints-church.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:All_Saints%27_Church_in_Rome.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/gaspa/\">gaspa</a>",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "gaspa"
+ },
+ "santa-lucia-del-gonfalone": {
+  "file": "places/santa-lucia-del-gonfalone.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_s_Lucia_del_Gonfalone_1010705.JPG",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "aula-regia": {
+  "file": "places/aula-regia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palatino_aularegia.JPG",
+  "author_html": "<a href=\"https://it.wikipedia.org/wiki/Utente:Battlelight\" class=\"extiw\" title=\"it:Utente:Battlelight\">Utente:Battlelight</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Utente:Battlelight"
+ },
+ "insula-dell-ara-coeli": {
+  "file": "places/insula-dell-ara-coeli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campitelli_-_Insula_romana_1907.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "museo-di-scultura-antica-giovanni-barracco": {
+  "file": "places/museo-di-scultura-antica-giovanni-barracco.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzetto_Le_Roy_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "san-gregorio-vii": {
+  "file": "places/san-gregorio-vii.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma,_chiesa_di_San_Gregorio_VII_-_Esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_PcPifpef\" title=\"User:Pufui PcPifpef\">Pufui PcPifpef</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui PcPifpef"
+ },
+ "biblioteca-vallicelliana": {
+  "file": "places/biblioteca-vallicelliana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sala_della_biblioteca_dell%27Oratorio_dei_Filippini,_before_1976_-_Archivio_Accademia_delle_Scienze_Torino,_Millon_66_29_474.jpg",
+  "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q18934991\" class=\"extiw\" title=\"d:Q18934991\"><span title=\"Art historian (1927-2018)\">Henry A. Millon</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Henry A. Millon"
+ },
+ "san-macuto": {
+  "file": "places/san-macuto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pigna_-_san_Macuto_2916.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "san-giuseppe-alla-lungara": {
+  "file": "places/san-giuseppe-alla-lungara.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_S._Giuseppe_alla_Lungara.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "san-patrizio": {
+  "file": "places/san-patrizio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ludovisi_-_S._Patrizio.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "palazzo-koch": {
+  "file": "places/palazzo-koch.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Banca_d%27Italia_-_panoramio_(2).jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20161031082435/http://www.panoramio.com/user/5152111?with_photo_id=127977584\">Mister No</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Mister No"
+ },
+ "palazzo-falconieri": {
+  "file": "places/palazzo-falconieri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_via_Giulia_palazzo_Falconieri_facciata_1180066.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "san-tommaso-in-parione": {
+  "file": "places/san-tommaso-in-parione.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_San_Tommaso_in_Parione.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "santa-maria-liberatrice-a-monte-testaccio": {
+  "file": "places/santa-maria-liberatrice-a-monte-testaccio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_Liberatrice_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "santa-maria-in-monticelli": {
+  "file": "places/santa-maria-in-monticelli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_S._Maria_in_Monticelli.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-maria-delle-grazie-alle-fornaci-fuori-porta-cavallegge": {
+  "file": "places/santa-maria-delle-grazie-alle-fornaci-fuori-porta-cavallegge.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:SaintMaryFornaci_outside.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:SaintMaryFornaci\" title=\"User:SaintMaryFornaci\">SaintMaryFornaci</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SaintMaryFornaci"
+ },
+ "palazzo-maffei-marescotti": {
+  "file": "places/palazzo-maffei-marescotti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pigna_-_pal_Maffei-Marescotti_vicariato_1240744.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Lalupa"
+ },
+ "sacro-cuore-del-suffragio": {
+  "file": "places/sacro-cuore-del-suffragio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:%C3%89glise_Sacro_Cuore_Suffragio_-_Rome_(IT62)_-_2021-08-28_-_3.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Chabe01\" title=\"User:Chabe01\">Chabe01</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Chabe01"
+ },
+ "san-giuseppe-al-trionfale": {
+  "file": "places/san-giuseppe-al-trionfale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trionfale_-_S._Giuseppe_2.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "san-giovanni-della-pigna": {
+  "file": "places/san-giovanni-della-pigna.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_San_Giovanni_della_Pigna_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "santi-quirico-e-giulitta": {
+  "file": "places/santi-quirico-e-giulitta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Monti_-_ss_Quirico_e_Giulitta_1010082.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "palazzo-sacchetti": {
+  "file": "places/palazzo-sacchetti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Sacchetti_Via_Giulia_(Rom).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Peter1936F\" title=\"User:Peter1936F\">Peter1936F</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Peter1936F"
+ },
+ "st-paul-s-within-the-walls": {
+  "file": "places/st-paul-s-within-the-walls.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_San_Paolo_dentro_le_Mura.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "via-margutta": {
+  "file": "places/via-margutta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:03_Margutta.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "palazzo-giustiniani": {
+  "file": "places/palazzo-giustiniani.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S_Eustachio_-_palazzo_Giustiniani_1150644.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "piazza-dei-cinquecento": {
+  "file": "places/piazza-dei-cinquecento.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Piazzadeicinquecento.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Markos90\" class=\"mw-redirect\" title=\"User:Markos90\">Markos90</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Markos90"
+ },
+ "ponte-giuseppe-mazzini": {
+  "file": "places/ponte-giuseppe-mazzini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Giuseppe_Mazzini_Bridge_from_lower_lungotevere,_Rome,_Italy.jpg",
+  "author_html": "<span style=\"font: bold 95% 'Arial', sans-serif;\"><a href=\"//commons.wikimedia.org/wiki/User:ColdShine\" title=\"User:ColdShine\"><span style=\"color: #003399;\">Cold</span></a><a href=\"//commons.wikimedia.org/wiki/User_talk:ColdShine\" title=\"User talk:ColdShine\"><span style=\"color: #FF9933;\">Shine</span></a></span>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "ColdShine"
+ },
+ "st-andrew-s-church": {
+  "file": "places/st-andrew-s-church.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Saint_Andrew%27s_Church_of_Scotland.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "gardens-of-maecenas": {
+  "file": "places/gardens-of-maecenas.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pianta_regio_III_da_Lanciani_2.jpg",
+  "author_html": "Rodolfo Lanciani",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Rodolfo Lanciani"
+ },
+ "san-tommaso-in-formis": {
+  "file": "places/san-tommaso-in-formis.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Celio_-_san_Tommaso_in_Formis_1788.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">user:Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "user:Lalupa"
+ },
+ "santa-maria-delle-grazie-a-via-trionfale": {
+  "file": "places/santa-maria-delle-grazie-a-via-trionfale.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_s_Maria_delle_Grazie_fronte.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Blackcat"
+ },
+ "palazzo-ruspoli": {
+  "file": "places/palazzo-ruspoli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Immagine_La_storia.jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Alessandro_Specchi\" class=\"extiw\" title=\"w:en:Alessandro Specchi\"><span title=\"Italian architect and etcher\">Alessandro Specchi</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Alessandro Specchi"
+ },
+ "biblioteca-casanatense": {
+  "file": "places/biblioteca-casanatense.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Casanatense_1120152.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "santissima-trinita-a-via-condotti": {
+  "file": "places/santissima-trinita-a-via-condotti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_SS._Trinita_degli_Spagnoli.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "oratory-of-santissimo-crocifisso": {
+  "file": "places/oratory-of-santissimo-crocifisso.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Santissimo_Crocifisso.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "palazzo-altieri": {
+  "file": "places/palazzo-altieri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pigna_-_Palazzo_Altieri_1020544.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "santa-lucia-in-selci": {
+  "file": "places/santa-lucia-in-selci.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Lucia_in_Selci_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SonyGM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SonyGM (page does not exist)\">SonyGM</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SonyGM"
+ },
+ "santi-claudio-e-andrea-dei-borgognoni": {
+  "file": "places/santi-claudio-e-andrea-dei-borgognoni.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santi_Andrea_e_Claudio_dei_Borgognoni_(Roma).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Merulana\" title=\"User:Merulana\">Merulana</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Merulana"
+ },
+ "santa-maria-dei-sette-dolori": {
+  "file": "places/santa-maria-dei-sette-dolori.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_Complesso_monastico_di_S._Maria_dei_Sette_Dolori.JPG",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Croberto68?action=edit&amp;redlink=1\" title=\"User:Croberto68 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Croberto68\"]}}'>Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "santissime-stimmate-di-san-francesco": {
+  "file": "places/santissime-stimmate-di-san-francesco.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Santissime_Stimmate_di_San_Francesco.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "san-bernardino-in-panisperna": {
+  "file": "places/san-bernardino-in-panisperna.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Bernardino_in_Panisperna_(Rome)_-_Facade.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tyrh%C3%A9nienne\" title=\"User:Tyrhénienne\">Tyrhénienne</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Tyrhénienne"
+ },
+ "santa-maria-in-trivio": {
+  "file": "places/santa-maria-in-trivio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Trivio_-_esterno.jpg",
+  "author_html": "DellaGherardesca",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "DellaGherardesca"
+ },
+ "san-giovanni-battista-dei-genovesi": {
+  "file": "places/san-giovanni-battista-dei-genovesi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_San_Giovanni_Battista_dei_Genovesi.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "sant-ivo-dei-bretoni": {
+  "file": "places/sant-ivo-dei-bretoni.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_S._Ivo_dei_Bretoni.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "palazzo-branconio-dell-aquila": {
+  "file": "places/palazzo-branconio-dell-aquila.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Branconio_dell_Aquila_17th_century_(middle_size)_(16927488).jpg",
+  "author_html": "Pietro Ferrerio",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Pietro Ferrerio"
+ },
+ "san-nicola-dei-lorenesi": {
+  "file": "places/san-nicola-dei-lorenesi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant_Nicola_dei_Lorenesi_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "santo-stanislao-dei-polacchi": {
+  "file": "places/santo-stanislao-dei-polacchi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Santo_Stanislao_dei_Polacchi_04.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Nicholas_Gemini\" title=\"User:Nicholas Gemini\">Nicholas Gemini</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Nicholas Gemini"
+ },
+ "san-gregorio-della-divina-pieta": {
+  "file": "places/san-gregorio-della-divina-pieta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:GregorioDivinaPieta.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "santa-maria-annunziata-in-borgo": {
+  "file": "places/santa-maria-annunziata-in-borgo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_Annunziata_in_Borgo_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "galleria-alberto-sordi": {
+  "file": "places/galleria-alberto-sordi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:2016_Galleria_Alberto_Sordi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jordiferrer\" title=\"User:Jordiferrer\">Jordiferrer</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Jordiferrer"
+ },
+ "san-rocco": {
+  "file": "places/san-rocco.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Rocco_all%27Augusteo_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:PubblicUsername\" title=\"User:PubblicUsername\">PubblicUsername</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "PubblicUsername"
+ },
+ "santa-maria-della-concezione-in-campo-marzio": {
+  "file": "places/santa-maria-della-concezione-in-campo-marzio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campo_Marzio,_via_in_-_s_M_in_Campo_Marzio_1080071.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Lalupa"
+ },
+ "palazzo-baldassini": {
+  "file": "places/palazzo-baldassini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_baldassini.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Tiliaandcom&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Tiliaandcom (page does not exist)\">Tiliaandcom</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Tiliaandcom"
+ },
+ "palazzo-bonaparte": {
+  "file": "places/palazzo-bonaparte.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Bonaparte_(Rome).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Kaga_tau\" title=\"User:Kaga tau\">Kaga tau</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Kaga tau"
+ },
+ "sant-agata-in-trastevere": {
+  "file": "places/sant-agata-in-trastevere.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Sant%27Agata_in_Trastevere_de_Rome.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "santa-maria-in-publicolis": {
+  "file": "places/santa-maria-in-publicolis.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Santa_Maria_in_Publicolis.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "santa-rita-da-cascia-alle-vergini": {
+  "file": "places/santa-rita-da-cascia-alle-vergini.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Rita_da_Cascia_alle_Vergini.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Castro_Pretorio\" title=\"User:Castro Pretorio\">Castro Pretorio</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Castro Pretorio"
+ },
+ "sant-andrea-degli-scozzesi": {
+  "file": "places/sant-andrea-degli-scozzesi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Andrea_degli_Scozzesi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Torvindus&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Torvindus (page does not exist)\">Torvindus</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Torvindus"
+ },
+ "nostra-signora-de-la-salette": {
+  "file": "places/nostra-signora-de-la-salette.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma,_chiesa_di_Nostra_Signora_de_La_Salette_-_Esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_PcPifpef\" title=\"User:Pufui PcPifpef\">Pufui PcPifpef</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui PcPifpef"
+ },
+ "almo-collegio-capranica": {
+  "file": "places/almo-collegio-capranica.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Almo_Collegio_Capranica_-_Cappella_di_Sant%27Agnese.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_Pc_Pifpef_I\" class=\"mw-redirect\" title=\"User:Pufui Pc Pifpef I\">Pufui Pc Pifpef I</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Pufui Pc Pifpef I"
+ },
+ "fontana-dei-dioscuri": {
+  "file": "places/fontana-dei-dioscuri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fontana_del_Quirinale_(Rome)_-_Statues_of_Dioscuri.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Monticiano\" title=\"User:Monticiano\">Monticiano</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Monticiano"
+ },
+ "contarelli-chapel": {
+  "file": "places/contarelli-chapel.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_-_San_Luigi_dei_Francesi_8289.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Phyrexian\" title=\"User:Phyrexian\">Phyrexian</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Phyrexian"
+ },
+ "jewish-museum-of-rome": {
+  "file": "places/jewish-museum-of-rome.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Great_Synagogue_of_Rome.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Livioandronico2013\" title=\"User:Livioandronico2013\">Livioandronico2013</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Livioandronico2013"
+ },
+ "palazzo-di-spagna": {
+  "file": "places/palazzo-di-spagna.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palacio_de_Espa%C3%B1a,_plaza_de_Espa%C3%B1a,_Roma,_Italia,_2022-09-14,_DD_22.jpg",
+  "author_html": "<bdi><a href=\"https://www.wikidata.org/wiki/Q28147777\" class=\"extiw\" title=\"d:Q28147777\"><span title=\"Spanish photographer\">Diego Delso</span></a></bdi>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Diego Delso"
+ },
+ "santi-benedetto-e-scholastica": {
+  "file": "places/santi-benedetto-e-scholastica.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma,_palazzo_Lucarucci_-_Facciata_su_via_di_Torre_Argentina.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_PcPifpef\" title=\"User:Pufui PcPifpef\">Pufui PcPifpef</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui PcPifpef"
+ },
+ "santa-maria-in-monterone": {
+  "file": "places/santa-maria-in-monterone.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_in_Monterone_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Fiat_500e\" title=\"User:Fiat 500e\">Fiat 500e</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Fiat 500e"
+ },
+ "sant-antonio-abate-all-esquilino": {
+  "file": "places/sant-antonio-abate-all-esquilino.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sant%27Antonio_abate_all%27Esquilino_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Messapi\" title=\"User:Messapi\">Messapi</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Messapi"
+ },
+ "santa-maria-del-suffragio": {
+  "file": "places/santa-maria-del-suffragio.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ponte_-_S._Maria_del_Suffragio.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santi-gioacchino-e-anna-ai-monti": {
+  "file": "places/santi-gioacchino-e-anna-ai-monti.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santi_Gioacchino_e_Anna_ai_Monti.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "oratory-of-san-francesco-saverio-del-caravita": {
+  "file": "places/oratory-of-san-francesco-saverio-del-caravita.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pigna_-_Oratorio_di_S._Francesco_Saverio.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-chiara": {
+  "file": "places/santa-chiara.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Chiara_September_2015-1.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Alvesgaspar\" title=\"User:Alvesgaspar\">Alvesgaspar</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Alvesgaspar"
+ },
+ "palazzo-vidoni-caffarelli": {
+  "file": "places/palazzo-vidoni-caffarelli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Vidoni_Roma.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jensens\" title=\"User:Jensens\">Jensens</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Jensens"
+ },
+ "villa-lante-al-gianicolo": {
+  "file": "places/villa-lante-al-gianicolo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Villa_Lante_al_Gianicolo_2.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Tomisti\" title=\"User:Tomisti\">Tomisti</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Tomisti"
+ },
+ "palazzo-grazioli": {
+  "file": "places/palazzo-grazioli.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pigna_-_palazzo_Grazioli_1170066.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "santa-maria-odigitria-al-tritone": {
+  "file": "places/santa-maria-odigitria-al-tritone.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Colonna_-_santa_Maria_Odigitria_01608.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "palazzo-alicorni": {
+  "file": "places/palazzo-alicorni.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PalazzoAlicorniInRome01.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Alessandro57\" title=\"User:Alessandro57\">Alessandro57</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Alessandro57"
+ },
+ "san-pellegrino-in-vaticano": {
+  "file": "places/san-pellegrino-in-vaticano.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Citt%C3%A0_del_Vaticano,_chiesa_di_San_Pellegrino_-_Facciata.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Pufui_PcPifpef\" title=\"User:Pufui PcPifpef\">Pufui PcPifpef</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Pufui PcPifpef"
+ },
+ "san-giacomo-alla-lungara": {
+  "file": "places/san-giacomo-alla-lungara.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:S_Giacomo_alla_Lungara_-_campanile_P1020180.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "santi-quaranta-martiri-e-san-pasquale-baylon": {
+  "file": "places/santi-quaranta-martiri-e-san-pasquale-baylon.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_SS._Quaranta_Martiri_e_S._Pasquale_Baylon.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "san-michele-a-ripa": {
+  "file": "places/san-michele-a-ripa.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_s_Michele_cortile_dei_vecchi_1190398.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "palazzo-aragona-gonzaga": {
+  "file": "places/palazzo-aragona-gonzaga.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Balami.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Vcencelli&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Vcencelli (page does not exist)\">Vcencelli</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Vcencelli"
+ },
+ "palazzo-torlonia": {
+  "file": "places/palazzo-torlonia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Borgo_-_palazzo_Giraud_Torlonia_01606.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Lalupa"
+ },
+ "madonna-dell-archetto": {
+  "file": "places/madonna-dell-archetto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Madonna_dell%27archetto_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Labicanense\" title=\"User:Labicanense\">Labicanense</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "Labicanense"
+ },
+ "santa-caterina-da-siena-a-via-giulia": {
+  "file": "places/santa-caterina-da-siena-a-via-giulia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_S._Caterina_da_Siena.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "temple-of-aesculapius-villa-borghese": {
+  "file": "places/temple-of-aesculapius-villa-borghese.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Rome-VillaBorghese-TempleEsculape.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jean-Christophe_BENOIST\" title=\"User:Jean-Christophe BENOIST\">Jean-Christophe BENOIST</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Jean-Christophe BENOIST"
+ },
+ "palazzo-capponi-stampa": {
+  "file": "places/palazzo-capponi-stampa.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Capponi_Stampa.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:MarcoDel7&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:MarcoDel7 (page does not exist)\">MarcoDel7</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "MarcoDel7"
+ },
+ "san-cosimato": {
+  "file": "places/san-cosimato.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_s_Cosimato_vecchio_ingresso_chiesa_PC030039.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Lalupa"
+ },
+ "san-giovanni-battista-dei-cavalieri-di-rodi": {
+  "file": "places/san-giovanni-battista-dei-cavalieri-di-rodi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:San_Giovanni_Battista_dei_Cavalieri_di_Rodi_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SonyGM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SonyGM (page does not exist)\">SonyGM</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SonyGM"
+ },
+ "san-marone": {
+  "file": "places/san-marone.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ludovisi_-_S._Marone_2.JPG",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Croberto68?action=edit&amp;redlink=1\" title=\"User:Croberto68 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Croberto68\"]}}'>Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "sant-omobono": {
+  "file": "places/sant-omobono.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Chiesa_di_Sant%27Omobono_-_esterno.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:IlMarcheseDelGrillo\" title=\"User:IlMarcheseDelGrillo\">IlMarcheseDelGrillo</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "IlMarcheseDelGrillo"
+ },
+ "venus-felix-sculpture": {
+  "file": "places/venus-felix-sculpture.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:0_Venere_Fenice_-_Museo_Pio-Clementino.JPG",
+  "author_html": "<div class=\"fn value\">\n<table cellpadding=\"0\" cellspacing=\"0\"><tbody><tr><td>Unknown author<span style=\"display: none;\">Unknown author</span></td><td valign=\"top\"> <span class=\"mw-valign-text-top noprint\" typeof=\"mw:File/Frameless\"><a href=\"https://www.wikidata.org/wiki/Q7920590#P170\" title=\"Edit this at Wikidata\"><img alt=\"Edit this at Wikidata\" src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"10\" height=\"10\" class=\"mw-file-element\" data-file-width=\"20\" data-file-height=\"20\"></a></span></td></tr></tbody></table></div>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Unknown authorUnknown author"
+ },
+ "domus-severiana": {
+  "file": "places/domus-severiana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Bagni_severiani_sul_palatino.jpg",
+  "author_html": "<a rel=\"nofollow\" class=\"external text\" href=\"https://www.flickr.com/photos/antmoose/\">antmoose</a>",
+  "license": "CC BY 2.0",
+  "license_url": "https://creativecommons.org/licenses/by/2.0",
+  "author": "antmoose"
+ },
+ "fontanone-di-ponte-sisto": {
+  "file": "places/fontanone-di-ponte-sisto.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Roma_fontana_di_ponte_Sisto.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Blackcat\" title=\"User:Blackcat\">Blackcat</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Blackcat"
+ },
+ "fontana-del-nettuno-piazza-del-popolo": {
+  "file": "places/fontana-del-nettuno-piazza-del-popolo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fontana_del_Nettuno,_Piazza_del_Popolo,_Rome,_Italie.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Jebulon\" title=\"User:Jebulon\">Jebulon</a>",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Jebulon"
+ },
+ "casa-di-goethe": {
+  "file": "places/casa-di-goethe.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Casa_di_goethe_fassade.JPG",
+  "author_html": "<a rel=\"mw:WikiLink\" href=\"https://commons.wikimedia.org/wiki/User:Tom86?action=edit&amp;redlink=1\" title=\"User:Tom86 (page does not exist)\" class=\"new\" typeof=\"mw:LocalizedAttrs\" data-mw-i18n='{\"title\":{\"lang\":\"x-page\",\"key\":\"red-link-title\",\"params\":[\"User:Tom86\"]}}'>Tom86</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Tom86"
+ },
+ "san-giovanni-calibita": {
+  "file": "places/san-giovanni-calibita.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ripa_-_S._Giovanni_Calibita.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-maria-della-luce": {
+  "file": "places/santa-maria-della-luce.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Santa_Maria_della_Luce.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "LPLT"
+ },
+ "nativita-di-gesu": {
+  "file": "places/nativita-di-gesu.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Eglise_Nativit%C3%A0_di_Ges%C3%B9.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:LPLT\" title=\"User:LPLT\">LPLT</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "LPLT"
+ },
+ "santa-croce-e-san-bonaventura-alla-pilotta": {
+  "file": "places/santa-croce-e-san-bonaventura-alla-pilotta.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trevi_-_S._Croce_e_S._Bonaventura_dei_Lucchesi.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-maria-portae-paradisi": {
+  "file": "places/santa-maria-portae-paradisi.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:ChurchParadisi.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:6uy7t44t\" title=\"User:6uy7t44t\">6uy7t44t</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "6uy7t44t"
+ },
+ "palazzo-serristori": {
+  "file": "places/palazzo-serristori.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Pal_Serristori_lato_borgo_s_Spirito_P1080931.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Lalupa"
+ },
+ "santo-spirito-dei-napoletani": {
+  "file": "places/santo-spirito-dei-napoletani.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Spirito_Santo_dei_Napoletani.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Alberti1492\" title=\"User:Alberti1492\">Alberti1492</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Alberti1492"
+ },
+ "santa-giovanna-antida-thouret-delle-suore-della-carita": {
+  "file": "places/santa-giovanna-antida-thouret-delle-suore-della-carita.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Della_Vittoria_-_S._Giovanna_Antida_Thouret_3.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "sallustiano-obelisk": {
+  "file": "places/sallustiano-obelisk.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sallustiano_obelisk.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:SonyGM&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:SonyGM (page does not exist)\">SonyGM</a>",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0",
+  "author": "SonyGM"
+ },
+ "fontana-dei-libri": {
+  "file": "places/fontana-dei-libri.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Fontana_dei_libri.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Castro_Pretorio\" title=\"User:Castro Pretorio\">Castro Pretorio</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Castro Pretorio"
+ },
+ "museo-pio-cristiano": {
+  "file": "places/museo-pio-cristiano.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Good.Shepherd.Vatican.Museum.jpg",
+  "author_html": null,
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown"
+ },
+ "catacomb-of-pontian": {
+  "file": "places/catacomb-of-pontian.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Ponziano_Wilpert.JPG",
+  "author_html": "<p>unknown artist, circa 6th-7th century A.D., Rome\n</p><p>photo made under direction of Joseph Wilpert, published 1903 photos in the book made by Pompeo Sansaini\n</p>\nhand coloring of photos by Carlo Tabanelli",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "unknown artist, circa 6th-7th century A.D., Rome\nphoto made under direction of Joseph Wilpert, published 1903 photos in the book made by Pompeo Sansaini\n\nhand coloring of photos by Carlo Tabanelli"
+ },
+ "resurrezione-di-nostro-signore-gesu-cristo": {
+  "file": "places/resurrezione-di-nostro-signore-gesu-cristo.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Campo_Marzio_-_Chiesa_della_Risurrezione_di_NSGC.jpg",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "san-filippo-neri-in-via-giulia": {
+  "file": "places/san-filippo-neri-in-via-giulia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Regola_-_S._Filippo_Neri.JPG",
+  "author_html": "<a href=\"https://en.wikipedia.org/wiki/it:User:Croberto68\" class=\"extiw\" title=\"w:it:User:Croberto68\">Croberto68</a> at <a href=\"https://en.wikipedia.org/wiki/it:\" class=\"extiw\" title=\"w:it:\">Italian Wikipedia</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "http://creativecommons.org/licenses/by-sa/3.0/",
+  "author": "Croberto68 at Italian Wikipedia"
+ },
+ "santa-croce-alla-lungara": {
+  "file": "places/santa-croce-alla-lungara.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Trastevere_-_S._Croce_alla_Lungara.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Croberto68"
+ },
+ "santa-maria-regina-pacis-a-monte-verde": {
+  "file": "places/santa-maria-regina-pacis-a-monte-verde.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Santa_Maria_Regina_Pacis_(Gianicolense).jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Croberto68&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Croberto68 (page does not exist)\">Croberto68</a> (shifted by <a href=\"//commons.wikimedia.org/wiki/User:Rabanus_Flavus\" title=\"User:Rabanus Flavus\">Rabanus Flavus</a>)",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Croberto68 (shifted by Rabanus Flavus)"
+ },
+ "palazzo-nunez-torlonia": {
+  "file": "places/palazzo-nunez-torlonia.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palazzo_Nunez_Torlonia_-_engraving_by_Alessandro_Specchi_(1690).jpg",
+  "author_html": "<bdi><a href=\"https://en.wikipedia.org/wiki/en:Alessandro_Specchi\" class=\"extiw\" title=\"w:en:Alessandro Specchi\"><span title=\"Italian architect and etcher\">Alessandro Specchi</span></a></bdi>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Alessandro Specchi"
+ },
+ "via-sacra": {
+  "file": "places/via-sacra.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Sacredroad.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MosheA\" title=\"User:MosheA\">MosheA</a>",
+  "license": "CC BY-SA 2.5",
+  "license_url": "https://creativecommons.org/licenses/by-sa/2.5",
+  "author": "MosheA"
+ },
+ "forum-of-caesar": {
+  "file": "places/forum-of-caesar.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Foro_di_Cesare_a_Roma.jpg",
+  "author_html": "<table class=\"toccolours\" style=\"width:100%; margin-top:10px;\" cellpadding=\"2\">\n\n<tbody><tr class=\"plainlinks\">\n<td><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Emblem-camera.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/40px-Emblem-camera.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/4/48/Emblem-camera.svg/60px-Emblem-camera.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"64\" data-file-height=\"64\"></a></span>  <a href=\"https://upload.wikimedia.org/wikipedia/commons/9/96/Foro_di_Cesare_a_Roma.jpg?utm_source=commons.wikimedia.org&amp;utm_campaign=api&amp;utm_content=original\" class=\"internal\" title=\"Foro di Cesare a Roma.jpg\">This Photo</a> was taken by <i><b><a href=\"//commons.wikimedia.org/wiki/User:Moroder\" title=\"User:Moroder\">Wolfgang Moroder</a></b></i>.  <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:User_with_smile.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/40px-User_with_smile.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/5/5f/User_with_smile.svg/60px-User_with_smile.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td>\n<td align=\"right\">Feel free to use my photos, but please mention me as the author and send me a  <a class=\"external text\" data-mw-original-href=\"http://commons.wikimedia.org/w/index.php?title=User_talk:Moroder&amp;action=edit&amp;section=new\" href=\"https://commons.wikimedia.org/w/index.php?title=User_talk:Moroder&amp;action=edit&amp;section=new\">message</a>. <span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Crystal_128_mail.png\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/40px-Crystal_128_mail.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"25\" height=\"25\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/7/7b/Crystal_128_mail.png/60px-Crystal_128_mail.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"128\" data-file-height=\"128\"></a></span>\n</td></tr></tbody></table>\n<div style=\"clear:both; border:2px solid #cc0000; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Control_copyright_icon.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/120px-Control_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"61\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/1/1b/Control_copyright_icon.svg/250px-Control_copyright_icon.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"171\" data-file-height=\"163\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">This image is <b>not in the <a href=\"https://en.wikipedia.org/wiki/Public_domain\" class=\"extiw\" title=\"en:Public domain\">public domain</a></b>. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically <b>excludes use in social media</b>, if applicable terms of the licenses listed here not appropriate.</div>\n</td></tr></tbody></table></div>\n<div style=\"clear:both; border:2px solid #00cc00; background-color:#f7f7f7; margin-top:6px;\">\n<table><tbody><tr><td style=\"padding:4px;\"><span typeof=\"mw:File\"><a href=\"//commons.wikimedia.org/wiki/File:Upload-problem2.svg\" class=\"mw-file-description\"><img src=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/120px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail\" decoding=\"async\" loading=\"lazy\" width=\"64\" height=\"57\" class=\"mw-file-element\" srcset=\"https://thumb.wikimedia.org/wikipedia/commons/thumb/f/f9/Upload-problem2.svg/250px-Upload-problem2.svg.png?utm_source=commons.wikimedia.org&amp;utm_campaign=parser&amp;utm_content=thumbnail 2x\" data-file-width=\"159\" data-file-height=\"142\"></a></span>\n</td><td style=\"padding:4px;\"><div style=\"margin-top:0.5em;\">Please do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.<br>Please if you think that any changes should be required, please inform the author.<br>Otherwise you can upload a new image with a new name. Please use one of the templates <a href=\"//commons.wikimedia.org/wiki/Template:Derived_from\" title=\"Template:Derived from\">derivative</a> or <a href=\"//commons.wikimedia.org/wiki/Template:Extracted_from\" title=\"Template:Extracted from\">extract</a>.</div>\n</td></tr></tbody></table></div>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "This Photo was taken by Wolfgang Moroder.  \n\nFeel free to use my photos, but please mention me as the author and send me a  message. \n\n\n\nThis image is not in the public domain. Please respect the copyright protection. It may only be used according to the rules mentioned here. This specifically excludes use in social media, if applicable terms of the licenses listed here not appropriate.\n\n\n\nPlease do not upload an updated image here without consultation with the Author. The author would like to make corrections only at his own source. This ensures that the changes are preserved.Please if you think that any changes should be required, please inform the author.Otherwise you can upload a new image with a new name. Please use one of the templates derivative or extract."
+ },
+ "aqua-traiana": {
+  "file": "places/aqua-traiana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Archi_di_Boccalupo_2.png",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Rjdeadly&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Rjdeadly (page does not exist)\">Rjdeadly</a>",
+  "license": "CC BY-SA 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/4.0",
+  "author": "Rjdeadly"
+ },
+ "temple-of-bellona": {
+  "file": "places/temple-of-bellona.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:PodioTBellona.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:MM\" title=\"User:MM\">MM</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "MM"
+ },
+ "porta-fontinalis": {
+  "file": "places/porta-fontinalis.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Porta_Fontinalis_-_probabili_resti.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/w/index.php?title=User:Galzu&amp;action=edit&amp;redlink=1\" class=\"new\" title=\"User:Galzu (page does not exist)\">Galzu</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Galzu"
+ },
+ "domus-tiberiana": {
+  "file": "places/domus-tiberiana.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Palatin-legende.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Cassius_Ahenobarbus\" title=\"User:Cassius Ahenobarbus\">Cassius Ahenobarbus</a>",
+  "license": "CC BY-SA 3.0",
+  "license_url": "https://creativecommons.org/licenses/by-sa/3.0",
+  "author": "Cassius Ahenobarbus"
+ },
+ "temple-of-cybele-palatine": {
+  "file": "places/temple-of-cybele-palatine.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Magna_mater,_150_dc_ca._da_orig._pergameneo_del_II_secolo_ac.,_dal_tempio_della_magna_mater.jpg",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Sailko\" title=\"User:Sailko\">Sailko</a>",
+  "license": "CC BY 3.0",
+  "license_url": "https://creativecommons.org/licenses/by/3.0",
+  "author": "Sailko"
+ },
+ "amphitheater-of-statilius-taurus": {
+  "file": "places/amphitheater-of-statilius-taurus.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Het_Amfitheater_van_Statilius_Taurus_te_Rome_Amphitheatrum_tauri_statilii_(titel_op_object)_Livre_des_edifices_antiques_romains_(serietitel)_Magesyn_der_Italiaense_gebouwen_(serietitel),_RP-P-1957-653-86-1.jpg",
+  "author_html": "Rijksmuseum",
+  "license": "CC0",
+  "license_url": "http://creativecommons.org/publicdomain/zero/1.0/deed.en",
+  "author": "Rijksmuseum"
+ },
+ "temple-of-isis-and-serapis": {
+  "file": "places/temple-of-isis-and-serapis.jpg",
+  "file_page": "https://commons.wikimedia.org/wiki/File:Madama_Lucrezia_a_piazza_san_marco.JPG",
+  "author_html": "<a href=\"//commons.wikimedia.org/wiki/User:Lalupa\" title=\"User:Lalupa\">Lalupa</a>",
+  "license": "Public domain",
+  "license_url": null,
+  "author": "Lalupa"
  }
 }

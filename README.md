@@ -3,9 +3,10 @@
 **Every route has a story.** Navigation that learns what you love and reveals the history around you.
 
 TRAILS is a mobile-first web app for walking through central Rome. You type any start and any
-destination (an address, a hotel, a station, or a pin on the map) and the time you have. A small neural network scores 269 historical places for *you* (74 hand-curated, 195 imported from Wikidata and Wikipedia); a route
+destination (an address, a hotel, a station, or a pin on the map) and the time you have. A small neural network scores 465 historical places for *you* (74 hand-curated, 391 imported from Wikidata and Wikipedia); a route
 optimiser picks the stops worth the detour within your time budget; a pedestrian router walks you
-there on OpenStreetMap data. Point your phone at one of 22 supported landmarks and TRAILS recognises it
+there on OpenStreetMap data. Point your phone at one of 27 supported landmarks (including the Colosseum,
+Pantheon, Trevi Fountain and St Peter's) and TRAILS recognises it
 from the image, pins a label on it and opens its history with sources.
 
 Built for the AMD Developer Hackathon: ACT III (lablab.ai).
@@ -38,7 +39,7 @@ Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
 | Trade-off card: the TRAILS walk next to the fastest walk (extra minutes vs. places and strong matches on each), fastest walk drawn dotted on the map | Implemented, unit- and browser-tested |
 | Walk mode audio guide: as you walk (GPS or simulated), each stop's part of the story, or its notes, and every place you pass is shown and read aloud as you get within 60 m | Implemented, unit- and browser-tested with the simulated walk; **not field-tested** with real GPS |
 | Thumbs up / down ("More like this", "Not for me") on stops and in walk mode, with an immediate "your taste" readout and re-plan | Implemented, unit- and browser-tested |
-| 195 more places imported automatically from Wikidata + the Wikipedia lead (`scripts/fetch_more_places.py`, `scripts/merge_more_places.py`), labelled in the app as not reviewed by hand | Implemented; dataset validator passes |
+| 391 more places imported automatically from Wikidata + the Wikipedia lead (`scripts/fetch_more_places.py`, `scripts/merge_more_places.py`), labelled in the app as not reviewed by hand. Period from Wikidata date/style, else from an antiquity-only Wikidata class or the Wikipedia description (`period_source` records which). Little-known sites that Wikipedia describes in the past tense (demolished, never located) are left out, so walks do not lead to empty lots | Implemented; dataset validator passes; rules spot-checked by hand |
 | Neural personalisation (PyTorch MLP → TS inference) that changes stops and routes | Implemented; tests show different interests give different stops |
 | Preference learning from like / save / visited / read more / skip / not-for-me, editable and resettable | Implemented, unit-tested |
 | Route optimiser (fastest / cultural discovery / maximum history) with hard time budget | Implemented, unit-tested (deterministic, budget respected) |
@@ -54,11 +55,14 @@ Measured results (all reproducible, see "Tests"):
 * **Preference MLP** (1,505 parameters, CPU, 11 s): held-out *synthetic* users AUC 0.740 vs 0.709 for a
   hand-written interest-overlap rule, 0.504 for popularity, 0.869 simulator ceiling. Synthetic data:
   this is not evidence of real-world recommendation quality.
-* **Landmark recognition** (MobileNetV3-Small, 22 landmarks, 90 held-out photos, 30 photos of other
-  landmarks): top-1 83.3 %; with the calibrated threshold 63.3 % recognised correctly, 0 % wrong,
-  36.7 % "not sure"; 10 % of unrelated landmarks falsely accepted; ~76 ms per photo (6 crops) in
-  headless Chromium on the build machine. MobileNetV3-Large measured 84.4 % / 72.2 % / 4.4 % wrong
-  at 169 ms, see `docs/vision_eval_*.json`.
+* **Landmark recognition** (MobileNetV3-Small, 27 landmarks, 120 held-out photos, 30 photos of other
+  landmarks): top-1 82.5 %; with the calibrated threshold 60.8 % recognised correctly, 1.7 % wrong
+  (2 photos: Trajan's Column taken for the Column of Marcus Aurelius or Sant'Agnese), 37.5 % "not
+  sure"; 10 % of unrelated landmarks falsely accepted; ~170 ms per photo (6 crops) in headless
+  Chromium on a Windows laptop. The 5 landmarks added on 18 Oct: Colosseum 7/7 top-1 (5 recognised),
+  Pantheon 7/9 (5), Arch of Constantine 5/5 (5), Trajan's Column 3/5 (2), Four Rivers Fountain 3/4 (2).
+  Earlier 22-landmark run: 83.3 % / 63.3 % / 0 % wrong. MobileNetV3-Large was measured only on the
+  22-landmark set (84.4 % / 72.2 % / 4.4 % wrong at 169 ms). See `docs/vision_eval_*.json`.
 
 ## Quick start
 

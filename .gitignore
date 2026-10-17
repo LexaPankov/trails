@@ -31,3 +31,4 @@ __pycache__/
 
 # Submission kit from the team (large binaries, kept out of git)
 submission/
+data/open/

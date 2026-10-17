@@ -38,6 +38,7 @@ simulated; choose the scenario "Standing in Piazza Navona".
 
 * Recommendation metrics come from **synthetic** users; they show the network learns the simulated
   preference structure, not real-world quality.
-* Camera recognition supports **22 Rome landmarks** and was measured on web photos, not street video.
+* Camera recognition supports **27 Rome landmarks** (now including the Colosseum and Pantheon) and was
+  measured on web photos, not street video.
 * The overlay is a 2D label on the best-matching image region, not 3D AR tracking.
 * Routes are labelled by source; a dashed amber line is an estimate, not a walking route.
