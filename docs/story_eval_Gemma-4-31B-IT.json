@@ -1,0 +1,372 @@
+{
+ "model": "Gemma-4-31B-IT",
+ "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+ "runAt": "2026-10-17T12:30:19.859Z",
+ "note": "Each walk is called once; latency is wall time from this machine, including network. tokensPerSecond = completion tokens / that wall time, so it understates the GPU decode speed. Story caching is per-process, so every number here is a fresh model call.",
+ "summary": {
+  "walks": 5,
+  "succeeded": 5,
+  "latencyMsMedian": 21601,
+  "latencyMsMax": 49700,
+  "tokensPerSecondMedian": 19.5,
+  "stopCoverage": "17/17",
+  "walksWithUnsupportedNumbers": 0
+ },
+ "results": [
+  {
+   "walk": "Ancient stones",
+   "ok": true,
+   "latencyMs": 32049,
+   "promptTokens": 826,
+   "completionTokens": 455,
+   "tokensPerSecond": 14.2,
+   "stops": 4,
+   "segments": 4,
+   "missingStops": [],
+   "citations": 4,
+   "words": 225,
+   "unsupportedNumbers": [],
+   "story": {
+    "title": "Echoes of Empire",
+    "intro": "Step back into the world of Ancient Rome as you trace the footsteps of emperors and armies, discovering how the city's archaeological treasures have survived through the ages.",
+    "segments": [
+     {
+      "placeId": "temple-of-hadrian",
+      "text": "Begin your journey at the Temple of Hadrian, where eleven Corinthian columns stand as a remnant of a temple dedicated to the deified emperor. Once part of a papal customs office, these columns now form the façade of the Rome Chamber of Commerce [1].",
+      "cite": [
+       1
+      ]
+     },
+     {
+      "placeId": "trajans-column",
+      "text": "Continue to Trajan's Column, a marble monument whose spiral relief frieze provides a visual record of the Roman army's equipment and campaigns against the Dacians. While the base served as the emperor's tomb, the statue of St Peter has topped the column since 1587 [2].",
+      "cite": [
+       2
+      ]
+     },
+     {
+      "placeId": "roman-forum",
+      "text": "Enter the Roman Forum, the heart of public life where elections, trials, and triumphal processions once occurred. This plaza of temples and basilicas later became a cattle pasture known as the Campo Vaccino before 18th-century excavations uncovered its ruins [3].",
+      "cite": [
+       3
+      ]
+     },
+     {
+      "placeId": "arch-of-titus",
+      "text": "End your walk at the Arch of Titus on the Via Sacra, commemorating the Siege of Jerusalem through its detailed relief panels. After being absorbed into medieval fortifications, the arch was restored as a free-standing monument in the 19th century [4].",
+      "cite": [
+       4
+      ]
+     }
+    ],
+    "outro": "From the integrated columns of the city center to the grand arches of the Forum, you have witnessed the enduring legacy of Roman archaeology.",
+    "sources": [
+     {
+      "n": 1,
+      "title": "Temple of Hadrian — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Hadrian"
+     },
+     {
+      "n": 2,
+      "title": "Trajan's Column — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trajan%27s_Column"
+     },
+     {
+      "n": 3,
+      "title": "Roman Forum — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Roman_Forum"
+     },
+     {
+      "n": 4,
+      "title": "Arch of Titus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Arch_of_Titus"
+     }
+    ],
+    "generator": {
+     "kind": "model",
+     "model": "self-dploy/Gemma-4-31B-IT",
+     "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+     "latencyMs": 32046
+    }
+   }
+  },
+  {
+   "walk": "Baroque squares",
+   "ok": true,
+   "latencyMs": 21601,
+   "promptTokens": 898,
+   "completionTokens": 422,
+   "tokensPerSecond": 19.5,
+   "stops": 4,
+   "segments": 4,
+   "missingStops": [],
+   "citations": 4,
+   "words": 193,
+   "unsupportedNumbers": [],
+   "story": {
+    "title": "Baroque Masterpieces of Rome",
+    "intro": "Step into a world of dramatic curves and flowing water as you explore the architectural evolution of Rome, from ancient stadiums to the height of Baroque splendor.",
+    "segments": [
+     {
+      "placeId": "piazza-navona",
+      "text": "You begin at Piazza Navona, a long oval square that preserves the shape of the ancient Stadium of Domitian. In the 17th century, Pope Innocent X transformed this site of ancient athletic competition into a Baroque showpiece.",
+      "cite": [
+       1
+      ]
+     },
+     {
+      "placeId": "santagnese-in-agone",
+      "text": "Beside the Pamphilj family palace, you will find Sant'Agnese in Agone. Commissioned by Pope Innocent X, this church features a concave façade and dome largely the work of Francesco Borromini.",
+      "cite": [
+       2
+      ]
+     },
+     {
+      "placeId": "four-rivers-fountain",
+      "text": "At the center of the square stands Bernini's Fountain of the Four Rivers, designed to glorify Pope Innocent X. River gods representing the Nile, Ganges, Danube, and Río de la Plata gather beneath a towering obelisk.",
+      "cite": [
+       3
+      ]
+     },
+     {
+      "placeId": "trevi-fountain",
+      "text": "Continuing your journey through Baroque art, you reach the Trevi Fountain, the city's largest. This masterpiece marks the end of the ancient Aqua Virgo aqueduct and features a central figure of Oceanus.",
+      "cite": [
+       4
+      ]
+     }
+    ],
+    "outro": "From the oval echoes of Domitian's stadium to the cascading waters of the Trevi, you have walked through the grand visions of Rome's most influential Baroque architects.",
+    "sources": [
+     {
+      "n": 1,
+      "title": "Piazza Navona — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Piazza_Navona"
+     },
+     {
+      "n": 2,
+      "title": "Sant'Agnese in Agone — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Sant%27Agnese_in_Agone"
+     },
+     {
+      "n": 3,
+      "title": "Fontana dei Quattro Fiumi — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fontana_dei_Quattro_Fiumi"
+     },
+     {
+      "n": 4,
+      "title": "Trevi Fountain — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Trevi_Fountain"
+     }
+    ],
+    "generator": {
+     "kind": "model",
+     "model": "self-dploy/Gemma-4-31B-IT",
+     "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+     "latencyMs": 21601
+    }
+   }
+  },
+  {
+   "walk": "Towards the Vatican",
+   "ok": true,
+   "latencyMs": 12839,
+   "promptTokens": 684,
+   "completionTokens": 337,
+   "tokensPerSecond": 26.2,
+   "stops": 3,
+   "segments": 3,
+   "missingStops": [],
+   "citations": 3,
+   "words": 168,
+   "unsupportedNumbers": [],
+   "story": {
+    "title": "Path of the Popes",
+    "intro": "Step into the heart of Rome on a journey of faith and art, tracing the route once taken by countless pilgrims toward the center of the Catholic world.",
+    "segments": [
+     {
+      "placeId": "ponte-sant-angelo",
+      "text": "Cross the bridge completed by Emperor Hadrian, which once served as the primary path for pilgrims. You are now surrounded by ten Baroque angels carrying instruments of the Passion, designed by Bernini and commissioned by Pope Clement IX.",
+      "cite": [
+       1
+      ]
+     },
+     {
+      "placeId": "castel-sant-angelo",
+      "text": "At the bridge's end stands the cylindrical Mausoleum of Hadrian, which evolved from a family tomb into a papal fortress and refuge. Popes, including Clement VII, used this stronghold for safety, and it now serves as a national museum.",
+      "cite": [
+       2
+      ]
+     },
+     {
+      "placeId": "st-peters-square",
+      "text": "Your journey concludes in the vast square commissioned by Pope Alexander VII and designed by Bernini to embrace crowds for papal blessings. At its center stands an ancient Egyptian obelisk, moved here under Pope Sixtus V.",
+      "cite": [
+       3
+      ]
+     }
+    ],
+    "outro": "From imperial monuments to the grandeur of the papacy, you have walked the historic line where Rome's ancient past meets its religious heart.",
+    "sources": [
+     {
+      "n": 1,
+      "title": "Ponte Sant'Angelo — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Ponte_Sant%27Angelo"
+     },
+     {
+      "n": 2,
+      "title": "Castel Sant'Angelo — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Castel_Sant%27Angelo"
+     },
+     {
+      "n": 3,
+      "title": "St. Peter's Square — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/St._Peter%27s_Square"
+     }
+    ],
+    "generator": {
+     "kind": "model",
+     "model": "self-dploy/Gemma-4-31B-IT",
+     "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+     "latencyMs": 12839
+    }
+   }
+  },
+  {
+   "walk": "River and ghetto",
+   "ok": true,
+   "latencyMs": 49700,
+   "promptTokens": 1060,
+   "completionTokens": 529,
+   "tokensPerSecond": 10.6,
+   "stops": 5,
+   "segments": 5,
+   "missingStops": [],
+   "citations": 6,
+   "words": 260,
+   "unsupportedNumbers": [],
+   "story": {
+    "title": "Ancient Echoes and Hidden Corners",
+    "intro": "Step back into the depths of time on a journey through Ancient Rome, discovering hidden gems and the layers of history that shaped the Eternal City.",
+    "segments": [
+     {
+      "placeId": "largo-di-torre-argentina",
+      "text": "Begin at a sunken square where four Republican-era temples, some of the oldest in Rome, stand alongside the Curia of Pompey. This is the site where Julius Caesar was assassinated on the Ides of March, and today, the ruins also serve as a cat sanctuary.",
+      "cite": [
+       1
+      ]
+     },
+     {
+      "placeId": "turtle-fountain",
+      "text": "Leave the grand ruins for a quiet square in the old Ghetto to find a late-Renaissance gem. Here, bronze youths lift turtles into a basin in a fountain designed by Giacomo della Porta, though the turtles you see now are copies replacing stolen originals.",
+      "cite": [
+       2
+      ]
+     },
+     {
+      "placeId": "theatre-of-marcellus",
+      "text": "Return to the imperial scale at a theatre planned by Julius Caesar and completed by Augustus. Its ancient curved arcades show the city's evolution, having served as a medieval fortress before supporting a 16th-century palace that still houses private residences.",
+      "cite": [
+       3
+      ]
+     },
+     {
+      "placeId": "temple-of-portunus",
+      "text": "Continue to the ancient cattle market and river port to find one of Rome's best-preserved temples. Dedicated to the god of harbours, this structure survived into the modern era because it was converted into a church during the 9th century.",
+      "cite": [
+       4
+      ]
+     },
+     {
+      "placeId": "santa-maria-in-cosmedin",
+      "text": "End your walk at a medieval church that once served the Greek community. In its portico, you will find the Mouth of Truth, an ancient marble mask that may have once been a drain cover.",
+      "cite": [
+       5,
+       6
+      ]
+     }
+    ],
+    "outro": "From the site of a political assassination to the mysterious marble mask, you have walked through the enduring layers of Rome's ancient and medieval heart.",
+    "sources": [
+     {
+      "n": 1,
+      "title": "Largo di Torre Argentina — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Largo_di_Torre_Argentina"
+     },
+     {
+      "n": 2,
+      "title": "Fontana delle Tartarughe — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Fontana_delle_Tartarughe"
+     },
+     {
+      "n": 3,
+      "title": "Theatre of Marcellus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Theatre_of_Marcellus"
+     },
+     {
+      "n": 4,
+      "title": "Temple of Portunus — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Temple_of_Portunus"
+     },
+     {
+      "n": 5,
+      "title": "Santa Maria in Cosmedin — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Santa_Maria_in_Cosmedin"
+     },
+     {
+      "n": 6,
+      "title": "Mouth of Truth — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Mouth_of_Truth"
+     }
+    ],
+    "generator": {
+     "kind": "model",
+     "model": "self-dploy/Gemma-4-31B-IT",
+     "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+     "latencyMs": 49699
+    }
+   }
+  },
+  {
+   "walk": "One stop",
+   "ok": true,
+   "latencyMs": 9303,
+   "promptTokens": 411,
+   "completionTokens": 222,
+   "tokensPerSecond": 23.9,
+   "stops": 1,
+   "segments": 1,
+   "missingStops": [],
+   "citations": 1,
+   "words": 134,
+   "unsupportedNumbers": [],
+   "story": {
+    "title": "From Empire to Eternity",
+    "intro": "Step through the heart of Rome on a short journey that leads you from the city's center to one of its most enduring architectural wonders.",
+    "segments": [
+     {
+      "placeId": "pantheon",
+      "text": "You arrive at the Pantheon, a temple rebuilt under Emperor Hadrian and crowned by the world's largest unreinforced concrete dome. While the portico bears the name of Marcus Agrippa, who built an earlier temple here, the structure was later given by Emperor Phocas to Pope Boniface IV to become the church of St Mary and the Martyrs. This consecration helped the building survive almost intact, and it now houses the tomb of Raphael and the first two kings of unified Italy.",
+      "cite": [
+       1
+      ]
+     }
+    ],
+    "outro": "Your walk concludes here, beneath the open oculus of a monument that has bridged the gap between ancient pagan Rome and the modern city.",
+    "sources": [
+     {
+      "n": 1,
+      "title": "Pantheon, Rome — Wikipedia",
+      "url": "https://en.wikipedia.org/wiki/Pantheon,_Rome"
+     }
+    ],
+    "generator": {
+     "kind": "model",
+     "model": "self-dploy/Gemma-4-31B-IT",
+     "provider": "Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)",
+     "latencyMs": 9303
+    }
+   }
+  }
+ ]
+}

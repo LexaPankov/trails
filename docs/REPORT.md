@@ -177,9 +177,9 @@ Checked against the official page (https://lablab.ai/event/amd-developer-hackath
 
 | Requirement | Status |
 | --- | --- |
-| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Not met yet, path ready** (waiting for AMD Developer Cloud credits). (1) `amd/serve_llm.sh` serves the storyteller model with vLLM on an AMD Instinct GPU; `npm run story:eval` records latency and grounding; the app badge then shows the model running on AMD during the demo. (2) `amd/train_rocm.sh` trains and benchmarks the preference model on the GPU. Steps: [AMD_RUNBOOK.md](AMD_RUNBOOK.md). |
+| "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Met for the storyteller** (18 Oct): every AI story is written by Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs), and the story card shows that model and provider. Measured on 5 fixed walks: 5/5 succeeded, 17/17 stops covered, 0 walks with numbers outside the supplied facts, median 21.6 s, max 49.7 s, about 10–26 output tokens/s seen from the client (`docs/story_eval_Gemma-4-31B-IT.json`). Still open: `amd/train_rocm.sh` (preference model on an AMD GPU) needs a ROCm instance. |
 | Public GitHub repository | Done: https://github.com/LexaPankov/trails |
 | Demo application URL | GitHub Pages workflow ready (section 15) |
 | Cover image, video, slides, descriptions | Cover, slides and texts prepared by the team (outside the repo); video after the AMD run |
 | "Submissions must be original and MIT-compliant" | Code is MIT; third-party assets are CC BY / CC BY-SA / CC0 / PD / Apache 2.0 / OFL with credits |
-| Gemma (Google prize, optional) | Storyteller is built for Gemma on AMD; qualifies once it is actually run |
+| Gemma (Google prize, optional) | Done: the storyteller runs Gemma 4 31B (`Gemma-4-31B-IT`) on AMD |
