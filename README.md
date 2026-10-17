@@ -29,7 +29,7 @@ Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it 
 5. Open **Camera → Demo photos** and pick a photo: TRAILS recognises the landmark in the browser and
    opens its history.
 
-Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
+Longer walkthrough: [docs/DEMO.md](docs/DEMO.md). Submission texts, business model and video script: [docs/SUBMISSION.md](docs/SUBMISSION.md).
 
 ## Track 4: Create a New Kind of Experience
 
