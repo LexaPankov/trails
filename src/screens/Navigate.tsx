@@ -8,6 +8,8 @@ import { buildCues, dueCue, type Cue } from '../lib/guide'
 import type { LatLon } from '../lib/types'
 import { go, useApp } from '../state'
 
+const NEAR_ROUTE_M = 300
+
 export function Navigate() {
   const { plan, profile, setProfile, signal, demo, setGpsLocation, location, story } = useApp()
   const [simDist, setSimDist] = useState(0)
@@ -15,7 +17,10 @@ export function Navigate() {
   const [speedup, setSpeedup] = useState(20)
   const [gpsErr, setGpsErr] = useState<string | null>(null)
   const [visited, setVisited] = useState<string[]>([])
-  const useSim = demo || !profile.locationConsent
+  // null = automatic: follow GPS only when the last fix is close to the route, otherwise simulate.
+  // This keeps the demo walk usable after "Use my current location" from outside Rome.
+  const [simOverride, setSimOverride] = useState<boolean | null>(null)
+  const gpsAllowed = !demo && profile.locationConsent
   const timer = useRef<number | null>(null)
   const canSpeak = typeof window !== 'undefined' && 'speechSynthesis' in window
   const [audioOn, setAudioOn] = useState(canSpeak)
@@ -31,7 +36,10 @@ export function Navigate() {
   }, [plan])
   const mps = (profile.walkingSpeedKmh * 1000) / 3600
 
-  const pos: LatLon | null = !geom.length ? null : useSim ? pointAlong(geom, simDist) : location && location.source === 'gps' ? location : null
+  const gpsFix = gpsAllowed && location?.source === 'gps' ? location : null
+  const gpsNearRoute = !!gpsFix && geom.length > 0 && projectOnPath(gpsFix, geom).offset <= NEAR_ROUTE_M
+  const useSim = !gpsAllowed || (simOverride ?? !gpsNearRoute)
+  const pos: LatLon | null = !geom.length ? null : useSim ? pointAlong(geom, simDist) : gpsFix
   const proj = pos && geom.length ? projectOnPath(pos, geom) : null
   const along = proj?.along ?? 0
 
@@ -66,14 +74,14 @@ export function Navigate() {
 
   // real GPS (only after explicit consent, never sent anywhere)
   useEffect(() => {
-    if (useSim || !navigator.geolocation) return
+    if (!gpsAllowed || !navigator.geolocation) return
     const id = navigator.geolocation.watchPosition(
       (pos) => { setGpsLocation({ lat: pos.coords.latitude, lon: pos.coords.longitude }); setGpsErr(null) },
       (e) => setGpsErr(e.code === 1 ? 'Location permission was denied.' : 'Location is unavailable right now.'),
       { enableHighAccuracy: true, maximumAge: 5000, timeout: 15000 },
     )
     return () => navigator.geolocation.clearWatch(id)
-  }, [useSim, setGpsLocation])
+  }, [gpsAllowed, setGpsLocation])
 
   if (!plan) {
     return <div className="page"><div className="card card-pad"><h2>No route to follow</h2><a className="btn btn-primary" href="#/">Plan a walk</a></div></div>
@@ -111,9 +119,14 @@ export function Navigate() {
       <div className="nav-card card card-pad fade-in" role="status" aria-live="polite">
         <div className="row spread wrap" style={{ marginBottom: 6 }}>
           <QualityBadge q={plan.route.quality} />
-          <span className="badge" style={{ background: useSim ? '#efe1e1' : '#e3ecd9' }}>
-            <Icon name="locate" size={14} /> {useSim ? 'Simulated location' : 'GPS location'}
-          </span>
+          {gpsAllowed ? (
+            <button className="badge" style={{ background: useSim ? '#efe1e1' : '#e3ecd9', border: 0, cursor: 'pointer' }}
+              onClick={() => { setPlaying(false); setSimOverride(!useSim) }} title="Switch between the simulated walk and your GPS">
+              <Icon name="locate" size={14} /> {useSim ? 'Simulated · use GPS' : 'GPS · simulate instead'}
+            </button>
+          ) : (
+            <span className="badge" style={{ background: '#efe1e1' }}><Icon name="locate" size={14} /> Simulated location</span>
+          )}
           {canSpeak && (
             <button className="btn btn-ghost btn-sm" aria-pressed={audioOn} onClick={() => { if (audioOn) window.speechSynthesis.cancel(); setAudioOn(!audioOn) }}>
               <Icon name="sound" size={14} /> {audioOn ? 'Audio guide on' : 'Audio guide off'}
@@ -130,7 +143,7 @@ export function Navigate() {
         )}
         {plan.route.quality === 'estimate' && <p className="tiny muted" style={{ margin: '6px 0 0' }}>No street-level directions: the line is approximate.</p>}
         {offRoute && <p className="notice small" style={{ marginTop: 8 }}>You seem to be off the route ({Math.round(proj!.offset)} m away). Head back to the highlighted line or re-plan from the Plan page.</p>}
-        {gpsErr && <p className="notice notice-danger small" style={{ marginTop: 8 }}>{gpsErr} Switch on demo mode to simulate the walk.</p>}
+        {gpsErr && !useSim && <p className="notice notice-danger small" style={{ marginTop: 8 }}>{gpsErr} Switch on demo mode to simulate the walk.</p>}
       </div>
 
       <div className="nav-bottom card card-pad">
@@ -197,7 +210,9 @@ export function Navigate() {
               </select>
             </div>
             <p className="tiny muted" style={{ margin: '6px 0 0' }}>
-              Simulated walk along the planned route (demo).{!demo && !profile.locationConsent && (
+              Simulated walk along the planned route (demo).
+              {gpsAllowed && simOverride === null && gpsFix && !gpsNearRoute && ' Your GPS position is far from this route, so the walk is simulated.'}
+              {!demo && !profile.locationConsent && (
                 <> <button className="btn btn-ghost btn-sm" style={{ padding: '2px 8px' }} onClick={() => setProfile({ ...profile, locationConsent: true })}>Use my real location</button> (stays on this device)</>
               )}
             </p>
