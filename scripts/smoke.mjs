@@ -21,6 +21,15 @@ for (const [label, viewport] of [['desktop', { width: 1366, height: 860 }], ['mo
   page.on('console', (m) => { if (m.type() === 'error' && !/tile|Failed to load resource|ERR_|XNNPACK|valhalla|routing\.openstreetmap|cartocdn/i.test(m.text())) errors.push(`${label} console: ${m.text()}`) })
   const shot = (n) => page.screenshot({ path: `docs/screenshots/${label}-${n}.png` })
   await page.goto(url + '/#/')
+  await check(`${label}: first-run intro sets interests and closes`, async () => {
+    await page.getByRole('dialog', { name: /Welcome to TRAILS/ }).waitFor({ timeout: 15000 })
+    await page.waitForTimeout(400); await shot('0-intro')
+    await page.getByRole('button', { name: /Get started/ }).click()
+    await page.getByRole('button', { name: /Continue/ }).click()
+    await page.getByRole('button', { name: /No, show me a demo/ }).click()
+    if (await page.getByRole('dialog', { name: /Welcome to TRAILS/ }).count()) throw new Error('intro did not close')
+    await page.locator('.demo-pill').click() // back to real location for the rest of the run
+  })
   await check(`${label}: home renders`, async () => { await page.getByRole('heading', { name: /Every route has/ }).waitFor(); await page.waitForTimeout(700); await shot('1-home') })
   await check(`${label}: preset plans a route`, async () => {
     await page.getByRole('button', { name: /Ancient stones/ }).click()

@@ -1,4 +1,6 @@
+import { useState } from 'react'
 import { Icon } from './components/Icon'
+import { Onboarding, onboardingSeen } from './components/Onboarding'
 import { DATASET_VERSION } from './lib/data'
 import { Camera } from './screens/Camera'
 import { Home } from './screens/Home'
@@ -21,6 +23,7 @@ const TABS = [
 export default function App() {
   const route = useHashRoute()
   const { demo, setDemo, scenario, setScenario } = useApp()
+  const [intro, setIntro] = useState(() => !onboardingSeen())
   const [top, arg] = [route[0]?.split('?')[0] ?? '', route[1]]
   const current = top === 'navigate' ? 'route' : top === 'walk' ? 'route' : top === 'place' || top === 'about' || top === 'lab' ? '' : top
 
@@ -65,6 +68,8 @@ export default function App() {
         )}
       </header>}
       <main id="main" className="main">{screen}</main>
+      {/* first visit to the Plan screen only: a shared walk or deep link opens straight away */}
+      {intro && top === '' && <Onboarding onDone={() => setIntro(false)} />}
       {!full && (
         <footer className="footer">
           TRAILS · Rome dataset v{DATASET_VERSION} · Map data © OpenStreetMap contributors · <a href="#/about">Sources, models & limitations</a>

@@ -2,6 +2,7 @@ import { useMemo } from 'react'
 import { Icon } from '../components/Icon'
 import { InterestPicker, Meter, PlaceThumb } from '../components/common'
 import { MyWalks } from '../components/MyWalks'
+import { resetOnboarding } from '../components/Onboarding'
 import { PLACE_BY_ID, PLACES } from '../lib/data'
 import { INTEREST_LABEL, INTERESTS, zeroAffinity } from '../lib/model/features'
 import { SIGNAL_LABEL, SIGNAL_WEIGHTS } from '../lib/profile'
@@ -139,6 +140,9 @@ export function Profile() {
           <select id="scenario" value={scenario.id} onChange={(e) => setScenario(DEMO_SCENARIOS.find((s) => s.id === e.target.value)!)}>
             {DEMO_SCENARIOS.map((s) => <option key={s.id} value={s.id}>{s.label}</option>)}
           </select>
+          <button className="btn btn-ghost btn-sm" style={{ marginTop: 10 }} onClick={() => { resetOnboarding(); window.location.hash = '/'; window.location.reload() }}>
+            Show the welcome intro again
+          </button>
 
           <hr className="rule" />
           <h3>Privacy</h3>
