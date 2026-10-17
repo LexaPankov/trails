@@ -200,7 +200,7 @@ scripts/           data fetch/apply/validate, image prep, walk graph, vision eva
 docs/              ARCHITECTURE, AMD_ROCM, DEMO, REPORT, DATA_SOURCES, screenshots
 ```
 
-More: [AMD runbook](docs/AMD_RUNBOOK.md) · [Architecture](docs/ARCHITECTURE.md) · [Demo script](docs/DEMO.md) · [Final report](docs/REPORT.md) · [Data sources](docs/DATA_SOURCES.md)
+More: [What changed on 17 Oct](docs/UPDATE_2026-10-17.md) · [AMD runbook](docs/AMD_RUNBOOK.md) · [Architecture](docs/ARCHITECTURE.md) · [Demo script](docs/DEMO.md) · [Final report](docs/REPORT.md) · [Data sources](docs/DATA_SOURCES.md)
 
 ## Licences
 
