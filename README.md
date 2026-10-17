@@ -31,6 +31,57 @@ Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it 
 
 Longer walkthrough: [docs/DEMO.md](docs/DEMO.md).
 
+## Track 4: Create a New Kind of Experience
+
+**The experience.** A walk through Rome that is planned for *you* and told to you as a story: which
+places you pass, why they matter, read aloud as you get close. Before generative AI, a personal,
+narrated walk between any two points needed a human guide. Now a fresh, sourced story can be written for
+each walk.
+
+**It changes with the audience and the input.** Two travellers with the same start, end and time get
+different walks and different stories:
+
+| Input | Ancient stones (history lover) | Renaissance & Baroque (art lover) |
+| --- | --- | --- |
+| Stops picked by the preference model | Temple of Hadrian, Trajan's Column | Sant'Ignazio, San Marcello al Corso, Santa Maria di Loreto |
+| Story written by Gemma (pre-generated, on the live site) | "Imperial Echoes: From Hadrian to Trajan" | "Baroque Splendor and Sacred Spaces" |
+
+Any start, destination, time budget, route mode and thumbs up / down change it again
+(the end-to-end test checks that different interests give different stops).
+
+**What the models generate.**
+- *Gemma 4 31B on AMD GPUs* (AMD Developer Cloud Token Factory) writes one story per walk: an
+  introduction plus a part for each stop, with numbered sources.
+- A small neural network (1,505 parameters) ranks 465 places for the user's taste. It scores places;
+  it generates no text.
+- The camera model (MobileNetV3, in the browser) recognises 27 landmarks.
+
+**How quality is controlled.**
+- The model only gets facts from our own place records (74 written by hand, 391 imported from Wikidata
+  and Wikipedia and labelled as such). It is told to use nothing else and to cite each fact.
+- An automatic check runs on every story: every stop must be covered, and any number that is not in the
+  supplied facts is flagged.
+  - Result on 5 fixed walks: **5/5 stories, 17/17 stops, 0 unsupported numbers**
+    (`npm run story:eval`, `docs/story_eval_Gemma-4-31B-IT.json`).
+- If the model is slow or down, the app shows a story written ahead of time or the offline notes, so a
+  walk never breaks.
+
+**What each generated experience costs.** One story uses about 400–1,100 prompt tokens and 220–530
+output tokens (measured, same file).
+- At typical prices for hosted open models of this size, roughly $0.1–0.6 per million tokens, that is
+  **about $0.0001–0.0005 per walk**, well under a tenth of a cent. This is our estimate; the Token
+  Factory was free during the hackathon and shows no price.
+- Popular walks are cached and reused at no extra cost.
+- Recognition and ranking run on the phone, so they cost nothing per user.
+
+**Who would pay** (our proposal, not yet validated with customers).
+1. *Hotels and short-stay hosts* give TRAILS to their guests as a branded concierge walk, for a monthly
+   fee per property.
+2. *City tourism boards* pay to send visitors to lesser-known places and spread crowds away from the
+   hotspots. The "hidden gems" weighting already does this.
+3. *Travellers* get the core walk free and pay a few euros per city for premium story packs and offline
+   use.
+
 ## What works (and how well)
 
 | Feature | Status |

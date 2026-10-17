@@ -9,7 +9,7 @@ Status labels: **Implemented** (built and tested here), **Partial** (built, some
 | --- | --- |
 | Plan screen (A): any address or map pin to any address or map pin, time budget, 8 interests, 3 modes, presets | Implemented, browser-tested with TRAILS-place search and map pins; live OpenStreetMap address search (Photon/Nominatim) **untested** because the build sandbox cannot reach it |
 | Culture-rich path between arbitrary points: visits plus pass-by places (~2 min look) and "also on your path" (within 40 m) | Implemented, unit- and browser-tested |
-| AI storyteller: grounded, cited story of the walk, with read-aloud | Implemented; tested with a stand-in model and the offline fallback; **not yet run with Gemma on AMD** |
+| AI storyteller: grounded, cited story of the walk, with read-aloud | Implemented and **run on AMD**: Gemma 4 31B on the AMD Developer Cloud Token Factory, 5/5 eval walks (`docs/story_eval_Gemma-4-31B-IT.json`); offline fallback tested |
 | Route results (B): map, ordered stops, budget bar, router and model badges, "how this route was chosen" | Implemented, browser-tested |
 | Trade-off card: TRAILS walk vs. fastest walk (extra minutes, places and strong matches on each route; fastest walk drawn dotted) | Implemented, unit- and browser-tested. Counts come from the plan itself; with an estimated (straight-line) route the counts are rough |
 | Walk-mode audio guide: story segment or notes for each stop and a short note for each place passed, shown and read aloud within 60 m | Implemented, unit-tested and browser-tested with the simulated walk; **not field-tested** with GPS |
@@ -186,7 +186,8 @@ Checked against the official page (https://lablab.ai/event/amd-developer-hackath
 | --- | --- |
 | "AMD technology should power a meaningful part" and "must be part of the working product shown to the judges" | **Met for the storyteller** (17 Oct): every AI story is written by Gemma 4 31B on the AMD Developer Cloud Token Factory (AMD GPUs), and the story card shows that model and provider. Measured on 5 fixed walks: 5/5 succeeded, 17/17 stops covered, 0 walks with numbers outside the supplied facts, median 21.6 s, max 49.7 s, about 10–26 output tokens/s seen from the client (`docs/story_eval_Gemma-4-31B-IT.json`). Still open: `amd/train_rocm.sh` (preference model on an AMD GPU) needs a ROCm instance. |
 | Public GitHub repository | Done: https://github.com/LexaPankov/trails |
-| Demo application URL | GitHub Pages workflow ready (section 15) |
+| Demo application URL | Live: https://lexapankov.github.io/trails/ (GitHub Pages, rebuilt on every push) |
 | Cover image, video, slides, descriptions | Cover, slides and texts prepared by the team (outside the repo); video after the AMD run |
 | "Submissions must be original and MIT-compliant" | Code is MIT; third-party assets are CC BY / CC BY-SA / CC0 / PD / Apache 2.0 / OFL with credits |
+| Track 4: two audiences, what is generated, quality control, cost per experience, who pays | Answered in the README section "Track 4" |
 | Gemma (Google prize, optional) | Done: the storyteller runs Gemma 4 31B (`Gemma-4-31B-IT`) on AMD |
