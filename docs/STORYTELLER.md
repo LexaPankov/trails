@@ -101,6 +101,8 @@ On Windows PowerShell set the variables with `$env:STORY_API_BASE="..."` first. 
 | `PORT`, `STORY_TIMEOUT_MS` | server port (8787), model timeout (45000) |
 | `STORY_JSON_MODE` | `1` asks the endpoint for `response_format: json_object` (supported by vLLM and OpenAI) |
 | `STORY_ALLOW_ORIGIN` | sites allowed to call `/api` from another origin (comma-separated, or `*`); unset = same origin only |
+| `STORY_TRUST_PROXY` | `1` behind a hosting proxy: the per-person limit (20 stories a minute) uses `x-forwarded-for` |
+| `STORY_DAILY_LIMIT` | max new model calls per UTC day (cached stories are free); unset = no cap. Use it on a public server |
 | `VITE_STORY_API` | build-time, in the app: where the app sends story requests (default `/api`) |
 
 ## What is tested

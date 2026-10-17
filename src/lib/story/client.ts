@@ -4,7 +4,8 @@ import type { Plan } from '../planner'
 import type { Profile } from '../profile'
 import { buildStoryInput, offlineStory, storyKey, type Story } from './core'
 
-const API = (import.meta.env.VITE_STORY_API as string | undefined) ?? '/api'
+// empty (an unset CI variable) means the same site's /api
+const API = ((import.meta.env.VITE_STORY_API as string | undefined) || '/api').replace(/\/$/, '')
 
 // Stories written ahead of time by the AMD-hosted model for the preset walks (scripts/pregen_stories.ts),
 // so a static site with no story server still shows real model output for them.

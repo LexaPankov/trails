@@ -1,0 +1,27 @@
+# Render blueprint for the public story server (free web service).
+# The site on GitHub Pages calls it; the AMD key is set in the Render dashboard, never in the repo.
+services:
+  - type: web
+    name: trails-story
+    runtime: node
+    plan: free
+    buildCommand: "true"
+    startCommand: node --experimental-strip-types server/story-server.ts
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: "22.12.0"
+      - key: STORY_API_BASE
+        value: https://developer.amd.com.cn/radeon/api/v1
+      - key: STORY_MODEL
+        value: Gemma-4-31B-IT
+      - key: STORY_PROVIDER_LABEL
+        value: Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)
+      - key: STORY_ALLOW_ORIGIN
+        value: https://lexapankov.github.io
+      - key: STORY_TRUST_PROXY
+        value: "1"
+      - key: STORY_DAILY_LIMIT
+        value: "300"
+      - key: STORY_API_KEY
+        sync: false # asked for once when the blueprint is created; stays secret in Render

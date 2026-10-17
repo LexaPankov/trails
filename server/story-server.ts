@@ -4,7 +4,8 @@
 //   node --experimental-strip-types server/story-server.ts
 // Env: STORY_API_BASE (e.g. http://<amd-host>:8000/v1), STORY_API_KEY, STORY_MODEL,
 //      STORY_PROVIDER_LABEL (shown in the app, e.g. "vLLM on AMD Instinct MI300X (ROCm)"), PORT (8787),
-//      STORY_JSON_MODE=1 (request response_format json_object)
+//      STORY_JSON_MODE=1 (request response_format json_object), STORY_ALLOW_ORIGIN, STORY_TRUST_PROXY=1,
+//      STORY_DAILY_LIMIT (max new model calls per day)
 import { createServer, type IncomingMessage, type ServerResponse } from 'node:http'
 import { existsSync, readFileSync, statSync } from 'node:fs'
 import { extname, join, normalize, resolve } from 'node:path'
@@ -46,6 +47,23 @@ function send(res: ServerResponse, code: number, body: unknown) {
   res.end(JSON.stringify(body))
 }
 
+// Behind a hosting proxy (Render, Fly, Cloudflare) every request comes from the proxy, so the per-person
+// limit would be shared by everyone; STORY_TRUST_PROXY=1 reads the client from x-forwarded-for instead.
+function clientIp(req: IncomingMessage): string {
+  const fwd = env.STORY_TRUST_PROXY === '1' ? String(req.headers['x-forwarded-for'] ?? '').split(',')[0].trim() : ''
+  return fwd || req.socket.remoteAddress || '?'
+}
+
+// STORY_DAILY_LIMIT caps new model calls per UTC day on a public server (cached stories do not count),
+// so a link shared with judges cannot run up the model bill. 0 or unset = no cap.
+const DAILY_LIMIT = Number(env.STORY_DAILY_LIMIT ?? 0)
+let day = '', usedToday = 0
+export function overDailyLimit(now = new Date(), limit = DAILY_LIMIT): boolean {
+  const d = now.toISOString().slice(0, 10)
+  if (d !== day) { day = d; usedToday = 0 }
+  return limit > 0 && usedToday >= limit
+}
+
 function limited(ip: string): boolean {
   const now = Date.now()
   const recent = (hits.get(ip) ?? []).filter((t) => now - t < 60_000)
@@ -79,6 +97,8 @@ export async function tellStory(body: Record<string, unknown>, fetchImpl: typeof
   const key = JSON.stringify(input)
   const hit = cache.get(key)
   if (hit) return hit
+  if (overDailyLimit()) throw Object.assign(new Error('daily story limit reached'), { status: 429 })
+  usedToday++
   const t0 = Date.now()
   const r = await fetchImpl(`${API_BASE}/chat/completions`, {
     method: 'POST',
@@ -127,7 +147,7 @@ export function startServer(port = PORT) {
       if (req.url === '/api/health') return send(res, 200, { configured, model: configured ? MODEL : null, provider: configured ? PROVIDER : null })
       if (req.url === '/api/story' && req.method === 'POST') {
         if (!configured) return send(res, 503, { error: 'storyteller not configured (set STORY_API_BASE and STORY_MODEL)' })
-        if (limited(req.socket.remoteAddress ?? '?')) return send(res, 429, { error: 'too many requests' })
+        if (limited(clientIp(req))) return send(res, 429, { error: 'too many requests' })
         return send(res, 200, await tellStory((await readBody(req)) as Record<string, unknown>))
       }
       if (req.url?.startsWith('/api/')) return send(res, 404, { error: 'not found' })

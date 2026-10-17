@@ -33,7 +33,8 @@ jobs:
         env:
           # Standard OpenStreetMap tiles need no key (light demo traffic, attribution shown in the map).
           VITE_TILE_URL: https://tile.openstreetmap.org/{z}/{x}/{y}.png
-          VITE_TILE_ATTRIBUTION: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+          # Public story server (render.yaml), set as a repository variable; empty = pre-generated and offline stories only.
+          VITE_STORY_API: ${{ vars.VITE_STORY_API }}
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
