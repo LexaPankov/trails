@@ -265,7 +265,7 @@ export function Navigate() {
               <input type="range" min={0} max={Math.round(total)} value={Math.round(simDist)} aria-label="Simulated position along the route"
                 onChange={(e) => setSimDist(+e.target.value)} />
               <select value={speedup} onChange={(e) => setSpeedup(+e.target.value)} aria-label="Simulation speed" style={{ width: 84 }}>
-                {[5, 20, 60].map((s) => <option key={s} value={s}>{s}×</option>)}
+                {[5, 10, 20].map((s) => <option key={s} value={s}>{s}×</option>)}
               </select>
             </div>
           )}

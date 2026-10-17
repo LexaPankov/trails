@@ -79,7 +79,7 @@ for (const [label, viewport] of [['desktop', { width: 1366, height: 860 }], ['mo
   await check(`${label}: navigation with simulated walk`, async () => {
     await page.goto(url + '/#/navigate')
     await page.getByRole('button', { name: /Audio guide on/ }).click() // keep the headless run silent
-    await page.getByLabel('Simulation speed').selectOption('60')
+    await page.getByLabel('Simulation speed').selectOption('20')
     await page.getByRole('button', { name: /Play simulated walk/ }).click()
     await page.locator('.guide-card h4').waitFor({ timeout: 30000 })
     results.push(`INFO ${label}: walk-mode cue "${await page.locator('.guide-card h4').innerText()}"`)
