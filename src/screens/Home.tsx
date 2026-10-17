@@ -96,8 +96,10 @@ export function Home() {
       <form className="card card-pad" style={{ marginTop: 0 }} onSubmit={(e) => { e.preventDefault(); void submit() }}>
         <h1 className="plan-title">Where are you walking? <em>Every route has a story.</em></h1>
         <div className="grid2">
-          <LocationField id="from" label="From" value={start} onChange={setStart} here={here} onLocate={demo ? undefined : locate} placeholder="Any address, hotel, station or place in Rome" />
-          <LocationField id="to" label="To" value={end} onChange={setEnd} here={here} placeholder="Where are you going?" />
+          <LocationField id="from" label="From" value={start} onChange={setStart} here={here} onLocate={demo ? undefined : locate} placeholder="Any address, hotel, station or place in Rome"
+            mapContext={{ end, me: location }} />
+          <LocationField id="to" label="To" value={end} onChange={setEnd} here={here} placeholder="Where are you going?"
+            mapContext={{ start, me: location }} />
         </div>
         <p className="tiny muted" style={{ marginTop: 6 }}>Any two points in central Rome. TRAILS finds the walk that passes the most of what you love within your time.</p>
 

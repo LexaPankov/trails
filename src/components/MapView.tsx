@@ -41,6 +41,8 @@ interface Props {
   passing?: Place[]
   /** turn off zoom/fade animations (maps that unmount quickly, e.g. in a dialog) */
   still?: boolean
+  /** open framing exactly these points instead of the route and markers */
+  focus?: LatLon[]
 }
 
 function ClickCatcher({ onClick }: { onClick: (p: LatLon) => void }) {
@@ -65,17 +67,18 @@ function Follow({ p }: { p: LatLon | null | undefined }) {
   return null
 }
 
-export function MapView({ route, alt, stops = [], start, end, others = [], me, onPlace, fitKey, follow, className, onMapClick, pin, passing = [], still }: Props) {
+export function MapView({ route, alt, stops = [], start, end, others = [], me, onPlace, fitKey, follow, className, onMapClick, pin, passing = [], still, focus }: Props) {
   const [tileErrors, setTileErrors] = useState(0)
   const pts = useMemo<[number, number][]>(() => {
     const p: [number, number][] = []
+    if (focus?.length) return focus.map((f): [number, number] => [f.lat, f.lon])
     if (route) p.push(...route.geometry)
     if (start) p.push([start.lat, start.lon])
     if (end) p.push([end.lat, end.lon])
     stops.forEach((s) => p.push([s.place.lat, s.place.lon]))
     if (!p.length && me) p.push([me.lat, me.lon])
     return p
-  }, [route, start, end, stops, me])
+  }, [route, start, end, stops, me, focus])
 
   return (
     <div className={className ?? 'map'}>

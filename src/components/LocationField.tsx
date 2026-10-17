@@ -1,4 +1,5 @@
 import { useEffect, useId, useRef, useState } from 'react'
+import { createPortal } from 'react-dom'
 import { reverseLabel, searchAddress, searchAddressNominatim, searchPlaces, type GeoResult } from '../lib/geocode'
 import type { Endpoint, LatLon } from '../lib/types'
 import { Icon } from './Icon'
@@ -13,10 +14,12 @@ interface Props {
   /** asks the device for one GPS fix; rejects with a message the user can act on */
   onLocate?: () => Promise<Endpoint>
   placeholder?: string
+  /** shown on the pick-on-the-map view: the other end of the walk and where you are */
+  mapContext?: { start?: LatLon | null; end?: LatLon | null; me?: LatLon | null }
 }
 
 /** Google-Maps-style field: type any address or place in Rome, use your location, or drop a pin on the map. */
-export function LocationField({ id, label, value, onChange, here, onLocate, placeholder }: Props) {
+export function LocationField({ id, label, value, onChange, here, onLocate, placeholder, mapContext }: Props) {
   const [q, setQ] = useState(value?.label ?? '')
   const [locating, setLocating] = useState(false)
   const [locateErr, setLocateErr] = useState<string | null>(null)
@@ -120,12 +123,14 @@ export function LocationField({ id, label, value, onChange, here, onLocate, plac
         </ul>
       )}
       {locateErr && !open && <p className="notice notice-danger small" role="alert" style={{ marginTop: 8 }}>{locateErr}</p>}
-      {picking && <MapPicker title={label} initial={value} onCancel={() => setPicking(false)} onPick={(e) => { setPicking(false); choose(e) }} />}
+      {picking && <MapPicker title={label} initial={value} context={mapContext} onCancel={() => setPicking(false)} onPick={(e) => { setPicking(false); choose(e) }} />}
     </div>
   )
 }
 
-function MapPicker({ title, initial, onPick, onCancel }: { title: string; initial: Endpoint | null; onPick: (e: Endpoint) => void; onCancel: () => void }) {
+function MapPicker({ title, initial, context, onPick, onCancel }: {
+  title: string; initial: Endpoint | null; context?: Props['mapContext']; onPick: (e: Endpoint) => void; onCancel: () => void
+}) {
   const [pin, setPin] = useState<LatLon | null>(initial ? { lat: initial.lat, lon: initial.lon } : null)
   const [name, setName] = useState<string>('')
   const [busy, setBusy] = useState(false)
@@ -135,7 +140,10 @@ function MapPicker({ title, initial, onPick, onCancel }: { title: string; initia
     setName(await reverseLabel(p)); setBusy(false)
   }
 
-  return (
+  // frame what is already known: this field's point, the other end of the walk and you
+  const focus = [initial, context?.start, context?.end, context?.me].filter((p): p is LatLon => !!p)
+  // a portal: an animated ancestor (transform) would otherwise pin this "fixed" dialog inside the page
+  return createPortal(
     <div className="modal-backdrop" role="dialog" aria-modal="true" aria-label={`Pick ${title} on the map`}>
       <div className="modal card">
         <div className="row spread" style={{ padding: '12px 14px' }}>
@@ -143,7 +151,8 @@ function MapPicker({ title, initial, onPick, onCancel }: { title: string; initia
           <button type="button" className="btn btn-ghost btn-sm" onClick={onCancel} aria-label="Close"><Icon name="x" size={15} /></button>
         </div>
         <div className="modal-map">
-          <MapView className="map" still onMapClick={(p) => void drop(p)} pin={pin} fitKey="picker" start={null} end={null} />
+          <MapView className="map" still onMapClick={(p) => void drop(p)} pin={pin} fitKey="picker" focus={focus}
+            start={context?.start ?? null} end={context?.end ?? null} me={context?.me ?? null} />
         </div>
         <div className="row spread wrap" style={{ padding: '12px 14px', gap: 8 }}>
           <span className="small">{pin ? (busy ? 'Finding the street…' : name) : 'Tap anywhere in Rome.'}</span>
@@ -153,6 +162,7 @@ function MapPicker({ title, initial, onPick, onCancel }: { title: string; initia
           </button>
         </div>
       </div>
-    </div>
+    </div>,
+    document.body,
   )
 }
