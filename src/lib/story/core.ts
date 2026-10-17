@@ -98,10 +98,12 @@ export function parseStory(text: string, input: StoryInput): Omit<Story, 'genera
   const segments: StorySegment[] = []
   for (const s of segs as Record<string, unknown>[]) {
     const placeId = str(s?.placeId, 80)
-    const text = str(s?.text, 900)
+    // models often also write "[1]" or "[1, 2]" into the text; the app draws citations itself, so move them to cite
+    const inline = [...str(s?.text, 900).matchAll(/\[(\d+(?:\s*,\s*\d+)*)\]/g)].flatMap((m) => m[1].split(',').map(Number))
+    const text = str(s?.text, 900).replace(/\s*\[\d+(?:\s*,\s*\d+)*\]/g, '').trim()
     if (!valid.has(placeId) || !text || segments.some((x) => x.placeId === placeId)) continue
     const ok = valid.get(placeId)!
-    const cite = (Array.isArray(s.cite) ? s.cite : []).map(Number).filter((n) => ok.has(n))
+    const cite = [...new Set([...(Array.isArray(s.cite) ? s.cite : []), ...inline].map(Number))].filter((n) => ok.has(n))
     segments.push({ placeId, text, cite: cite.length ? cite : [...ok] })
   }
   if (input.stops.length && !segments.length) throw new Error('model output had no usable segments')

@@ -21,7 +21,24 @@ browser ──POST /api/story {stopIds, start, end, interests}──► server/s
 * The badge in the app shows the model id the endpoint returned and `STORY_PROVIDER_LABEL`, so what
   the judges see is what actually ran.
 
-## Run the model on AMD Developer Cloud (not yet run by us)
+## What we run: Gemma 4 31B on the AMD Developer Cloud Token Factory
+
+The event's AMD Developer Cloud Token Factory serves models on AMD GPUs behind an OpenAI-compatible API,
+so no instance or Docker is needed. Measured on 18 Oct with `npm run story:eval`: 5/5 walks, 17/17 stops,
+no numbers outside the facts, 9–50 s per story (`docs/story_eval_Gemma-4-31B-IT.json`).
+
+PowerShell (Windows blocks `npm.ps1` by default, so call `npm.cmd`; the key is personal, never commit it):
+
+```powershell
+$env:STORY_API_BASE="https://developer.amd.com.cn/radeon/api/v1"
+$env:STORY_MODEL="Gemma-4-31B-IT"
+$env:STORY_API_KEY="<your Token Factory key>"
+$env:STORY_PROVIDER_LABEL="Gemma 4 31B on AMD Developer Cloud Token Factory (AMD GPUs)"
+npm.cmd run story:eval      # measure
+npm.cmd run build; npm.cmd run story   # app + AI stories on http://localhost:8787
+```
+
+## Alternative: serve the model yourself on an AMD Instinct instance
 
 On an AMD Instinct instance with ROCm (Gemma needs its licence accepted on Hugging Face and an `HF_TOKEN`):
 

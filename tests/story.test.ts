@@ -30,6 +30,13 @@ describe('storyteller grounding', () => {
     expect(out.segments[1].cite.length).toBeGreaterThan(0)
     expect(out.sources.every((s) => s.n !== 99)).toBe(true)
   })
+  it('moves inline [n] citations out of the text into cite', () => {
+    const out = parseStory(JSON.stringify({ segments: [
+      { placeId: 'trajans-column', text: 'A column with a spiral frieze [1]. Topped by St Peter [1, 99].', cite: [] },
+    ] }), input)
+    expect(out.segments[0].text).toBe('A column with a spiral frieze. Topped by St Peter.')
+    expect(out.segments[0].cite).toEqual([1])
+  })
   it('rejects output without usable segments', () => {
     expect(() => parseStory('{"title":"x","segments":[]}', input)).toThrow()
     expect(() => parseStory('no json here', input)).toThrow()

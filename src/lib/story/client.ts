@@ -32,7 +32,8 @@ export async function requestStory(plan: Plan, profile: Profile, opts: { offline
     const r = await fetch(`${API}/story`, {
       method: 'POST', headers: { 'content-type': 'application/json' },
       body: JSON.stringify({ ...args, stops: undefined, stopIds: plan.stops.map((s) => s.place.id) }),
-      signal: AbortSignal.timeout(50_000),
+      // a 31B model on the AMD endpoint took 9–50 s per story (docs/story_eval_*.json); the server gives up at 95 s
+      signal: AbortSignal.timeout(100_000),
     })
     const j = await r.json().catch(() => ({}))
     if (!r.ok) return { story: local(), fallbackReason: storyFailureReason(r.status, (j as { error?: string }).error) }

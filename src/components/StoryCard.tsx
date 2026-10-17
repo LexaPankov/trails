@@ -44,7 +44,7 @@ export function StoryCard({ plan }: { plan: Plan }) {
           Turn these stops into one narrated walk, written only from the sourced notes behind each place.
         </p>
         <button className="btn btn-primary" onClick={tell} disabled={busy}>
-          {busy ? <span className="spinner" /> : <Icon name="sparkle" size={16} />} {busy ? 'Writing your story…' : 'Tell me the story of this walk'}
+          {busy ? <span className="spinner" /> : <Icon name="sparkle" size={16} />} {busy ? 'Writing your story… (up to a minute)' : 'Tell me the story of this walk'}
         </button>
       </div>
     )
