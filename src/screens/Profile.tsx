@@ -1,6 +1,7 @@
 import { useMemo } from 'react'
 import { Icon } from '../components/Icon'
 import { InterestPicker, Meter, PlaceThumb } from '../components/common'
+import { MyWalks } from '../components/MyWalks'
 import { PLACE_BY_ID, PLACES } from '../lib/data'
 import { INTEREST_LABEL, INTERESTS, zeroAffinity } from '../lib/model/features'
 import { SIGNAL_LABEL, SIGNAL_WEIGHTS } from '../lib/profile'
@@ -23,6 +24,7 @@ export function Profile() {
     <div className="page fade-in">
       <p className="eyebrow">Your profile</p>
       <h1 style={{ fontSize: '2.4rem' }}>What you love</h1>
+      <MyWalks />
       <div className="grid2">
         <section className="card card-pad">
           <h3>Interests</h3>

@@ -6,6 +6,7 @@ import { loadProfile, recordSignal, resetProfile, saveProfile, type Profile, typ
 import type { ProviderChoice } from './lib/routing'
 import type { StoryResult } from './lib/story/client'
 import type { LatLon } from './lib/types'
+import { loadWalks, sameWalk, storeWalks, type WalkSpec } from './lib/walks'
 
 export interface DemoScenario { id: string; label: string; lat: number; lon: number; heading: number }
 
@@ -41,6 +42,10 @@ interface Ctx {
   /** simulated location in demo mode, otherwise last real GPS fix (only if the user consented) */
   location: (LatLon & { source: 'simulated' | 'gps'; heading?: number }) | null
   setGpsLocation: (l: LatLon | null) => void
+  /** "My walks": saved in this browser only */
+  walks: WalkSpec[]
+  saveWalk: (w: WalkSpec) => void
+  removeWalk: (w: WalkSpec) => void
 }
 
 const AppCtx = createContext<Ctx | null>(null)
@@ -70,6 +75,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   })
   const [settings, setSettingsState] = useState<Settings>(() => readJSON('trails.settings', { routing: 'auto', offline: false }))
   const [gps, setGps] = useState<LatLon | null>(null)
+  const [walks, setWalks] = useState<WalkSpec[]>(() => loadWalks())
 
   useEffect(() => { loadScorer().then(setScorer) }, [])
 
@@ -84,6 +90,17 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const setScenario = useCallback((s: DemoScenario) => { setScenarioState(s); writeJSON('trails.scenario', s.id) }, [])
   const setSettings = useCallback((s: Settings) => { setSettingsState(s); writeJSON('trails.settings', s) }, [])
 
+  const saveWalk = useCallback((w: WalkSpec) => setWalks((prev) => {
+    const next = [{ ...w, savedAt: Date.now() }, ...prev.filter((x) => !sameWalk(x, w))]
+    storeWalks(next)
+    return next
+  }), [])
+  const removeWalk = useCallback((w: WalkSpec) => setWalks((prev) => {
+    const next = prev.filter((x) => !sameWalk(x, w))
+    storeWalks(next)
+    return next
+  }), [])
+
   const location = useMemo(() => {
     if (demo) return { lat: scenario.lat, lon: scenario.lon, heading: scenario.heading, source: 'simulated' as const }
     if (gps && profile.locationConsent) return { ...gps, source: 'gps' as const }
@@ -93,6 +110,7 @@ export function AppProvider({ children }: { children: ReactNode }) {
   const value: Ctx = {
     profile, setProfile, signal, reset, scorer, plan, setPlan, story, setStory, draft, setDraft,
     demo, setDemo, scenario, setScenario, settings, setSettings, location, setGpsLocation: setGps,
+    walks, saveWalk, removeWalk,
   }
   return <AppCtx.Provider value={value}>{children}</AppCtx.Provider>
 }

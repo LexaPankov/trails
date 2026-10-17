@@ -3,7 +3,7 @@
 import { PLACES } from './data'
 import { haversine } from './geo'
 import type { Scorer } from './model/mlp'
-import { optimizeRoute, type Candidate, type OptimizeResult } from './optimizer'
+import { optimizeRoute, PASS_MINUTES, type Candidate, type OptimizeResult } from './optimizer'
 import type { Profile } from './profile'
 import { routeWalk, type ProviderChoice, type RouteAttempt } from './routing'
 import { ESTIMATE_DETOUR_FACTOR } from './routing/providers'
@@ -191,6 +191,54 @@ export async function planRoute(req: PlanRequest, profile: Profile, scorer: Scor
     droppedForBudget: dropped,
     passing: placesAlong(res.route.geometry, new Set([...stops.map((p) => p.id), req.start.placeId ?? '', req.end.placeId ?? ''])),
     directPassing: placesAlong(directRoute.route.geometry, new Set([req.start.placeId ?? '', req.end.placeId ?? ''])),
+    scores,
+    createdAt: Date.now(),
+  }
+}
+
+/**
+ * Rebuild a plan from a saved or shared walk: the same start, end and stops in the same order,
+ * routed again on the street network (no re-optimisation, so the walk is exactly the one saved).
+ */
+export async function planFromStops(
+  req: PlanRequest, stops: { id: string; kind: 'visit' | 'pass' }[], profile: Profile, scorer: Scorer,
+): Promise<Plan> {
+  const speed = profile.walkingSpeedKmh
+  const mPerMin = (speed * 1000) / 60
+  const scores = scorePlaces(scorer, profile)
+  const byId = new Map(PLACES.map((p) => [p.id, p]))
+  const kept = stops.filter((s) => byId.has(s.id))
+  const places = kept.map((s) => byId.get(s.id)!)
+  const opts = { speedKmh: speed, choice: req.routing, offline: req.offline }
+  const directRoute = await routeWalk([req.start, req.end], opts)
+  const res = places.length ? await routeWalk([req.start, ...places, req.end], opts) : directRoute
+  const legsMin = res.route.legs.map((l) => l.duration_s / 60)
+  const planned: PlannedStop[] = places.map((p, k) => {
+    const kind = kept[k].kind
+    const prev = k === 0 ? req.start : places[k - 1]
+    const next = k === places.length - 1 ? req.end : places[k + 1]
+    const skip = (haversine(prev, next) * (res.route.quality === 'estimate' ? ESTIMATE_DETOUR_FACTOR : 1.2)) / mPerMin
+    const visitMin = kind === 'visit' ? p.visit_minutes : Math.min(PASS_MINUTES, p.visit_minutes)
+    return { place: p, kind, personal: scores[p.id], value: scores[p.id], detourMin: Math.max(0, legsMin[k] + legsMin[k + 1] - skip), visitMin }
+  })
+  const walkMin = res.route.duration_s / 60
+  const visitMin = planned.reduce((a, s) => a + s.visitMin, 0)
+  const ends = [req.start.placeId ?? '', req.end.placeId ?? '']
+  return {
+    request: req,
+    stops: planned,
+    route: res.route,
+    direct: directRoute.route,
+    attempts: [...directRoute.attempts, ...res.attempts],
+    scorer: { source: scorer.source, info: scorer.info },
+    selectionCost: res.route.quality === 'estimate' ? 'straight-line-estimate' : 'street-network',
+    walkMin, visitMin, totalMin: walkMin + visitMin,
+    directWalkMin: directRoute.route.duration_s / 60,
+    withinBudget: walkMin + visitMin <= req.budgetMin + 0.5,
+    reachable: directRoute.route.duration_s / 60 <= req.budgetMin,
+    droppedForBudget: [],
+    passing: placesAlong(res.route.geometry, new Set([...places.map((p) => p.id), ...ends])),
+    directPassing: placesAlong(directRoute.route.geometry, new Set(ends)),
     scores,
     createdAt: Date.now(),
   }

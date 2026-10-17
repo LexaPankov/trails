@@ -7,6 +7,7 @@ import { Navigate } from './screens/Navigate'
 import { PlaceDetail } from './screens/PlaceDetail'
 import { Profile } from './screens/Profile'
 import { Results } from './screens/Results'
+import { SharedWalk } from './screens/SharedWalk'
 import { About } from './screens/About'
 import { DEMO_SCENARIOS, useApp, useHashRoute } from './state'
 
@@ -21,7 +22,7 @@ export default function App() {
   const route = useHashRoute()
   const { demo, setDemo, scenario, setScenario } = useApp()
   const [top, arg] = [route[0]?.split('?')[0] ?? '', route[1]]
-  const current = top === 'navigate' ? 'route' : top === 'place' || top === 'about' || top === 'lab' ? '' : top
+  const current = top === 'navigate' ? 'route' : top === 'walk' ? 'route' : top === 'place' || top === 'about' || top === 'lab' ? '' : top
 
   let screen
   switch (top) {
@@ -32,6 +33,7 @@ export default function App() {
     case 'profile': screen = <Profile />; break
     case 'about': screen = <About />; break
     case 'lab': screen = <Lab />; break
+    case 'walk': screen = <SharedWalk code={arg} />; break
     default: screen = <Home />
   }
   const full = top === 'route' || top === 'navigate'

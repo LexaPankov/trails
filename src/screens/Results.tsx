@@ -3,6 +3,7 @@ import { Icon } from '../components/Icon'
 import { MapView } from '../components/MapView'
 import { Meter, PlaceTags, PlaceThumb, QualityBadge } from '../components/common'
 import { StoryCard } from '../components/StoryCard'
+import { WalkButtons } from '../components/WalkActions'
 import { PLACE_BY_ID, PLACES } from '../lib/data'
 import { formatDistance, formatMinutes } from '../lib/geo'
 import { MODE_LABEL } from '../lib/optimizer'
@@ -78,6 +79,7 @@ export function Results() {
           <a href="#/" className="btn btn-ghost btn-sm"><Icon name="back" size={15} /> Edit</a>
         </div>
         <h2 style={{ marginTop: 8 }}>{p.request.start.label} <span className="muted" style={{ fontWeight: 400 }}>to</span> {p.request.end.label}</h2>
+        <WalkButtons plan={p} />
 
         {p.reachable && (
           <div className="tradeoff card" aria-label="TRAILS route compared with the fastest walk">
