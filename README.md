@@ -27,7 +27,7 @@ Built for the AMD Developer Hackathon: ACT III (lablab.ai).
 | Preference learning from like / save / visited / read more / skip / not-for-me, editable and resettable | Implemented, unit-tested |
 | Route optimiser (fastest / cultural discovery / maximum history) with hard time budget | Implemented, unit-tested (deterministic, budget respected) |
 | Pedestrian routing: Valhalla → OSRM foot → labelled estimate, plus TRAILS' own A* router on a bundled OSM graph | Implemented. Valhalla parsing is tested against a **recorded real response**; live calls could not be made from the build sandbox. The Rome street graph (65,014 nodes from OpenStreetMap) is bundled, so routes follow real streets offline; browser-tested. |
-| Map (Leaflet + OpenStreetMap/CARTO tiles), route line, stops, alternatives | Implemented; tiles could not load in the sandbox, so the offline fallback was exercised |
+| Map (Leaflet + OpenStreetMap/CARTO tiles), route line, stops, alternatives | Implemented; browser-tested with live CARTO tiles (18 Oct) and with the offline fallback when tiles fail |
 | Navigation: next instruction, next stop, remaining distance/time, GPS with consent or simulated walk | Implemented; simulated walk browser-tested; real GPS **not field-tested** |
 | Camera recognition: live camera, held-out demo photos, photo upload, unknown state, 2D label overlay | Implemented; accuracy measured on held-out photos (below); live camera **not tested on a phone** |
 | Place pages: image + licence, periods, themes, then & now, history, sources, related places | Implemented |
