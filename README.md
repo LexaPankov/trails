@@ -17,6 +17,8 @@ Built for the AMD Developer Hackathon: ACT III (lablab.ai).
 
 Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it on a phone for the camera).
 
+0. A fresh browser opens with a three-step intro: pick a few interests, then **No, show me a demo**
+   (or **Skip**).
 1. On **Plan**, tap the preset **Ancient stones**. You get a real walking route from the Pantheon to the
    Colosseum with the stops a neural network picked for you, and the card at the top shows what the
    extra minutes buy compared with the fastest walk.
@@ -25,7 +27,9 @@ Live demo: **https://lexapankov.github.io/trails/** (works on a laptop; open it 
    **Gemma 4 31B running on AMD GPUs** (AMD Developer Cloud). The public site has no server and no key,
    so for the preset walks it shows stories Gemma wrote ahead of time (the badge says "pre-generated");
    other walks get the offline version from our notes. Run `npm run story` (below) for live AI stories on any walk.
-4. Tap **Start walking**, then play the simulated walk: each stop's story appears and is read aloud.
+4. Tap **Save walk** or **Share** (a link that opens the same walk for a friend), then **Start walking**
+   and play the simulated walk: each stop's story appears and is read aloud. Drag the bottom sheet down
+   to see the map.
 5. Open **Camera → Demo photos** and pick a photo: TRAILS recognises the landmark in the browser and
    opens its history.
 

@@ -30,6 +30,8 @@ on AMD GPUs).
 >   this walk, with numbered sources.
 > - As you walk, each stop and every place you pass is read aloud when you get close.
 > - Point the camera at one of 27 landmarks and TRAILS recognises it in the browser and opens its history.
+> - A short first-run intro asks what you love, and offers a one-tap demo mode if you are not in Rome.
+> - Save walks to "My walks", or share a link that opens the same walk for a friend.
 >
 > The experience changes with the audience. With the same start, end and 45 minutes, a history lover
 > gets the Temple of Hadrian and Trajan's Column and the story "Imperial Echoes", while an art lover gets
@@ -65,7 +67,7 @@ Computer Vision, React, TypeScript, Leaflet, OpenStreetMap, Wikidata, Text-to-Sp
 
 **Cover image:** `trails-cover.png`, 1920×1080 (from the team kit; it says "Gemma on AMD").
 
-**Slides:** the TRAILS pitch deck (13 slides). Export it as PDF and upload it.
+**Slides:** the TRAILS pitch deck (13 slides, with speaker notes). Export it as PDF and upload it.
 
 ## Business model (detail)
 
@@ -100,7 +102,7 @@ screen.
 
 | Time | Show | Say |
 | --- | --- | --- |
-| 0:00–0:15 | Cover slide or the Plan screen | "Millions visit Rome and walk the same few streets. TRAILS plans a walk for you and tells you its story." |
+| 0:00–0:15 | First-run intro (fresh browser): pick interests, "No, show me a demo" | "Millions visit Rome and walk the same few streets. TRAILS plans a walk for you and tells you its story. First, what do you love?" |
 | 0:15–0:40 | Plan → preset **Ancient stones**; route, trade-off card | "Pantheon to the Colosseum, 45 minutes. A neural network on the phone picked the stops worth the detour for a history lover: the fastest walk is 29 minutes; this one adds 14 for two stops." |
 | 0:40–1:10 | **Tell me the story**; wait; badge "Written by Gemma-4-31B-IT · … AMD"; tap **Listen** | "Gemma 4 31B on AMD GPUs now writes the story of exactly this walk, only from our sourced facts. Every fact has a numbered source." |
 | 1:10–1:30 | Back; preset **Renaissance & Baroque** | "Same start, same end, same time, but for an art lover: different stops and a different story." |
