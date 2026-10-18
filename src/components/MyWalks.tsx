@@ -34,7 +34,7 @@ export function MyWalks() {
               <div style={{ minWidth: 0, flex: 1 }}>
                 <b className="walk-title">{w.start.label} → {w.end.label}</b>
                 <div className="tiny muted">
-                  {w.stops.filter((s) => s.kind === 'visit').length} stops · up to {formatMinutes(w.budgetMin)} · {MODE_LABEL[w.mode]}
+                  {w.stops.length} stop{w.stops.length === 1 ? '' : 's'} · up to {formatMinutes(w.budgetMin)} · {MODE_LABEL[w.mode]}
                   {w.savedAt ? ` · saved ${new Date(w.savedAt).toLocaleDateString()}` : ''}
                 </div>
               </div>
